@@ -4,7 +4,6 @@
 		font-weight: 400;
 		font-family: 'Roboto', sans-serif;
 		border-collapse: collapse;
-		border-bottom: 1px dashed #ccc;
 		position: relative;
 		&::before{
 			position: absolute;
@@ -49,7 +48,7 @@
 			text-align: center;
 			&:first-child{
 				text-align: left;
-				padding: 15px 25px;
+				padding: 15px;
 			}
 		}
 	}

@@ -1,4 +1,4 @@
-.selectric-hover .selectric {
+.selectric-hover .selectric, .selectric-open .selectric, .selectric-focus .selectric {
   border-color: #eaeaea; }
 
 .selectric {
@@ -8,6 +8,14 @@
   height: 50px;
   border: 1px solid #eaeaea;
   border-right: 0; }
+  .selectric:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 1px;
+    height: 40px;
+    border-right: 1px solid #eaeaea; }
   .selectric .label {
     color: #7c818a;
     font-family: 'Roboto', sans-serif;

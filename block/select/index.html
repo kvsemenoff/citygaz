@@ -1,9 +1,23 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../../css/reset.css" />
+<link rel="stylesheet" href="../../libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300i,400,500,500i,700,700i,900" rel="stylesheet">
+<link rel="stylesheet" href="../../libs/select/selectric.css">
 <link rel="stylesheet" href="style.css">
 
-<select>
-	<option value=""></option>
-	<option value=""></option>
-	<option value=""></option>
-</select>
+<div class="container">
+	<br>
+	<br>
+	<br>
+	<select>
+		<option value="1">поиск по названию</option>
+		<option value="2">поиск по бренду</option>
+		<option value="3">поиск по цене</option>
+	</select>
+</div>
+<script src="../../libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="../../libs/select/jquery.selectric.min.js"></script>
+
+<script>
+	$('select').selectric();
+</script>

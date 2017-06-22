@@ -1,4 +1,57 @@
-select{
-	
-}
 
+.selectric-hover .selectric{
+	border-color: #eaeaea;
+}
+.selectric{
+	background: #fff;
+	max-width: 285px;
+	width: 100%;
+	height: 50px;
+	border: 1px solid #eaeaea;
+	border-right: 0;
+	.label{
+		color: #7c818a;
+		font-family: 'Roboto', sans-serif;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 45px;
+		margin: 0 30px 0 20px;
+	}
+	.button{
+		background-image: url("../../img/selectimg.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-color: transparent;
+		width: 12px;
+		height: 10px;
+		right: 10px;
+		top:19px;
+		&:after{
+			content: none;
+		}
+	}
+
+}
+.selectric-items{
+	background: #fff;
+	border: 1px solid #eaeaec;
+	box-shadow: none;
+	li.highlighted{
+		background: #f5f6fa;
+		color: #7c818a;
+	}
+	ul{ 
+		padding: 0 7px;
+		li{
+			color: #7c818a;
+			font-family: 'Roboto', sans-serif;
+			font-size: 13px;
+			font-weight: 400;
+			line-height: 15px;
+			&:hover{
+				color: #7c818a;
+				background: #f5f6fa;
+			}
+		}
+	}
+} 

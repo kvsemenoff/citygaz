@@ -1,3 +1,7 @@
+.item-row{
+	text-align:right;
+	padding:10px;
+}
 .burg-title {
   font-family: 'Roboto', sans-serif;
   background-image: url("../../img/burger.svg");
@@ -7,13 +11,10 @@
   font-size: 15px;
   font-weight: 400;
   line-height: 17px;
-  padding:10px 27px;
+  padding-left:27px;
+  float:left;
 }
 
-
-.burg-title div{
-	float:right;
-}
 
   a.watch-more{
 	border:1px solid #d8d9db;
@@ -25,5 +26,7 @@
 	font-size:14px;
 	background:transparent;
 }
+
+
 
 /*# sourceMappingURL=style.css.map */

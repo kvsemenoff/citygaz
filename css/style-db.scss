@@ -1,60 +1,90 @@
+.header-top{
+	.main-menu{
+		border-top:1px solid #eef1f5;
+		padding-left: 0;
+		li{
+			border-right:1px solid #eef1f5;
+			&:last-child{
+				border: none;
+			}
+			display: inline-block;
+			a{
+				color: #435266 !important;
+				padding: 0 25px;
+				line-height: 60px;
+				height: 60px;
+				display: inline-block;
+				font-family: 'Roboto', sans-serif;
+				font-size: 14px;
+				font-weight: 400;
+				text-transform: uppercase;
+				text-decoration: none;
+				&:hover{
+					background-color: #1e73c6;
+					color: #fff;
+				}
+			}
+		}
+	}
+}
 .footer-bottom{
 	padding: 20px 0;
 	background:url("../img/footer-bottom.jpg")no-repeat;
 	background-size: cover;
 	.box{
-	 max-width: 250px;
-	 margin: 0 auto;
-	 @media only screen and (min-width : 992px) {
-	 	max-width: auto;
-	 }
+		max-width: 250px;
+		margin: 0 auto;
+		@media only screen and (min-width : 992px) {
+			max-width: auto;
+		}
 	}
-		a{
-			color:#fff;
-			text-decoration: none;
-			&:hover{
-				text-decoration: underline;
-			}
+	a{
+		color:#fff;
+		text-decoration: none;
+		font-weight: 400;
+		&:hover{
+			text-decoration: underline;
 		}
-		ul{
-			li{
-				list-style-type: square;
-				color: #ffc000;
-			}
+	}
+	ul{
+		li{
+			list-style-type: square;
+			color: #ffc000;
 		}
-		.citchen, .electro, .cotl, .gas{
-			padding-left: 45px;
-			padding-bottom: 20px;
-			display: inline-block;
-			line-height: 19px;
+	}
+	.citchen, .electro, .cotl, .gas{
+		padding-left: 45px;
+		padding-bottom: 20px;
+		display: inline-block;
+		line-height: 19px;
+	}
+	.citchen{
+		background:url("../img/citchen.png")no-repeat top left;
+	}
+	.cotl{
+		background:url("../img/cotl.png")no-repeat top left;
+	}
+	.electro{
+		background:url("../img/electro.png")no-repeat top left;
+	}
+	.gas{
+		background:url("../img/gas.png")no-repeat top left;
+	}
+	.pd-t{
+		padding-top: 20px;
+		padding-left: 20px;
+		@media only screen and (min-width : 992px) {
+			padding-left: auto;
 		}
-		.citchen{
-			background:url("../img/citchen.png")no-repeat top left;
+	}
+	.clear{
+		@media only screen and (min-width : 768px) {
+			clear:both;
 		}
-		.cotl{
-			background:url("../img/cotl.png")no-repeat top left;
+		@media only screen and (min-width : 992px) {
+			clear:unset;
 		}
-		.electro{
-			background:url("../img/electro.png")no-repeat top left;
-		}
-		.gas{
-			background:url("../img/gas.png")no-repeat top left;
-		}
-		.pd-t{
-			padding-top: 20px;
-			padding-left: 20px;
-			@media only screen and (min-width : 992px) {
-				padding-left: auto;
-			}
-		}
-		.clear{
-			@media only screen and (min-width : 768px) {
-				clear:both;
-			}
-			@media only screen and (min-width : 992px) {
-				clear:unset;
-			}
-		}
+	}
 }
 .footer-bottom2{
 	background-color: #06459b;

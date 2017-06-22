@@ -33,7 +33,22 @@
 	<link rel="stylesheet" href="block/watch-more/style.css">
 	<!-- styles end -->
 
+</head>
+<body>
 	
+<div class="header-top">
+	<div class="container">
+		<ul class="main-menu">
+			<li><a href="#">О КОМПАНИИ</a></li>
+			<li><a href="#">МОНТАЖ</a></li>
+			<li><a href="#">РЕМОНТ И ОБСЛУЖИВАНИЕ</a></li>
+			<li><a href="#">КАК ЗАКАЗАТЬ</a></li>
+			<li><a href="#">ДОСТАВКА И ОПЛАТА</a></li>
+			<li><a href="#">ДОКУМЕНТЫ</a></li>
+			<li><a href="#">КОНТАКТЫ</a></li>
+		</ul>
+	</div>
+</div>
 	
 	
 	

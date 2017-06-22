@@ -9,7 +9,11 @@
   background-color: #1e73c6;
   text-align: center;
   padding: 0 20px 0 60px;
-  position: relative; }
+  position: relative;
+  transition: 0.4s; }
+  .button-question:hover {
+    transition: 0.4s;
+    background-color: #ffce29; }
   .button-question:after {
     content: "?";
     position: absolute;

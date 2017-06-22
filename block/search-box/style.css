@@ -1,3 +1,66 @@
-
+.search-box {
+  font-family: 'Roboto', sans-serif;
+  max-width: 870px;
+  margin: 0 auto; }
+  .search-box .selectric-wrapper {
+    float: left;
+    width: 100%;
+    max-width: none; }
+    .search-box .selectric-wrapper .selectric {
+      border-right: 1px solid #eaeaea; }
+      .search-box .selectric-wrapper .selectric:after {
+        content: none; }
+    @media only screen and (min-width: 570px) {
+      .search-box .selectric-wrapper {
+        width: 35%; }
+        .search-box .selectric-wrapper .selectric {
+          border-right: 0; }
+          .search-box .selectric-wrapper .selectric:after {
+            content: ""; } }
+    @media only screen and (min-width: 992px) {
+      .search-box .selectric-wrapper {
+        max-width: 285px;
+        width: 100%; } }
+  .search-box input {
+    border: none;
+    height: 50px;
+    float: left;
+    border: 1px solid #eaeaea; }
+    @media only screen and (min-width: 570px) {
+      .search-box input {
+        max-width: none;
+        width: 40%;
+        border-left: 0;
+        border-right: 0; } }
+    @media only screen and (min-width: 992px) {
+      .search-box input {
+        max-width: 445px;
+        width: 100%; } }
+    .search-box input::-ms-clear {
+      display: none; }
+  .search-box button {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    height: 50px;
+    background-image: url("../../img/zoom.png");
+    background-repeat: no-repeat;
+    background-position: right 25px center;
+    border: none;
+    outline: none;
+    background-color: #ffc000;
+    padding: 0 55px 0 30px;
+    float: left;
+    width: 100%;
+    transition: 0.4s; }
+    .search-box button:hover {
+      background-color: #1e73c6;
+      transition: 0.4s; }
+    @media only screen and (min-width: 570px) {
+      .search-box button {
+        width: auto; } }
 
 /*# sourceMappingURL=style.css.map */

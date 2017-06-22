@@ -1,4 +1,74 @@
 .search-box{
-	
+	font-family: 'Roboto', sans-serif;
+	max-width: 870px;
+	margin: 0 auto;
+	.selectric-wrapper{
+		float: left;
+		width: 100%;	
+		max-width: none;
+		.selectric{			
+			border-right: 1px solid #eaeaea;
+			&:after{
+				content: none;
+			}
+		}
+		@media only screen and (min-width : 570px) {			
+			width: 35%;
+			.selectric{			
+				border-right: 0;
+				&:after{
+					content: "";
+				}
+			}
+		}
+		@media only screen and (min-width : 992px) {
+			max-width: 285px;
+			width: 100%;
+		}	
+	}
+	input{		
+		border:none;
+		height: 50px;
+		float: left;
+		border: 1px solid #eaeaea;		
+		@media only screen and (min-width : 570px) {
+			max-width: none;
+			width: 40%;
+			border-left: 0;
+			border-right: 0;
+		}
+		@media only screen and (min-width : 992px) {
+			max-width: 445px;
+			width: 100%;
+		}
+		&::-ms-clear {
+			display:none;
+		}
+	}
+	button{
+		color: white;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 50px;
+		text-transform: uppercase;
+		text-align: center;
+		height: 50px;
+		background-image: url("../../img/zoom.png");
+		background-repeat: no-repeat;
+		background-position: right 25px center;
+		border:none;
+		outline: none;
+		background-color: #ffc000;
+		padding: 0 55px 0 30px;
+		float: left;
+		width: 100%;
+		transition:0.4s;
+		&:hover{
+			background-color: #1e73c6;
+			transition:0.4s;
+		}
+		@media only screen and (min-width : 570px) {
+			width: auto;	
+		}
+	}
 }
-

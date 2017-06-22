@@ -1,13 +1,15 @@
-
+.selectric-wrapper{
+	display: inline-block;
+	max-width: 285px;
+	width: 100%;
+}
 .selectric-hover, .selectric-open, .selectric-focus {
 	.selectric{
 		border-color: #eaeaea;
 	}
 }
 .selectric{
-	background: #fff;
-	max-width: 285px;
-	width: 100%;
+	background: #fff;	
 	height: 50px;
 	border: 1px solid #eaeaea;
 	border-right: 0;

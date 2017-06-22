@@ -1,6 +1,10 @@
 
 
 $(document).ready(function(){	
+	// стилизованный селект
+	$('select').selectric();
+
+
 
 	// Бургер (legatkani)
 	$(".burger").click(function(){

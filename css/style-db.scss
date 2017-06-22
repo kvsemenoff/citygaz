@@ -56,6 +56,12 @@
 		}
 
 		.active{
+			&:hover{
+				background-color: #1e73c6;
+				.active-bg{
+					color: #fff !important;
+				}
+			}
 			position: relative;
 			.active-bg{
 				background: url(../img/menu-check.png) no-repeat top 27px right 10px; 
@@ -64,10 +70,6 @@
 				}
 				@media only screen and (min-width : 1240px) {
 					background: url(../img/menu-check.png) no-repeat top 27px right 13px;
-				}
-				&:hover{
-					background-color: #1e73c6;
-					color: #fff !important;
 				}
 			}
 			.main-manu2{
@@ -78,7 +80,7 @@
 				left:0;
 				width: 100%;
 				@media only screen and (min-width : 992px) {
-				width: 240px;
+					width: 240px;
 				}
 				padding-left: 0;
 				padding: 5px 0;
@@ -92,7 +94,7 @@
 					@media only screen and (min-width : 992px) {
 						margin-left: 40px;
 						width: auto;
-						}	
+					}	
 					a{
 						color: #f5f6f8 !important;
 						font-size: 15px;

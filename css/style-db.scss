@@ -1,6 +1,7 @@
 .header-top{
 	.burger{
-		background: url("../img/burger.png")no-repeat top 6px left;
+		background: url("../img/burger.png")no-repeat top 17px left;
+		padding: 10px 0;
 		@media only screen and (min-width : 992px) {
 			display: none;
 		}
@@ -16,6 +17,7 @@
 		}
 	}
 	.main-menu{
+		z-index: 99;
 		margin-top: 0px;
 		border-top:1px solid #eef1f5;
 		padding: 0;

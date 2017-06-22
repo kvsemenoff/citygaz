@@ -7,6 +7,7 @@
 <script src="libs/youtube/youtube.js"></script>
 <script src="libs/owl.carousel/owl.carousel.js"></script>
 <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/select/jquery.selectric.min.js"></script>
 <script src="js/jquery.maskedinput.min.js"></script>
 <script src="js/rangeslider.min.js"></script>
 <script src="js/fonts.js"></script>

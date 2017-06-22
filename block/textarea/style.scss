@@ -1,5 +1,20 @@
 textarea{
-	
-
+	color: #435266;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 17px;
+	outline: none;
+	padding: 20px;
+	resize:none;
+	width: 100%;
+	border:1px solid #d8d9db;
+	min-height: 140px;
 }
+.textarea2{
+padding-top: 12px !important;
+min-height: 105px !important;	
+}
+textarea:-moz-placeholder { color: #435266; }
+textarea::-webkit-input-placeholder { color: #435266; }
 

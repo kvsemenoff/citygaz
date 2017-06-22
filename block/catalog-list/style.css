@@ -1,0 +1,21 @@
+.catalog-list li {
+  background-image: url("../../img/ulliimg.png");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  padding-left: 18px; }
+  .catalog-list li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 30px;
+    text-decoration: underline;
+    color: #145cb8; }
+    .catalog-list li a:hover {
+      color: #de9302; }
+
+.catalog-list__big li {
+  padding-left: 25px; }
+  .catalog-list__big li a {
+    line-height: 40px; }
+
+/*# sourceMappingURL=style.css.map */

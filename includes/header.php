@@ -32,10 +32,9 @@
 	<link rel="stylesheet" href="block/tech-doc/style.css">
 	<link rel="stylesheet" href="block/textarea/style.css">
 	<link rel="stylesheet" href="block/watch-more/style.css">
-	<!-- styles end -->
-
-	
-	
+	<!-- styles end -->	
+</head>
+<body>
 	
 	
 	

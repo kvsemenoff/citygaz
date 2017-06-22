@@ -1,3 +1,12 @@
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto', sans-serif;
+	color:#484d56;
+	font-weight:400;
+	padding:1em 0;
+}
 
+h1{
+	font-size:23px;
+}
 
 /*# sourceMappingURL=style.css.map */

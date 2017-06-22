@@ -10,6 +10,11 @@
 	text-align: center;
 	padding: 0 20px 0 60px;
 	position: relative;
+	transition:0.4s;
+	&:hover{
+		transition:0.4s;
+		background-color: #ffce29;
+	}
 	&:after{
 		content: "?";
 		position: absolute;

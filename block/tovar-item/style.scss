@@ -1,0 +1,43 @@
+.tovar-item{
+	background-color:white;
+	padding:10px;
+	margin:0 2px;
+	width:calc(25% - 4px);
+	float:left;
+}
+
+.tovar-item img{
+	margin:auto;
+	display:block;
+}
+
+.tovar-item a{
+	margin-top:15px;
+	display:block;
+	text-decoration:underline;
+}
+
+.tovar-item p{
+	text-align:center;
+	margin:5px 0;
+	padding:10px;
+	color:#e8bd40;
+}
+
+.tovar-item span{
+	color:black;
+}
+
+.tovar-item span:after{
+	content:'.-';
+}
+
+.old-price{
+	text-decoration:line-through;
+}
+
+.price span{
+	border:2px solid #e8bd40;
+	padding:5px 20px;
+	border-radius:40px;
+}

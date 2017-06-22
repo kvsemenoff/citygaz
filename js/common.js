@@ -1,31 +1,10 @@
 
 
-$(document).ready(function(){
+$(document).ready(function(){	
+	// стилизованный селект
+	$('select').selectric();
 
-	// Переключатель кол-ва товара в корзине (legatkani)
-	var itemprice = $('.item-price').text();
-	$('#total').val(itemprice);
 
-	$(".switch__number .switch__button").on("click", function() {
-		var $button = $(this);
-		var oldValue = $button.parent().find("input").val();
-		if ($button.text() == "+") {
-			var newVal = parseFloat(oldValue) + 1;
-		}
-		else {
-			if (oldValue > 1) {
-				var newVal = parseFloat(oldValue) - 1;
-			} else {
-				newVal = 1;
-			}
-		}
-		$button.parent().find("input").val(newVal);
-
-		var quantity = $('#quantity').val();
-		var total = itemprice*quantity;
-		$('#total').val(total);
-	});
-	// END Переключатель кол-ва товара в корзине (legatkani)
 
 	// Бургер (legatkani)
 	$(".burger").click(function(){
@@ -37,28 +16,6 @@ $(document).ready(function(){
 		$(".fa-bars").css("display", "inline-block");
 	});
 	// END бургер (legatkani)
-
-	// Раскрывающийся каталог на главной
-	$(".catalog-main__button").click(function(){
-		$(".catalog-main__hidden").slideDown(500);
-		$(".catalog-main__button").css("display", "none");
-		$(".catalog-main__button_2").css("display", "block");
-	});
-	$(".catalog-main__button_2").click(function(){
-		$(".catalog-main__hidden").slideUp(500);
-		$(".catalog-main__button").css("display", "block");
-		$(".catalog-main__button_2").css("display", "none");
-	});
-	// END Раскрывающийся каталог на главной
-
-	// Раскрывающийся список в каталоге
-	$(".button__catalog, .but-spisok").click(function(evt){
-		evt.preventDefault();
-		$(".sidebar-menu").slideToggle(500);
-	});
-	// END Раскрывающийся список в каталоге
-
-
 
 	var owlcart = $(".slider-owl-carousel");
 	owlcart.owlCarousel({
@@ -89,50 +46,30 @@ $(document).ready(function(){
 
 	$('.js-phone').mask("+7(999)999-99-99?");
 
-	$('.choose__btn').click(function(){
-		if($(this).hasClass('active')){
-			$(this).removeClass('active');
-			$('.managers-block').css('display','none');
+	
+	$(".tech-doc>li>span").on('click', function(e){
+		e.preventDefault();		
+		var answerId = $(this).next(".tech-doc__inside");
+		if( !$(this).hasClass("tech-doc__active")){
+			$(".tech-doc__inside").slideUp();
+			$(".tech-doc>li>span").removeClass("tech-doc__active");
 		}
-		else{
-			$(this).addClass('active');
-			$('.managers-block').css('display','block');
+		$(this).toggleClass("tech-doc__active"); 
+		$(answerId).slideToggle();
+	});
+	$(".tech-doc__inside>li>span").on('click', function(e){
+		e.preventDefault();		
+		var answerId = $(this).next(".tech-doc__inside-links");
+		if( !$(this).hasClass("tech-doc__active_inside")){
+			$(".tech-doc__inside-links").slideUp();
+			$(".tech-doc__inside>li>span").removeClass("tech-doc__active_inside");
 		}
+		$(this).toggleClass("tech-doc__active_inside"); 
+		$(answerId).slideToggle();
 	});
 
-	$('.tabs-content > .tab-content').each(function(index){
-		if (!$(this).hasClass('active')) {
-			$(this).css('display','none');
-		};
-	});
-	$('.tab').click(function(){
-		$('.tab').removeClass('active');
-		$('.tabs-content').find('div').removeClass('active');
-		$('.tabs-content > .tab-content').css('display','none');
-		$(this).addClass('active');
+	
 
-		for (var i = 0; i < 4; i++) {
-			if($('.tabs > .tab-' + i).hasClass('active')){
-				$('.tabs-content > .tab-' + i).addClass('active');
-			};
-
-			$('.tabs-content > .active').css('display','block');
-		};
-
-		if ($('.main__link_question').hasClass('active')) {
-			$('.main__nav > .manager').css('display','none');
-		};
-
-		if (!$('.main__link_question').hasClass('active')) {
-			$('.main__nav > .manager').css('display','block');
-		};
-
-	});
-
-	(function($) {
-		$(function() {
-			$('select').styler();
-		});
-	})(jQuery);
+	
 
 });

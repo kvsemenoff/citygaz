@@ -1,4 +1,116 @@
 .tech-doc{
-	
+	font-family: 'Roboto', sans-serif;
+	color: #313843;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 46px;
+	>li>span{		
+		line-height: 38px;
+		padding-left: 35px;
+		background-color: #f5f6f8;	
+		margin-bottom: 8px;
+		display: block;
+		position: relative;		
+		cursor: pointer;	
+		transition:0.4s;
+		&:after{
+			content: "\f105";
+			position: absolute;
+			top:13px;
+			left:14px;
+			width: 10px;
+			height: 14px;
+			display: inline-block;
+			font-family:FontAwesome;
+			color: #313843;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 15px;
+			transition:0.4s;
+		}
+		&:hover{
+			background-color: #1e73c6;
+			color: #fff;
+			transition:0.4s;
+			&:after{ color:#fff; }
+		}
+	}
 }
-
+.tech-doc .tech-doc__active{
+	background-color: #1e73c6;
+	color: #fff;
+	&:after{ 
+		transition:0.4s;
+		color:#fff; 
+		transform:rotate(90deg);
+	}
+}
+.tech-doc__inside{
+	padding: 0 0 2px 10px;
+	display: none;
+	@media only screen and (min-width : 992px) {
+		padding: 0 0 2px 32px;
+	}
+	>li>span{
+		line-height: 35px;
+		padding-left: 35px;
+		background-color: #f5f6f8;	
+		margin-bottom: 6px;
+		color: #313843;
+		display: block;
+		position: relative;	
+		cursor: pointer;	
+		border:1px solid transparent;
+		transition:0.4s;
+		&:after{
+			content: "\f105";
+			position: absolute;
+			top:13px;
+			left:11px;
+			width: 10px;
+			height: 14px;
+			display: inline-block;
+			font-family:"FontAwesome";
+			color: #313843;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 15px;
+			transition:0.5s;
+		}
+		&:hover{
+			color: #313843;
+			transition:0.4s;
+			&:after{ color: #313843; }
+		}
+	}
+}
+.tech-doc__inside .tech-doc__active_inside{
+	background-color: #fff;
+	border:1px solid #d3d3d3;
+	&:after{ 
+		transition:0.5s;
+		transform:rotate(90deg);
+	}
+}
+.tech-doc__inside-links{
+	padding: 2px 0 2px 15px;
+	background-color: #fff;
+	display: none;
+	@media only screen and (min-width : 992px) {
+		padding: 2px 0 2px 37px;
+	}
+	li{
+		a{
+			color: #1056b5;
+			font-size: 15px;
+			font-weight: 400;
+			line-height: 43px;
+			text-decoration: underline;
+			display: inline-block;
+			background-image: url("../../img/document.png");
+			background-repeat: no-repeat;
+			background-position: left center;
+			padding-left: 42px;
+		}
+	}
+}

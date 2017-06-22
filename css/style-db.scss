@@ -1,0 +1,70 @@
+.footer-bottom{
+	padding: 20px 0;
+	background:url("../img/footer-bottom.jpg")no-repeat;
+	background-size: cover;
+	.box{
+	 max-width: 250px;
+	 margin: 0 auto;
+	 @media only screen and (min-width : 992px) {
+	 	max-width: auto;
+	 }
+	}
+		a{
+			color:#fff;
+			text-decoration: none;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+		ul{
+			li{
+				list-style-type: square;
+				color: #ffc000;
+			}
+		}
+		.citchen, .electro, .cotl, .gas{
+			padding-left: 45px;
+			padding-bottom: 20px;
+			display: inline-block;
+			line-height: 19px;
+		}
+		.citchen{
+			background:url("../img/citchen.png")no-repeat top left;
+		}
+		.cotl{
+			background:url("../img/cotl.png")no-repeat top left;
+		}
+		.electro{
+			background:url("../img/electro.png")no-repeat top left;
+		}
+		.gas{
+			background:url("../img/gas.png")no-repeat top left;
+		}
+		.pd-t{
+			padding-top: 20px;
+			padding-left: 20px;
+			@media only screen and (min-width : 992px) {
+				padding-left: auto;
+			}
+		}
+		.clear{
+			@media only screen and (min-width : 768px) {
+				clear:both;
+			}
+			@media only screen and (min-width : 992px) {
+				clear:unset;
+			}
+		}
+}
+.footer-bottom2{
+	background-color: #06459b;
+	text-align: center;
+	color:#fff;
+	@media only screen and (min-width : 992px) {
+		text-align: right;
+	}
+	
+	a{
+		color: #fff;
+	}
+}

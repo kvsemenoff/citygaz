@@ -36,9 +36,11 @@
 </head>
 <body>
 	
-<div class="header-top">
-	<div class="container">
-		<div class="block">
+	<div class="header-top">
+		<div class="container">
+			<div class="burger">
+				<a href=""><span>Меню</span></a>
+			</div>
 			<ul class="main-menu">
 				<li><a href="#">О КОМПАНИИ</a></li>
 				<li><a href="#">МОНТАЖ</a></li>
@@ -56,7 +58,6 @@
 			</ul>
 		</div>
 	</div>
-</div>
 	
 	
 	

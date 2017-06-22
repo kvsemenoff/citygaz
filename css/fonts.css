@@ -12,4 +12,11 @@
   font-style: normal;
   font-weight: normal; }
 
+  @font-face {
+  font-family: "Roboto-Thin";
+  src: url("../fonts/Roboto/Roboto-Thin.eot");
+  src: url("../fonts/Roboto/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Roboto-Thin.woff") format("woff"), url("../fonts/Roboto/Roboto-Thin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300; }
+
 /*# sourceMappingURL=fonts.css.map */

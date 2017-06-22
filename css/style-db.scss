@@ -1,9 +1,29 @@
 .header-top{
+	.burger{
+		background: url("../img/burger.png")no-repeat top 6px left;
+		@media only screen and (min-width : 992px) {
+			display: none;
+		}
+		a{
+			padding-left: 25px;
+			text-decoration: none;
+			color:#000 !important;
+			font-weight: 400;
+			font-size: 16px;
+			&:hover{
+				color:#000;
+			}
+		}
+	}
 	.main-menu{
-		margin-top: 10px;
+		margin-top: 0px;
 		border-top:1px solid #eef1f5;
 		padding: 0;
 		text-align: center;
+		display: none;
+		@media only screen and (min-width : 992px) {
+			display: block;
+		}
 		li{
 			border-bottom:1px solid #eef1f5;
 			list-style-type: none; 

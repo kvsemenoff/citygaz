@@ -1,3 +1,13 @@
-
+a.watch-more{
+	margin:10px;
+	border:1px solid #d8d9db;
+	color:#59677b;
+	text-decoration:none;
+	font-family:'Roboto-Thin';
+	padding:7px 15px;
+	border-radius:40px;
+	font-size:14px;
+	background:transparent;
+}
 
 /*# sourceMappingURL=style.css.map */

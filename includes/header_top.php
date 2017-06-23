@@ -6,7 +6,7 @@
 					<div class="one">
 						<img src="../img/header.png" alt="img">
 						<p>городская <br> газовая служба</p>
-						<div class="clearfix"></div>
+						<!-- <div class="clearfix"></div> -->
 					</div>
 				</div>
 				<div class="col-md-4">

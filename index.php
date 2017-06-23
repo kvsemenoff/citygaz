@@ -8,6 +8,9 @@
 	<div class="wrapper">
 		<div class="content">
 			<?php require_once('includes/header_top.php'); ?>
+			<div class="container">
+				<?php require_once('includes/sidebar-main.php'); ?>
+			</div>
 		</div>
 		<div class="footer">
 			<?php require_once('includes/footer.php'); ?>

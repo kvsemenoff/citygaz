@@ -1,16 +1,8 @@
-<meta charset="UTF-8">
-<link rel="stylesheet" href="../../css/reset.css" />
-<link rel="stylesheet" href="../../libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
-<link href="https://fonts.googleapis.com/css?family=Roboto:100,300i,400,500,500i,700,700i,900" rel="stylesheet">
-<link href='//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css' rel='stylesheet'>
-<link rel="stylesheet" href="../catalog-list/style.css">
-<link rel="stylesheet" href="style.css">
-
-<div class="container">
-	<br>
-	<br>
-	<br>
+<div class="sidebar-main">
 	
+	<div class="burg-title">Каталог товаров</div>	
+	<div class="clearfix"></div>
+
 	<ul class="sidebar-catalog">
 		<li><span>Запчасти к плитам</span>
 			<div class="sidebar-catalog__showmenu">
@@ -98,11 +90,10 @@
 		</li>
 
 	</ul>
+
+	<div class="burg-title">Бренды</div>	
+	<div class="clearfix"></div>
+
 	
 </div>
-
-
-<script src="../../libs/jquery/jquery-1.11.1.min.js"></script>
-
-<script src="../../js/common.js"></script> 
 

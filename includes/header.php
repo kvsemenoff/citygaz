@@ -1,6 +1,7 @@
 	<link rel="shortcut icon" href="favicon.png" />
 	
 	<!-- styles start -->
+	<link rel="stylesheet" href="../../css/reset.css" />
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
@@ -32,6 +33,7 @@
 	<link rel="stylesheet" href="block/tech-doc/style.css">
 	<link rel="stylesheet" href="block/textarea/style.css">
 	<link rel="stylesheet" href="block/watch-more/style.css">
+	<link rel="stylesheet" href="block/sidebar-catalog/style.css">
 	<!-- styles end -->	
 </head>
 <body>

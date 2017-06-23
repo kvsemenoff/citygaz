@@ -4,12 +4,23 @@ $(document).ready(function(){
 	// стилизованный селект
 	$('select').selectric();
 
-
-	$('input[type="range"]').rangeslider({
-		polyfill: false,	
-		onSlide: function(position, value) {
-			
-		},	
+	// стизизованный input type range
+	$("#range").ionRangeSlider({
+		hide_min_max: true,
+		hide_from_to:true,
+		keyboard: true,
+		min: 0,
+		max: 5000,
+		from: 250,
+		to: 3000,
+		type: 'double',
+		step: 10,
+		prefix: "",
+		grid: false,            
+		onChange:  function (data) {			
+			$('.sidebarchangeprice').val(data.from);
+			$('.sidebartotalprice').val(data.to);			
+		},
 	});
 
 

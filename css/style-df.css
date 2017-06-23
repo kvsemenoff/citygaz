@@ -185,50 +185,31 @@ html, body {
     background-color: #1e73c6;
     border-color: transparent; }
 
-.rangeslider,
-.rangeslider__fill {
-  display: block; }
-
-.rangeslider {
-  background: #f5f6f8;
-  height: 5px;
-  position: relative; }
-
-.rangeslider--vertical {
-  width: 245px;
-  height: 5px; }
-
-.rangeslider__fill {
-  background-image: url("../img/rangebg.png");
-  background-repeat: repeat-x;
-  background-position: left center;
-  position: absolute; }
-
-.rangeslider--horizontal .rangeslider__fill {
-  top: 0;
-  height: 5px; }
-
-.rangeslider--vertical .rangeslider__fill {
-  bottom: 0;
+.rangeslidr {
+  position: relative;
+  max-width: 250px;
   width: 100%; }
 
-.rangeslider__handle {
+.irs-line, .irs-line-left, .irs-line-mid, .irs-line-right, .irs-bar {
+  height: 7px; }
+
+.irs-slider {
+  background-position: initial; }
+
+.irs-slider.state_hover, .irs-slider:hover {
+  background-position: initial; }
+
+.irs-bar {
+  background-position: initial;
+  background: url("../img/rangebg.png") repeat-x center !important; }
+
+.irs-line-mid, .irs-line-left, .irs-line-right, .irs-bar, .irs-bar-edge, .irs-slider {
+  background: #f5f6f8; }
+
+.irs-slider {
   background: #ffc000;
-  cursor: pointer;
-  display: inline-block;
   width: 9px;
   height: 27px;
-  position: absolute;
-  background-size: 100%; }
-
-.rangeslider--horizontal .rangeslider__handle {
-  top: -12px;
-  touch-action: pan-y;
-  -ms-touch-action: pan-y; }
-
-.rangeslider--vertical .rangeslider__handle {
-  left: -5px;
-  touch-action: pan-x;
-  -ms-touch-action: pan-x; }
+  top: 15px; }
 
 /*# sourceMappingURL=style-df.css.map */

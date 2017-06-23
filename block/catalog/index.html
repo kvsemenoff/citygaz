@@ -1,0 +1,101 @@
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../css/reset.css" />
+<link rel="stylesheet" href="../../css/fonts.css" />
+<link rel="stylesheet" href="../../libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+<!-- <link href="https://fonts.googleapis.com/css?family=Roboto:100,300i,400,500,500i,700,700i,900" rel="stylesheet"> -->
+<link rel="stylesheet" href="../catalog-list/style.css">
+<link rel="stylesheet" href="../watch-more/style.css">
+<link rel="stylesheet" href="style.scss">
+
+
+<div class="container">
+	<div class='catalog'>
+		<div>
+			<p class='catalog_title'>Запчасти к плитам</p>
+			<ul class="catalog-list">
+				<li><a href="#">Программаторы</a></li>
+				<li><a href="#">Расширительные баки</a></li>
+				<li><a href="#">Реле протока, группы ГВС</a></li>
+				<li><a href="#">Теплообменники</a></li>
+				<li><a href="#">Термостаты безопасности</a></li>
+				<li><a href="#">Программаторы</a></li>
+				<li><a href="#">Расширительные баки</a></li>
+				<li><a href="#">Реле протока, группы ГВС</a></li>
+				<li><a href="#">Теплообменники</a></li>
+				<li><a href="#">Термостаты безопасности</a></li>
+				<li><a href="#">Программаторы</a></li>
+				<li><a href="#">Расширительные баки</a></li>
+				<li><a href="#">Реле протока, группы ГВС</a></li>
+				<li><a href="#">Теплообменники</a></li>
+				<li><a href="#">Термостаты безопасности</a></li>
+			</ul> 
+			<a href='#' class='watch-more'>Смотреть ещё</a>
+		</div>
+		<div>
+			<p class='catalog_title'>Запчасти к плитам</p>
+			<ul class="catalog-list">
+				<li><a href="#">Программаторы</a></li>
+				<li><a href="#">Расширительные баки</a></li>
+				<li><a href="#">Реле протока, группы ГВС</a></li>
+				<li><a href="#">Теплообменники</a></li>
+				<li><a href="#">Термостаты безопасности</a></li>
+				<li><a href="#">Расширительные баки</a></li>
+				<li><a href="#">Реле протока, группы ГВС</a></li>
+				<li><a href="#">Теплообменники</a></li>
+				<li><a href="#">Термостаты безопасности</a></li>
+				<li><a href="#">Расширительные баки</a></li>
+				<li><a href="#">Реле протока, группы ГВС</a></li>
+				<li><a href="#">Теплообменники</a></li>
+				<li><a href="#">Термостаты безопасности</a></li>
+				<li><a href="#">Теплообменники</a></li>
+				<li><a href="#">Термостаты безопасности</a></li>
+			</ul> 
+			<a href='#' class='watch-more'>Смотреть ещё</a>
+		</div>
+		<div>
+			<p class='catalog_title'>Запчасти к плитам</p>
+			<ul class="catalog-list">
+				<li><a href="#">Программаторы</a></li>
+				<li><a href="#">Расширительные баки</a></li>
+				<li><a href="#">Реле протока, группы ГВС</a></li>
+			</ul> 
+		</div>
+		<div>
+			<p class='catalog_title'>Запчасти к плитам</p>
+			<ul class="catalog-list">
+				<li><a href="#">Программаторы</a></li>
+				<li><a href="#">Расширительные баки</a></li>
+				<li><a href="#">Реле протока, группы ГВС</a></li>
+				<li><a href="#">Теплообменники</a></li>
+				<li><a href="#">Термостаты безопасности</a></li>
+				<li><a href="#">Теплообменники</a></li>
+				<li><a href="#">Термостаты безопасности</a></li>
+				<li><a href="#">Теплообменники</a></li>
+				<li><a href="#">Термостаты безопасности</a></li>
+			</ul> 
+			<a href='#' class='watch-more'>Смотреть ещё</a>
+		</div>
+	</div>
+	<div style='width:100%;float:left;background-color: red;'>sfd</div>
+</div>
+<script src="../../libs/jquery/dist/jquery.js"></script>
+<script>
+	$(document).ready(function() {
+
+		$('.catalog-list').each(function() {
+			var li = $(this).find('li').size();
+			if( li > 13 ){
+				$(this).find('li').slice(13, li).hide();
+			}
+		});
+
+			$('.catalog').find('div').children('.watch-more').click(function() {
+				$(this).parent().find('li').slice(13,100).css({'display':'block'});
+				$(this).parent().css({'padding-bottom':'0','box-shadow':'1px 5px 40px -5px rgba(0,0,0,0.75)'});
+				$(this).parent().find('.catalog-list').css({'height':'auto'});
+				$(this).css({'display':'none'});
+				return false;
+			});
+	});
+</script>
+

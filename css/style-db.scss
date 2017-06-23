@@ -1,12 +1,80 @@
 .footer-top{
-.one{
-	img{
-		float:left;
+	background:#fff;
+	padding: 40px 0;
+	color: #435266;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+	.one{
+		img{
+			float:left;
+			margin-top: -26px;
+			margin-left: -7px;
+
+		}
+		p{
+			float:left;
+			line-height: 17px;
+			padding-left: 14px;
+		}
 	}
-	p{
-		float:left;
+	.two{
+		p{
+			padding-left: 20px;
+			background: url("../img/marker.png")no-repeat top 7px left;
+			span{
+				font-size: 15px;
+				font-weight: 400;
+			}
+		}
 	}
-}
+	.three{
+		p{
+			padding-left: 25px;
+			background: url("../img/phone.png")no-repeat top 7px left;
+			font-size: 13px;
+			span{
+				font-size: 16px;
+			}
+			.first{
+				font-weight: 100;
+			}
+			.second{
+				font-weight: 400;
+			}
+		}
+	}
+	.four{
+		padding-right: 20px;
+	}
+	.one{
+		margin: 0 auto;
+		width: 260px;
+		@media only screen and (min-width : 992px) {
+			width: auto;
+		}
+	}
+	.two, .three{
+		margin: 0 auto;
+		width: 218px;
+		@media only screen and (min-width : 992px) {
+			width: auto;
+		}
+	}
+	.four{
+		width: 198px;
+		margin: 0 auto;
+		@media only screen and (min-width : 992px) {
+			width: auto;
+		}
+	}
+	.two, .three, .four{
+		padding-top: 20px;
+		@media only screen and (min-width : 992px) {
+			float: right;
+			padding-top: unset;
+		}
+	}
 }
 
 .header-top{

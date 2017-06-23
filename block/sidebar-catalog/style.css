@@ -71,11 +71,16 @@
       height: 0;
       overflow: hidden;
       transition: 0.4s;
-      transition-delay: 0.5s; } }
+      transition-delay: 0.5s;
+      z-index: 990; } }
   @media only screen and (min-width: 992px) {
     .sidebar-catalog__showmenu {
       width: 560px;
-      max-height: 250px; } }
+      max-height: 250px;
+      left: 235px; } }
+  @media only screen and (min-width: 1200px) {
+    .sidebar-catalog__showmenu {
+      left: 270px; } }
   .sidebar-catalog__showmenu .padding {
     padding: 19px 19px;
     background-color: #fff; }

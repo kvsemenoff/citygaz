@@ -10,10 +10,10 @@
 			<?php require_once('includes/header_top.php'); ?>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-3 paddingnone">
 						<?php require_once('includes/sidebar-main.php'); ?>
 					</div>
-					<div class="col-md-9">
+					<div class="col-md-9 paddingnone">
 						<?php require_once('includes/slider-main.php'); ?>
 					</div>
 				</div>

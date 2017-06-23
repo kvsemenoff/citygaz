@@ -50,5 +50,10 @@
 		<span class="slider__changecount">1</span>
 		<i>/</i>
 		<span class="slider__allcount">10</span>
-	</div>
+	</div>	
+</div>
+<div class="slidermain-links">
+	<a href="#">Продажа запчастей к газовому оборудованию</a>
+	<a href="#">Установка и монтаж оборудования</a>
+	<a href="#">Ремонт и обслуживание</a>
 </div>

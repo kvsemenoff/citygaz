@@ -84,10 +84,15 @@
 		overflow: hidden;
 		transition:0.4s;
 		transition-delay: 0.5s;
+		z-index: 990;
 	}
 	@media only screen and (min-width : 992px) {
 		width: 560px;
 		max-height: 250px;
+		left: 235px;
+	}
+	@media only screen and (min-width : 1200px) {
+		left: 270px;
 	}
 	.padding{
 		padding: 19px 19px;

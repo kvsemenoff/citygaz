@@ -4,9 +4,18 @@ $(document).ready(function(){
 	// стилизованный селект
 	$('select').selectric();
 
-$('.burger a').on("click", function(){
-	$('.main-menu').slideToggle();
-});
+
+	$('input[type="range"]').rangeslider({
+		polyfill: false,	
+		onSlide: function(position, value) {
+			
+		},	
+	});
+
+
+	$('.burger a').on("click", function(){
+		$('.main-menu').slideToggle();
+	});
 
 	// Бургер (legatkani)
 	$(".burger").click(function(){

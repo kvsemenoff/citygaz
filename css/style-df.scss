@@ -127,3 +127,102 @@ html,body{
 		line-height: 23px;
 	}
 }
+
+
+
+
+
+
+
+// sidebar -catalog page
+
+
+.sidebar-catalogpage{
+	max-width: 277px;
+	width: 100%;
+	display: inline-block;
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	.burg-title{
+		padding: 33px 0 29px 27px;				
+	}
+}
+.filter-clear{
+	float: right;
+	display: inline-block;
+	color: #435266;	
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15px;
+	text-transform: uppercase;	
+	padding: 7px 12px;
+    margin: 29px 0 25px 0;
+	border: 1px solid #c0c6ce;
+	background-color: transparent;
+	&:hover{
+		font-weight: 700;
+		color: #fff;
+		background-color: #ffc000;
+		border-color: transparent;
+	}
+}
+
+
+
+
+// styles rangeslider
+
+.rangeslider,
+.rangeslider__fill {
+	display: block;
+	
+}
+
+.rangeslider {
+	background: #f5f6f8;
+	position: relative;
+}
+.rangeslider--vertical {
+	width: 245px;
+	height: 5px;
+
+}
+.rangeslider__fill {
+	background-image: url("../img/rangebg.png");
+	background-repeat: repeat-x;
+	background-position:  left center;
+	position: absolute;
+}
+.rangeslider--horizontal .rangeslider__fill {
+	top: 0;
+	height: 100%;
+}
+.rangeslider--vertical .rangeslider__fill {
+	bottom: 0;
+	width: 100%;
+}
+.rangeslider__handle {
+	background: white;
+	-webkit-box-shadow: 0 0 13px rgba(39, 30, 84, 0.36);
+	-moz-box-shadow:  0 0 13px rgba(39, 30, 84, 0.36);
+	box-shadow: 0 0 13px rgba(39, 30, 84, 0.36);
+	border: 1px solid #ccc;
+	cursor: pointer;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	background-size: 100%;
+	border-radius: 50%;
+}
+.rangeslider--horizontal .rangeslider__handle {
+	top: -10px;
+	touch-action: pan-y;
+	-ms-touch-action: pan-y;
+}
+.rangeslider--vertical .rangeslider__handle {
+	left: -5px;
+	touch-action: pan-x;
+	-ms-touch-action: pan-x;
+}
+/////////////////////////////////////////

@@ -14,7 +14,7 @@
 						<?php require_once('includes/sidebar-main.php'); ?>
 					</div>
 					<div class="col-md-9">
-						Правая часть 
+						<?php require_once('includes/slider-main.php'); ?>
 					</div>
 				</div>
 			</div>

@@ -98,14 +98,8 @@
 			<input type="text" value="3500" disabled="disabled" class="sidebartotalprice">
 		</div>
 		<div class="clearfix"></div>
-		<div class="sidebar__range">
-			<input
-			type="range"
-			min="100"                   
-			max="3500"                  
-			step="10"                 
-			value="250"                 
-			>
+		<div class="sidebar__range rangeslidr">
+			<input type="text" id="range" value="" name="range" />
 		</div>
 		<a href="#" class="applyfilter">применить фильтр</a>
 	</div>

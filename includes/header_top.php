@@ -18,7 +18,7 @@
 					</div>
 					<div class="contact-phones">
 						диспетчер: <span>(831) <strong>4 - 139 - 169</strong></span><br>
-						тел/факс <span>(831) <strong>202 - 90 - 33</strong></span>
+						тел/факс &nbsp;&nbsp;&nbsp;<span>(831) <strong>202 - 90 - 33</strong></span>
 					</div>
 				</div>
 			</div>

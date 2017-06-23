@@ -17,11 +17,11 @@
 						<?php require_once('includes/slider-main.php'); ?>
 					</div>
 				</div>
-			</div>
+			</div> 
 		</div>
 		<div class="footer">
 			<?php require_once('includes/footer_top.php'); ?>
-			<?php require_once('includes/footer.php'); ?>
+			<?php require_once('includes/footer.php'); ?> 
 		</div>
 	</div>
 </body>

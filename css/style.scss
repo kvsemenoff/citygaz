@@ -25,7 +25,7 @@ body, html{
 	font-weight: 100;
 }
 strong{
-	font-weight: 500;
+	font-weight: 700;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -77,35 +77,45 @@ a.watch-more{
 }
 
 .contact-address{
-	background: url("../img/marker.png")no-repeat top 7px left;
-	padding-left: 20px;
+	background: url("../img/marker.png")no-repeat top 8px left;
+	padding-left: 24px;
+	line-height: 22px;
+	word-spacing: nowrap;
+	strong{
+		font-weight: 400;
+	}
 	span{
 		font-size: 15px;
 	}
 }
 
 .contact-phones{
-	padding-left: 25px;
+	padding-left: 26px;
 	background: url("../img/phone.png")no-repeat top 7px left;
 	font-size: 13px;
+	line-height: 22px;
+	word-spacing: nowrap;
+	strong{
+		font-weight: 400;
+	}
 	span{
 		font-size: 16px;
 	}
 }
 .logo-box{
-	width: 230px;
+	width: 220px;
 	margin: 0 auto;
 	img{
 		display: block;
 	}
 	div{
 		line-height: 17px;
-		padding-left: 14px;
+		padding-left: 22px;
 		color: #435266;
-		padding-top: 15px;
+		padding-top: 19px;
 	}
 	@media only screen and (min-width : 320px) {
-		width: 270px;
+		width: 280px;
 		margin: auto 0;
 	}
 	@media only screen and (max-width : 320px) {
@@ -122,10 +132,9 @@ a.watch-more{
     width: 258px;
 	@media only screen and (min-width : 992px) {
 		word-spacing: nowrap;
-		width: 450px;
-		margin-left: -100px;
+		width: 480px !important;
+		margin-left: -90px;
 		margin-top: 15px;
-
 	}
 	@media only screen and (min-width : 520px) {
 		width: auto;
@@ -142,6 +151,10 @@ a.watch-more{
 }
 .contact-phones{
 	text-align: justify;
+	@media only screen and (min-width : 992px) {
+		margin-left: 6px;
+
+	}
 }
 .right-box{
 	display: flex;
@@ -149,6 +162,9 @@ a.watch-more{
 	
 	@media only screen and (min-width : 992px) {
 		padding-top: 5px;
+		.button-question{
+			margin-left: 14px;
+		}
 	}
 	@media only screen and (max-width : 520px) {
 		display: block;
@@ -190,8 +206,17 @@ a.watch-more{
 }
 
 .info-row_top{
-	.logo-box{
+	.contact-box{
+		@media only screen and (min-width : 992px) {
+			padding-top: 6px;
+		}
 		
+	}
+	.right-box{
+		@media only screen and (min-width : 992px) {
+			
+			padding-top: 22px;
+		}
 	}
 }
 .burger{

@@ -1,14 +1,73 @@
 .tovar-item{
 	background-color:white;
 	padding:10px;
-	margin:0 2px;
+	margin:10px 2px;
 	width:calc(25% - 4px);
 	float:left;
 	transition:0.5s;
 	position:relative;
+	overflow:hidden;
+	font-family:'Roboto';
 }
 
-.tovar-item:hover  a{
+/*Подробнее*/
+
+.more_inf{
+	text-align:center;
+}
+
+/* Значек хит в правом верхнем углу*/
+
+.hit, .actia{
+	position:absolute;
+	margin:0 !important;
+	color:white !important;
+	padding:5px 0px !important;
+	text-transform:uppercase;
+	min-width:70px;
+	text-align:center;
+	z-index:10;
+}
+
+/* Хит */
+
+.hit{
+	background-color:#1056b5;
+}
+
+/* Акция */
+
+.actia{
+	background-color:#ffc000;
+}
+
+.article,  .in_stock{
+	margin:0 !important;
+	padding: 10px 0 !important;
+	font-size:13px;
+}
+
+/* Артикул*/
+
+.article{
+	float:left;
+	color:#435266 !important;
+}
+
+/* В наличии*/
+
+.in_stock{
+	float:right;
+	color:#76cb6c !important;
+}
+
+.in_stock:before{
+	content:'✔';
+	padding:0 3px;
+
+}
+
+.tovar-item a:hover{
 	color:#e8bd40 !important;
 }
 
@@ -20,19 +79,29 @@
 }
 
 .tovar-item div{
+	max-height:180px;
 	height:150px;
+	position:relative;
+	float:left;
+	width:100%;
+	margin-bottom:10px;
 }
 
 .tovar-item img{
 	margin:auto;
 	display:block;
+	max-width:100%;
+	margin-bottom:15px;
 }
 
 .tovar-item a{
-	margin-top:15px;
-	display:block;
 	text-decoration:underline;
 	font-size:15.2px;
+	display:block;
+}
+
+.tovar-item a:nth-child(2){
+	text-align:left;
 }
 
 .tovar-item p{
@@ -59,10 +128,16 @@
 }
 
 .price span{
-	border:1px solid #e4e4e6;
 	padding:5px 20px;
 	border-radius:40px;
 }
+
+/*Серая рамка вокруг цены*/
+.gray span{
+	border:1px solid #e4e4e6;
+}
+
+/*Оранжевая рамка вокруг цены*/
 
 .orange span{
 	border:2px solid #e8bd40;

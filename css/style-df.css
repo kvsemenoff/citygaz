@@ -1,3 +1,62 @@
+.sidebar-main {
+  max-width: 277px;
+  width: 100%;
+  display: inline-block;
+  float: left; }
+  .sidebar-main .burg-title {
+    padding: 39px 0 40px 27px; }
 
+.brand {
+  margin-bottom: 15px;
+  background-color: #fff;
+  padding: 7px 20px 20px 25px; }
+
+.brand__box .brand__img {
+  display: inline-block;
+  width: 120px; }
+  .brand__box .brand__img img {
+    max-width: 100%;
+    height: auto; }
+.brand__box a {
+  display: inline-block;
+  color: #1358b6;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 53px;
+  text-decoration: underline; }
+  .brand__box a:hover {
+    line-height: 53px;
+    font-weight: 100; }
+
+.brand__allbrends {
+  text-align: right;
+  padding: 14px 5px 0 0; }
+  .brand__allbrends a {
+    color: #0944b4;
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 30px;
+    text-decoration: underline;
+    background-image: url("../img/selectimg.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 34px; }
+    .brand__allbrends a:hover {
+      line-height: 30px;
+      font-weight: 100; }
+
+.sidebar-buttons a {
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23px;
+  background-color: #1056b5;
+  display: block;
+  padding: 20px 50px 20px 70px; }
+  .sidebar-buttons a:hover {
+    background-color: #ffc000;
+    line-height: 23px;
+    font-weight: 400;
+    color: white; }
 
 /*# sourceMappingURL=style-df.css.map */

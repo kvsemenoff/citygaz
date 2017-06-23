@@ -1,11 +1,11 @@
-a {
+.a {
   font-family: 'Roboto', sans-serif;
   color: #1e73c6;
   font-size: 15px;
   font-weight: 100;
   line-height: 26px;
   text-decoration: underline; }
-  a:hover {
+  .a:hover {
     color: #fca703;
     font-weight: 400;
     line-height: 26px; }

@@ -93,7 +93,7 @@
 	<div class="sidebar__filterrange">
 		<div class="sidebar__priceinput">
 			<span>по цене, руб.:</span>
-			<input type="text" value="100" disabled="disabled" class="sidebarchangeprice">
+			<input type="text" value="250" disabled="disabled" class="sidebarchangeprice">
 			<b>-</b>
 			<input type="text" value="3500" disabled="disabled" class="sidebartotalprice">
 		</div>

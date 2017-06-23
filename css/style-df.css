@@ -1,8 +1,12 @@
+html, body {
+  background-color: #f5f6f8; }
+
 .sidebar-main {
   max-width: 277px;
   width: 100%;
   display: inline-block;
-  float: left; }
+  float: left;
+  font-family: 'Roboto', sans-serif; }
   .sidebar-main .burg-title {
     padding: 39px 0 40px 27px; }
 
@@ -52,11 +56,50 @@
   line-height: 23px;
   background-color: #1056b5;
   display: block;
-  padding: 20px 50px 20px 70px; }
+  padding: 22px 12px 25px 70px;
+  margin-bottom: 10px; }
   .sidebar-buttons a:hover {
     background-color: #ffc000;
     line-height: 23px;
     font-weight: 400;
     color: white; }
+.sidebar-buttons a:nth-child(1) {
+  background-image: url("../img/gas.png");
+  background-repeat: no-repeat;
+  background-position: 25px 50%; }
+.sidebar-buttons a:nth-child(2) {
+  background-image: url("../img/sidebarbutton.png");
+  background-repeat: no-repeat;
+  background-position: 25px 50%; }
+
+.sidebar-ourjob__box {
+  position: relative;
+  background-color: #1056b5;
+  padding: 58px 24px 25px 24px;
+  border-bottom: 1px dashed #dcebff; }
+  .sidebar-ourjob__box:last-child {
+    border-bottom: 0; }
+  .sidebar-ourjob__box .sidebar-ourjob__absolute {
+    opacity: 0.30;
+    color: #f5f6f8;
+    font-size: 158px;
+    font-weight: 700;
+    line-height: 120px;
+    position: absolute;
+    top: 20px;
+    left: 19px;
+    display: inline-block; }
+  .sidebar-ourjob__box h4 {
+    color: #f5f6f8;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 23px;
+    margin-bottom: 25px; }
+  .sidebar-ourjob__box p {
+    color: #dcebff;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 23px; }
 
 /*# sourceMappingURL=style-df.css.map */

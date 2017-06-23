@@ -93,7 +93,7 @@
 	<div class="sidebar__filterrange">
 		<div class="sidebar__priceinput">
 			<span>по цене, руб.:</span>
-			<input type="text" value="100" disabled="disabled" class="sidebarchangeprice">
+			<input type="text" value="250" disabled="disabled" class="sidebarchangeprice">
 			<b>-</b>
 			<input type="text" value="3500" disabled="disabled" class="sidebartotalprice">
 		</div>
@@ -103,8 +103,97 @@
 		</div>
 		<a href="#" class="applyfilter">применить фильтр</a>
 	</div>
-
-
+	
+	<div class="filterblock">
+		<label class="checkbox">
+			<input class="checkbox__hidden" type="checkbox" name="checkbox-test" >
+			<span class="checkbox__custom"></span>
+			<span class="checkbox__label">Акции</span>
+		</label>
+		<label class="checkbox">
+			<input class="checkbox__hidden" type="checkbox" name="checkbox-test">
+			<span class="checkbox__custom"></span>
+			<span class="checkbox__label">Хиты продаж</span>
+		</label>
+		<label class="checkbox">
+			<input class="checkbox__hidden" type="checkbox" name="checkbox-test">
+			<span class="checkbox__custom"></span>
+			<span class="checkbox__label">В наличии</span>
+		</label>
+	</div>
+	<div class="filterbrends">
+		<span class="filtertopcaption">по  производителю:</span>
+		<label class="checkbox">
+			<input class="checkbox__hidden" type="checkbox" name="checkbox-test" >
+			<span class="checkbox__custom"></span>
+			<span class="checkbox__label">Ariston</span>
+		</label>
+		<label class="checkbox">
+			<input class="checkbox__hidden" type="checkbox" name="checkbox-test" checked="checked">
+			<span class="checkbox__custom"></span>
+			<span class="checkbox__label">Baxi</span>
+		</label>
+		<label class="checkbox">
+			<input class="checkbox__hidden" type="checkbox" name="checkbox-test">
+			<span class="checkbox__custom"></span>
+			<span class="checkbox__label">Bosch-Junkers</span>
+		</label>
+		<label class="checkbox">
+			<input class="checkbox__hidden" type="checkbox" name="checkbox-test" >
+			<span class="checkbox__custom"></span>
+			<span class="checkbox__label">Buderus</span>
+		</label>
+		<label class="checkbox">
+			<input class="checkbox__hidden" type="checkbox" name="checkbox-test">
+			<span class="checkbox__custom"></span>
+			<span class="checkbox__label">Attack</span>
+		</label>
+		<label class="checkbox">
+			<input class="checkbox__hidden" type="checkbox" name="checkbox-test">
+			<span class="checkbox__custom"></span>
+			<span class="checkbox__label">Electrolux</span>
+		</label>
+		<label class="checkbox">
+			<input class="checkbox__hidden" type="checkbox" name="checkbox-test" >
+			<span class="checkbox__custom"></span>
+			<span class="checkbox__label">Elsotherm</span>
+		</label>
+		<label class="checkbox">
+			<input class="checkbox__hidden" type="checkbox" name="checkbox-test">
+			<span class="checkbox__custom"></span>
+			<span class="checkbox__label">Ferroli</span>
+		</label>
+		<label class="checkbox">
+			<input class="checkbox__hidden" type="checkbox" name="checkbox-test">
+			<span class="checkbox__custom"></span>
+			<span class="checkbox__label">Fondital</span>
+		</label>
+		<label class="checkbox">
+			<input class="checkbox__hidden" type="checkbox" name="checkbox-test" >
+			<span class="checkbox__custom"></span>
+			<span class="checkbox__label">Gazlux</span>
+		</label>
+		<label class="checkbox">
+			<input class="checkbox__hidden" type="checkbox" name="checkbox-test">
+			<span class="checkbox__custom"></span>
+			<span class="checkbox__label">Immergas</span>
+		</label>
+		<label class="checkbox">
+			<input class="checkbox__hidden" type="checkbox" name="checkbox-test">
+			<span class="checkbox__custom"></span>
+			<span class="checkbox__label">Bosch-Junkers</span>
+		</label>
+		<label class="checkbox">
+			<input class="checkbox__hidden" type="checkbox" name="checkbox-test">
+			<span class="checkbox__custom"></span>
+			<span class="checkbox__label">Buderus</span>
+		</label>
+		<label class="checkbox">
+			<input class="checkbox__hidden" type="checkbox" name="checkbox-test">
+			<span class="checkbox__custom"></span>
+			<span class="checkbox__label">Attack</span>
+		</label>		
+	</div>
 	
 	<div class="sidebar-buttons">
 		<a href="#">Продажа газового оборудования </a>

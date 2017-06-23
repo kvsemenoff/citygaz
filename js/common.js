@@ -24,20 +24,20 @@ $(document).ready(function(){
 	});
 
 
-	$('.burger a').on("click", function(){
-		$('.main-menu').slideToggle();
-	});
+	// $('.burger a').on("click", function(){
+	// 	$('.main-menu').slideToggle();
+	// });
 
-	// Бургер (legatkani)
-	$(".burger").click(function(){
-		$(".main-menu__style").slideDown(500);
-		$(".fa-bars").css("display", "none");
-	});
-	$(".main-menu__closer").click(function(){
-		$(".main-menu__style").slideUp(500);
-		$(".fa-bars").css("display", "inline-block");
-	});
-	// END бургер (legatkani)
+	// // Бургер (legatkani)
+	// $(".burger").click(function(){
+	// 	$(".main-menu__style").slideDown(500);
+	// 	$(".fa-bars").css("display", "none");
+	// });
+	// $(".main-menu__closer").click(function(){
+	// 	$(".main-menu__style").slideUp(500);
+	// 	$(".fa-bars").css("display", "inline-block");
+	// });
+	// // END бургер (legatkani)
 
 	var owlcart = $(".slider-owl-carousel");
 	owlcart.owlCarousel({

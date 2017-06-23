@@ -97,6 +97,7 @@
 			<b>-</b>
 			<input type="text" value="3500" disabled="disabled" class="sidebartotalprice">
 		</div>
+		<div class="clearfix"></div>
 		<div class="sidebar__range">
 			<input
 			type="range"
@@ -116,7 +117,3 @@
 		<a href="#">Жалобы и предложения клиентов</a>
 	</div>
 </div>
-
-<script>
-
-</script>

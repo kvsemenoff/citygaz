@@ -78,11 +78,81 @@
 }
 
 .header-top{
+	font-family: 'Roboto', sans-serif;
 	.header_box{
 		background:#fff;
-		height: 60px;
-		.header_top-inner{
-			
+		.header-top_inner{
+		
+			padding: 50px 0;
+			background:#fff;
+			color: #435266;
+			font-family: 'Roboto', sans-serif;
+			font-size: 14px;
+			font-weight: 100;
+			.one{
+				img{
+					float:left;
+					padding-left: 20px;
+					margin-top: -27px;
+				}
+				p{
+					float:left;
+					line-height: 17px;
+					padding-left: 14px;
+				}
+			}
+			.two{
+				float: left;
+				p{
+					padding-left: 20px;
+					background: url("../img/marker.png")no-repeat top 7px left;
+					span{
+						font-size: 15px;
+						font-weight: 400;
+					}
+				}
+			}
+			.three{
+				float: left;
+				p{
+					padding-left: 25px;
+					background: url("../img/phone.png")no-repeat top 7px left;
+					font-size: 13px;
+					span{
+						font-size: 16px;
+					}
+					.first{
+						font-weight: 100;
+					}
+					.second{
+						font-weight: 400;
+					}
+				}
+			}
+			.four{
+				float: left;
+			}
+			.five{
+				float:left;
+				.cart{
+					.cart-count-box{
+						background:url("../img/korzina.png")no-repeat top center;
+						float: left;
+						padding: 10px 16px;
+						.count{
+							color: white;
+							font-size: 14px;
+							font-weight: 700;
+							line-height: 17px;
+							background:url("../img/el.png")no-repeat top 7px center;
+							padding: 10px;
+						}
+					}
+					.cart-text{
+						float: left;
+					}
+				}
+			}
 		}
 
 		.burger{
@@ -103,6 +173,7 @@
 			}
 		}
 		.main-menu{
+			background: #fff !important;
 			z-index: 99;
 			margin-top: 0px;
 			border-top:1px solid #eef1f5;
@@ -204,7 +275,6 @@
 				}
 			}
 		}
-
 	}
 }
 .footer-bottom{

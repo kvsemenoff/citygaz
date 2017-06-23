@@ -71,7 +71,20 @@ $('.burger a').on("click", function(){
 	});
 
 	
-
+	// sidebar accordeon on mobile
+	
+	$(".sidebar-catalog>li>span").on('click', function(e){
+		if(window.matchMedia('(max-width : 770px)').matches){
+			e.preventDefault();		
+			var answerId = $(this).next(".sidebar-catalog__showmenu");
+			if( !$(this).hasClass("sidebar-catalog__active")){
+				$(".sidebar-catalog__showmenu").slideUp();
+				$(".sidebar-catalog>li>span").removeClass("sidebar-catalog__active");
+			}
+			$(this).toggleClass("sidebar-catalog__active"); 
+			$(answerId).slideToggle();
+		}
+	});
 	
 
 });

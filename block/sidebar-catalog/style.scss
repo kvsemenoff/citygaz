@@ -1,0 +1,107 @@
+body{
+	background-color: #f5f6f8;
+}
+.sidebar-catalog{
+	font-family: 'Roboto', sans-serif;
+	max-width: 277px;
+	width: 100%;
+	position: relative;	
+	padding: 12px 7px 0 7px;
+	background-color: #fff;		
+	>li{
+		border-bottom: 1px solid #ededed;
+		span{
+			font-size: 15px;
+			text-decoration: underline;
+			color: #1e72c7;
+			font-weight: 100;
+			line-height: 22px;
+			display: block;
+			padding: 14px 0px 14px 37px;
+			position: relative;
+			cursor: pointer;			
+			&:after{
+				content: "\f054";
+				position: absolute;
+				top: 17px;
+				left: 15px;
+				width: 10px;
+				height: 14px;
+				display: inline-block;
+				color: #1056b5;
+				font-family: FontAwesome;
+				font-size: 11px;
+				font-weight: 400;
+				line-height: 15px;
+				transition: 0.4s;
+			}
+		}
+		&:hover{ 
+			.sidebar-catalog__showmenu{
+				@media only screen and (min-width : 770px) {
+					visibility: visible;
+					opacity: 1;
+					height: auto;
+					overflow: hidden;
+					transition:0.4s;
+					transition-delay: 0.15s;
+				}				
+			}
+			span{
+				background-color: #1e73c6;
+				color: white;
+				font-weight: 400;
+				&:after{color: white;}
+			}
+		}
+	}
+}
+
+.sidebar-catalog .sidebar-catalog__active{
+	@media only screen and (max-width : 770px) {
+		background-color: #1e73c6;
+		color: white;
+		font-weight: 400;
+		&:after{
+			color: white;
+			transform:rotate(90deg);
+		}	
+	}	
+}
+
+
+.sidebar-catalog__showmenu{		
+	display: inline-block;
+	display: none;	
+	@media only screen and (min-width : 770px) {
+		display: block;
+		position: absolute;
+		top: 0px;
+		left: 270px;
+		width: 300px;
+		padding-left: 20px;
+		visibility: hidden;
+		opacity: 0;
+		height: 0;
+		overflow: hidden;
+		transition:0.4s;
+		transition-delay: 0.5s;
+	}
+	@media only screen and (min-width : 992px) {
+		width: 560px;
+		max-height: 250px;
+	}
+	.padding{
+		padding: 19px 19px;
+		background-color: #fff;
+	}
+	.catalog-list{		
+		float: left;
+		display: inline-block;
+		vertical-align: top;	
+	}
+	.catalog-list:first-child{
+		max-width: 270px;
+		width: 100%;
+	}
+}

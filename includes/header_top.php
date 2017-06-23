@@ -5,7 +5,6 @@
 				<div class="logo-box">
 					<a href="/">
 						<img src="img/header.png" alt="CityGaz">	
-						
 					</a>
 					<div class="slogan">городская <br> газовая служба</div>
 				</div>

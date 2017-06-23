@@ -1,3 +1,4 @@
+
 .footer-top{
 	background:#fff;
 	padding: 40px 0;
@@ -77,106 +78,39 @@
 	}
 }
 
-.header-top{
-	background:#fff;
-	width: 100%;
-	
-	.header_box{
-		background:#fff;
-		.header-top_inner{
-		
-			padding: 50px 0;
-			background:#fff;
-			color: #435266;
-			font-family: 'Roboto', sans-serif;
+.cart{
+	position: relative;
+	width: 110px;
+	margin: 0 auto;
+	@media only screen and (min-width : 992px) {
+		width: auto;
+	}
+	.cart-count-box{
+		background:url("../img/korzina.png")no-repeat top center;
+		float: left;
+		padding: 10px 16px;
+		margin-top: 15px;
+		.count{
+			position: absolute;
+			top: -6px;
+			left: 14px;
+			color: white;
 			font-size: 14px;
-			font-weight: 100;
-			.one{
-				img{
-					float:left;
-					padding-left: 20px;
-					margin-top: -27px;
-				}
-				p{
-					float:left;
-					line-height: 17px;
-					padding-left: 14px;
-				}
-			}
-			.two{
-				float: left;
-				p{
-					padding-left: 20px;
-					background: url("../img/marker.png")no-repeat top 7px left;
-					span{
-						font-size: 15px;
-						font-weight: 400;
-					}
-				}
-			}
-			.three{
-				float: left;
-				p{
-					padding-left: 25px;
-					background: url("../img/phone.png")no-repeat top 7px left;
-					font-size: 13px;
-					span{
-						font-size: 16px;
-					}
-					.first{
-						font-weight: 100;
-					}
-					.second{
-						font-weight: 400;
-					}
-				}
-			}
-			.four{
-				float: left;
-			}
-			.five{
-				float:left;
-				.cart{
-					.cart-count-box{
-						background:url("../img/korzina.png")no-repeat top center;
-						float: left;
-						padding: 10px 16px;
-						.count{
-							color: white;
-							font-size: 14px;
-							font-weight: 700;
-							line-height: 17px;
-							background:url("../img/el.png")no-repeat top 7px center;
-							padding: 10px;
-						}
-					}
-					.cart-text{
-						float: left;
-					}
-				}
-			}
+			font-weight: 700;
+			line-height: 17px;
+			background:url("../img/el.png")no-repeat top 8px center;
+			padding: 10px;
 		}
-
-		.burger{
-			background: url("../img/burger.png")no-repeat top 17px left;
-			padding: 10px 0;
-			@media only screen and (min-width : 992px) {
-				display: none;
-			}
-			a{
-				padding-left: 25px;
-				text-decoration: none;
-				color:#000 !important;
-				font-weight: 400;
-				font-size: 16px;
-				&:hover{
-					color:#000;
-				}
-			}
-		}
-
+	}
+	.cart-text{
+		padding-left: 20px;
+		float: left;
 	}
 }
+
+
+
+
 .main-menu{
 	background: #fff !important;
 	z-index: 99;

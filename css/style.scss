@@ -118,6 +118,8 @@ a.watch-more{
 
 }
 .contact-box{
+	margin: 0 auto;
+    width: 258px;
 	@media only screen and (min-width : 992px) {
 		word-spacing: nowrap;
 		width: 450px;
@@ -125,6 +127,10 @@ a.watch-more{
 		margin-top: 15px;
 
 	}
+	@media only screen and (min-width : 520px) {
+		width: auto;
+	}
+
 	@media only screen and (max-width : 520px) {
 		display: block;
 		margin-top: 25px;

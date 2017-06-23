@@ -13,6 +13,7 @@
 			</div>
 		</div>
 		<div class="footer">
+			<?php require_once('includes/footer_top.php'); ?>
 			<?php require_once('includes/footer.php'); ?>
 		</div>
 	</div>

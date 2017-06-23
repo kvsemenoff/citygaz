@@ -275,5 +275,103 @@ html, body {
   margin-bottom: 19px; }
 
 /*end*/
+.slidermain {
+  max-width: 580px;
+  font-family: 'Roboto', sans-serif;
+  position: relative; }
+
+.slidermain__box {
+  position: relative; }
+
+.slidermain__img img {
+  width: 100%;
+  height: auto; }
+
+.slidermain__txtbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.slidermain__txttop {
+  padding: 53px 33px 15px 33px; }
+  .slidermain__txttop span {
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 40px;
+    display: inline-block; }
+    .slidermain__txttop span b {
+      color: #ffc000; }
+  .slidermain__txttop h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+    margin-bottom: 52px; }
+  .slidermain__txttop a {
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+    background-color: #ffc000;
+    display: inline-block;
+    padding: 0 27px; }
+    .slidermain__txttop a:hover {
+      background-color: #1e73c6; }
+
+.slidermain__txtbottom {
+  width: 100%;
+  display: block;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 44px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(6, 69, 155, 0.6); }
+
+.slidermain__counter {
+  position: absolute;
+  bottom: 55px;
+  right: 75px;
+  z-index: 99; }
+  .slidermain__counter span, .slidermain__counter i {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 15px;
+    display: inline-block; }
+
+.slidermain .prev-left, .next-right {
+  color: white;
+  font-family: "FontAwesome";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 15px;
+  width: 15px;
+  height: 21px;
+  position: absolute;
+  bottom: 55px; }
+  .slidermain .prev-left:after, .next-right:after {
+    content: "\f054";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.slidermain .prev-left {
+  right: 165px; }
+  .slidermain .prev-left:after {
+    content: "\f053"; }
+
+.slidermain .next-right {
+  right: 27px; }
 
 /*# sourceMappingURL=style-df.css.map */

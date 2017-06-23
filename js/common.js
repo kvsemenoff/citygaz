@@ -39,9 +39,11 @@ $(document).ready(function(){
 	// });
 	// // END бургер (legatkani)
 
+
+	// slider &  counter
 	var owlcart = $(".slider-owl-carousel");
 	owlcart.owlCarousel({
-		loop:true,
+		loop:false,
 		nav:true,
 		autoplay:false,
 		smartSpeed:1000,
@@ -65,6 +67,35 @@ $(document).ready(function(){
 			}
 		}
 	});
+	$('.slider-owl-carousel').each(function(index) {
+		var thisitem = $(this).find('.item');
+		$(this).next('.slidermain__counter')
+		.find('.slider__allcount').html($(thisitem).length);			
+	});		
+	$('.slider-owl-carousel .next-right').on('click', function() {
+		var thisel = $(this).parents('.slidermain').find('.slider__changecount');
+		var numberActive = thisel.text();	
+		numberActive = parseFloat(numberActive);
+		var numberAll = $(this).parents('.slidermain').find('.slider__allcount').text();
+		numberAll = parseFloat(numberAll);
+		if (numberActive < numberAll) {
+			numberActive++;
+			$(thisel).text(numberActive);
+		}	
+	});
+	$('.slider-owl-carousel .prev-left').on('click', function() {		
+		var thisel = $(this).parents('.slidermain').find('.slider__changecount');
+		var numberActive = thisel.text();	
+		numberActive = parseFloat(numberActive);
+		var numberAll = $(this).parents('.slidermain').find('.slider__allcount').text();
+		numberAll = parseFloat(numberAll);
+		if (numberActive > 1) {
+			numberActive--;
+			$(thisel).text(numberActive);
+		}	
+	});
+//////////////////////////////
+
 
 	$('.js-phone').mask("+7(999)999-99-99?");
 

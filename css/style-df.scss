@@ -7,10 +7,11 @@ html,body{
 .sidebar-main{
 	width: 100%;
 	display: inline-block;
-	float: left;
+	//float: left;
 	font-family: 'Roboto', sans-serif;
 	.burg-title{
-		padding: 39px 0 40px 27px;
+		margin-bottom: 27px;
+		margin-top: 27px;
 	}
 	.sidebar-catalog{
 		max-width: none;

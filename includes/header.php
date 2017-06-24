@@ -26,6 +26,7 @@
 	<link rel="stylesheet" href="block/button/style.css">
 	<link rel="stylesheet" href="block/button-question/style.css">
 	<link rel="stylesheet" href="block/catalog-list/style.css">
+	<link rel="stylesheet" href="block/catalog/style.css">
 	<link rel="stylesheet" href="block/inputsubmit/style.css">
 	<link rel="stylesheet" href="block/inputtext/style.css">
 	<link rel="stylesheet" href="block/item-row/style.css">

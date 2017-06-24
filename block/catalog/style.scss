@@ -1,25 +1,50 @@
 .catalog{
-	font-family:'Roboto';
+	width: 100%;
 	position:relative;
-	min-height: 555px;
+	margin-bottom: 138px;
+	clear: both;
+	//min-height: 555px;
+}
+.catalog .cat-col{
+	width: 100%;
+	margin-right: 4px;
+	float: left;
+	&::last-child{
+		margin-right: 0px;
+	}
+	@media only screen and (min-width : 410px) {
+		width:calc(50% - 4px);	
+	}
+	@media only screen and (min-width : 1006px) {
+		width:calc(33.333% - 4px);	
+	}
+
+}
+.catalog .cat-col:last-child{
+	margin-right: 0px;
+}
+.catalog .cat-item{
+	width: 100%;
+	padding:25px 30px;
+	margin: 0 auto;
+	background: #fff;
+	margin-bottom: 4px;
 }
 
+// .catalog div{
+// 	float:left;
+// 	padding:25px 30px;
+// 	background-color:white;
+// 	margin:2px 2px;
+// 	min-width:246px !important;
+// 	position:absolute;
+// 	width:33%;
+// }
 .catalog div:nth-child(4) .catalog-list{
-	height:152px;
+	//height:152px;
 	overflow:hidden;
 }
 
-.catalog div:nth-child(2){
-	left:33.5%;
-}
-
-.catalog div:nth-child(3){
-	left:67%;
-}
-
-.catalog div:nth-child(4){
-	left:67%;
-}
 
 .catalog_title{
 	font-size:16px;
@@ -47,15 +72,7 @@
 	background-image:url(../../img/gas-blue.png);
 }
 
-.catalog div{
-	float:left;
-	padding:25px 30px;
-	background-color:white;
-	margin:2px 2px;
-	min-width:246px !important;
-	position:absolute;
-	width:33%;
-}
+
 
 .catalog .catalog-list{
 	margin-bottom:30px;

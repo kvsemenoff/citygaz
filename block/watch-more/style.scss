@@ -1,4 +1,14 @@
-.watch-more{
-	
+a.watch-more{
+	border:1px solid #d8d9db;
+	color: #52637a;
+	text-decoration:none;
+	padding:6px 13px;
+	border-radius:40px;
+	font-size: 13px;
+	transition:0.4s;
+	&:hover{
+		background: #e6e8eb;
+		color: #2f3e56;
+		transition:0.4s;
+	}
 }
-

@@ -16,7 +16,82 @@
 					<div class="col-md-9 paddingnone">
 						<?php require_once('includes/slider-main.php'); ?>
 						<div class="clearfix"></div>
-
+						<div class='catalog'>
+							<div class="cat-col">
+								<div class="cat-item">
+									<p class='catalog_title'>Запчасти к плитам</p>
+									<ul class="catalog-list">
+										<li><a href="#">Программаторы</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Программаторы</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Программаторы</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+									</ul> 
+									<a href='#' class='watch-more'>Смотреть ещё</a>
+								</div>
+							</div>
+							<div class="cat-col">
+								<div class="cat-item">
+									<p class='catalog_title'>Запчасти к котлам</p>
+									<ul class="catalog-list">
+										<li><a href="#">Программаторы</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+									</ul> 
+									<a href='#' class='watch-more'>Смотреть ещё</a>
+								</div>
+								
+							</div>
+							<div class="cat-col">
+								<div class="cat-item">
+									<p class='catalog_title'>Запчасти к электрооборудованию</p>
+									<ul class="catalog-list">
+										<li><a href="#">Программаторы</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+									</ul> 
+								</div>
+								<div class="cat-item">
+									<p class='catalog_title'>Запчасти к водонагревателям</p>
+									<ul class="catalog-list">
+										<li><a href="#">Программаторы</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+									</ul> 
+									<a href='#' class='watch-more'>Смотреть ещё</a>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
 						<!-- Акция. Начало -->
 
 						<div class="item-row">
@@ -77,6 +152,11 @@
 						<!-- Акция. Конец -->
 
 						<!-- Хиты продаж. Начало -->
+
+						<div class="item-row">
+							<div class="burg-title">Хит продаж</div>
+							<a href="#" class="watch-more">Смотреть ещё</a>
+						</div>
 						<div class="tovar-row">
 							<div class="col">
 								<div class="tovar-item">

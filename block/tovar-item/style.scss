@@ -143,9 +143,10 @@
 	border:2px solid #e8bd40;
 }
 
-@media screen and(max-width: 600px){
+@media all and (max-width : 600px) {
 	.tovar-item a,p{font-size:10px;}
 	.tovar-item div{height:90px;}.
 	.old-price{width:80%}
 	.tovar-item p{margin:20px 0 0 0;}
+	body{background-color:red;}
 }

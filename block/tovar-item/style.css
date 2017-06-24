@@ -72,7 +72,8 @@
   margin: auto;
   display: block;
   max-width: 100%;
-  margin-bottom: 15px; }
+  margin-bottom: 15px; 
+  max-height::100%;}
 
 .tovar-item a {
   text-decoration: underline;
@@ -113,10 +114,11 @@
 .orange span {
   border: 2px solid #e8bd40; }
 
-@media screen and(max-width: 600px){
+@media all and (max-width:600px){
   .tovar-item a,p{font-size:10px;}
   .tovar-item div{height:90px;}.
   .old-price{width:80%}
   .tovar-item p{margin:20px 0 0 0;}
+  .tovar-item .price span{padding:5px 10px;}
 }
 /*# sourceMappingURL=style.css.map */

@@ -67,7 +67,7 @@
 
 			</div> 
 		</li>
-		<li><span>Запчасти к <br>электрооборудованию.</span>
+		<li><span>Запчасти к электрооборудованию.</span>
 			<div class="sidebar-catalog__showmenu">
 				<div class="padding">
 					<ul class="catalog-list catalog-list__big">
@@ -88,7 +88,6 @@
 
 			</div> 
 		</li>
-
 	</ul>
 
 	<div class="burg-title">Бренды</div>	

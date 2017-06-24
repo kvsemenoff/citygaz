@@ -1,7 +1,6 @@
 .tovar-item{
 	background-color:white;
 	padding: 0px 20px 20px 20px;
-	//margin:10px 2px;
 	width: 100%;
 	max-width: 300px;
 	margin: 0 auto;
@@ -82,7 +81,6 @@
 }
 
 .tovar-item div{
-	//padding-bottom: 10px;
 	height:194px;
 	position:relative;
 	width:100%;
@@ -92,10 +90,8 @@
 }
 
 .tovar-item img{
-	//margin:auto;
 	display:block;
 	max-width:100%;
-	
 }
 
 .tovar-item a{
@@ -112,16 +108,12 @@
 	color: #0048b7;
 }
 
-
-
 .tovar-item a:nth-child(2){
 	text-align:left;
 }
 
 .tovar-item p{
 	text-align:center;
-	//margin:40px 0 20px 0;
-	//padding:10px 0;
 	color:#e8bd40;
 }
 
@@ -140,10 +132,6 @@
 	margin-bottom: 10px;
 	color: #4c5b6f;
 	font-size: 15px;
-	//position:absolute;
-	//margin:auto !important;
-	//text-align:center;
-	//width:93%;
 }
 .old-price:before{
 	position: absolute;
@@ -172,9 +160,3 @@
 	border:2px solid #ffc000;
 }
 
-@media all and (max-width : 600px) {
-	// .tovar-item a,p{font-size:10px;}
-	// .tovar-item div{height:90px;}
-	// .old-price{width:80%}
-	// .tovar-item p{margin:20px 0 0 0;}
-}

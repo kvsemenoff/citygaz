@@ -122,6 +122,6 @@
   .tovar-item p{margin:20px 0 0 0;}
   .tovar-item .price span{padding:5px 10px;}
   .article, .in_stock{font-size:8px;}
-  .hit, .actia{font-size:10px;width:20px;}
+  .hit, .actia{font-size:10px;min-width:30px;}
 }
 /*# sourceMappingURL=style.css.map */

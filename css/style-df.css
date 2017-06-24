@@ -1,6 +1,9 @@
 html, body {
   background-color: #f5f6f8; }
 
+.clear {
+  clear: both; }
+
 .sidebar-main {
   width: 100%;
   display: inline-block;
@@ -506,5 +509,160 @@ html, body {
   .paddingnone {
     padding-right: 0;
     padding-left: 0; } }
+
+.product {
+  font-family: 'Roboto', sans-serif; }
+
+.product__topbox {
+  margin: 17px 0; }
+  .product__topbox .brearcrumbs {
+    max-width: none;
+    float: right;
+    width: 82%; }
+
+.product__catalog {
+  display: inline-block;
+  float: left;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 41px;
+  background-image: url("../img/burgerwhtie.png");
+  background-repeat: no-repeat;
+  background-position: left 15px center;
+  padding: 0 27px 0 45px;
+  background-color: #1e73c6; }
+
+.product__leftbox {
+  max-width: 735px;
+  width: 100%;
+  float: left;
+  padding: 20px 16px;
+  position: relative;
+  background-color: #fff;
+  outline: 1px solid red; }
+  .product__leftbox > span {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 29px;
+    text-transform: uppercase;
+    background-color: #ffc000;
+    display: inline-block;
+    padding: 0 9px; }
+
+.product__imgbox {
+  display: inline-block;
+  max-width: 535px;
+  width: 100%; }
+  .product__imgbox img {
+    max-width: 100%;
+    height: auto; }
+
+.product__galerybox {
+  width: 107px;
+  float: right;
+  vertical-align: top; }
+  .product__galerybox a {
+    width: 100%;
+    height: 107px;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #dfe3e7;
+    margin-bottom: 14px; }
+    .product__galerybox a img {
+      width: 100%;
+      height: 100%; }
+
+.product__rightbox {
+  max-width: 412px;
+  width: 100%;
+  float: right;
+  padding: 25px 23px;
+  background-color: #fff;
+  outline: 1px solid green; }
+  .product__rightbox h2 {
+    color: #435266;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px; }
+
+.product__articul {
+  margin-bottom: 22px; }
+  .product__articul span:first-child {
+    color: #20b603;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 17px;
+    display: inline-block;
+    padding: 0 22px 0 18px;
+    background: url("../img/galkagreen.png") no-repeat left center; }
+  .product__articul span:last-child {
+    color: #435266;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 100; }
+    .product__articul span:last-child b {
+      font-weight: 400; }
+
+.product__brend {
+  color: #435266;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 100;
+  display: block; }
+  .product__brend b {
+    font-weight: 400; }
+
+.product__characteristic {
+  color: #5d656f;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 17px;
+  display: block; }
+
+.product__charbox li {
+  color: #435266;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 27px;
+  background: url("../img/ulliimg.png") no-repeat left center;
+  padding-left: 24px; }
+
+.product__txtbox {
+  color: #435266;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 21px; }
+
+.product__pricebox .product__oldprice {
+  color: #4c5b6f;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  display: block;
+  width: 135px;
+  text-align: center; }
+.product__pricebox .product__newprice {
+  color: #4c5b6f;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 37px;
+  border-radius: 20px;
+  display: inline-block;
+  border: 2px solid #ffc000;
+  padding: 0 20px 0 30px; }
+.product__pricebox a {
+  color: white;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 40px;
+  background-color: #ffc000;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 0 50px; }
 
 /*# sourceMappingURL=style-df.css.map */

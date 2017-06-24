@@ -99,6 +99,7 @@ $(document).ready(function(){
 
 $('.js-phone').mask("+7(999)999-99-99?");
 
+// accorderon 3 ul
 
 $(".tech-doc>li>span").on('click', function(e){
 	e.preventDefault();		
@@ -120,12 +121,11 @@ $(".tech-doc__inside>li>span").on('click', function(e){
 	$(this).toggleClass("tech-doc__active_inside"); 
 	$(answerId).slideToggle();
 });
-
+/////////////////////////
 
 	// sidebar accordeon on mobile
 	
-	$(".sidebar-catalog>li>span").on('click', function(e){
-		
+	$(".sidebar-catalog>li>span").on('click', function(e){		
 		if(window.matchMedia('(max-width : 770px)').matches){
 			e.preventDefault();		
 			var answerId = $(this).next(".sidebar-catalog__showmenu");
@@ -136,13 +136,24 @@ $(".tech-doc__inside>li>span").on('click', function(e){
 			$(this).toggleClass("sidebar-catalog__active"); 
 			$(answerId).slideToggle();
 		}
-	});
-	
+	});	
 	$('.sidebar-catalog').hover(function () {
 		if(window.matchMedia('(min-width : 770px)').matches){
 			var x = $('.sidebar-catalog').outerWidth();				
 			$('.sidebar-catalog__showmenu').css('left', x-7);
 		}
 	});	
+	/////////////////
 
+	// galery on product page
+	$('.product__galerybox a').on('click',function(evt) { 
+		evt.preventDefault();     		
+		var imgPath = $(this).attr('href');         
+		var oldImage = $('.product__imgbox img');              
+		var newImage = $('<img src="' + imgPath +'">' );
+		$('.product__galerybox a').removeClass('product__galerybox-active');
+		$(this).addClass('product__galerybox-active');
+		$(this).parents('.product__leftbox').find('.product__imgbox').html(newImage);      
+	});
+	////////////
 });

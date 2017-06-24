@@ -83,14 +83,3 @@
 	</div>
 </body>
 </html>
-<script>
-	$('.product__galerybox a').on('click',function(evt) { 
-		evt.preventDefault();     		
-		var imgPath = $(this).attr('href');         
-		var oldImage = $('.product__imgbox img');              
-		var newImage = $('<img src="' + imgPath +'">' );
-		$('.product__galerybox a').removeClass('product__galerybox-active');
-		$(this).addClass('product__galerybox-active');
-		$(this).parents('.product__leftbox').find('.product__imgbox').html(newImage);      
-	});
-</script>

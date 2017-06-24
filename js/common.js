@@ -140,7 +140,7 @@ $(".tech-doc__inside>li>span").on('click', function(e){
 	
 	$('.sidebar-catalog').hover(function () {
 		if(window.matchMedia('(min-width : 770px)').matches){
-			var x = $('.sidebar-main').outerWidth();				
+			var x = $('.sidebar-catalog').outerWidth();				
 			$('.sidebar-catalog__showmenu').css('left', x-7);
 		}
 	});	

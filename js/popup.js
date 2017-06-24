@@ -30,7 +30,7 @@ $(document).ready(function(){
 		$('.mobile-window').hide();
 		$('body').css('overflow','scroll');
 	});
-	$('body').on("click", ".mask", function(){
+	$('body').on("click", ".mask", function(e){
 		e.preventDefault();
 	$('.mask').remove();
 		$('.modal-window').hide();

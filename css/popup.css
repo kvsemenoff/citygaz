@@ -1,3 +1,7 @@
+body{
+  overflow-x:hidden !important;
+}
+
 .mask {
   position: fixed;
   background: #000;
@@ -10,10 +14,12 @@
 
 .modal-close {
   cursor: pointer;
-  position: absolute;
+  float:right;
   display: block;
-  top: 10px;
-  right: 10px; }
+  background-image: url(../img/remove_icon.png);
+  background-repeat: no-repeat;
+  padding:10px;
+}
 
 .modal-window {
   z-index: 1000;
@@ -25,11 +31,14 @@
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  padding: 20px; }
+  padding: 50px 27px; }
   @media screen and (min-width: 800px) {
     .modal-window {
-      width: 590px;
+      width: 405px;
       height: auto; } }
+  @media screen and(max-width: 1200px){
+
+  }
 
 #thanks {
   text-align: center; }
@@ -61,4 +70,85 @@
     color: #1e73c6;
     font-size: 25px; }
 
+.modal-window h3{
+  float:left;
+  margin: 0 0 45px 0;
+  font-weight:700;
+  text-transform: uppercase;
+  font-size:17px;
+}
+
+.modal-window input[type='text']{
+  font-size:14px;
+  height:60px;
+  padding-left:20px;
+}
+
+.modal-window input{
+  margin-bottom:20px;
+}
+
+.modal-window input[type='submit']{
+  padding: 15px 10px;
+  margin-top:40px;
+  width:273px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:0;
+  display:block;
+  background-color: #1e73c6;
+  border:0;
+  color:white;
+  text-transform: uppercase;
+  font-size:17px;
+}
+
+a[href="#thanks"]{
+  display:none;
+}
+
+#bucket_popup div{
+  height:100px;
+}
+
+#bucket_popup h3{
+  float:none;
+  text-align:center;
+}
+
+#bucket_popup a{
+  text-decoration:underline;
+  font-size:13px;
+}
+
+#bucket_popup p{
+  margin-bottom:15px;
+   font-size:13px;
+}
+
+#bucket_popup  div div{
+  float:right;
+  width:50%;
+  margin-left:10px;
+}
+
+#bucket_popup  img{
+  max-height:100%;
+  float:right;
+}
+
+#bucket_popup .modal-close{
+  float:none;
+  background-image: none;
+  width:273px;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  margin-top:10px;
+  font-size:17px;
+  text-decoration: none;
+  text-align:center;
+  border:1px solid #1e73c6;
+  color:#1e73c6;
+}
 /*# sourceMappingURL=popup.css.map */

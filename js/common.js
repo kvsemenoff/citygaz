@@ -97,34 +97,35 @@ $(document).ready(function(){
 //////////////////////////////
 
 
-	$('.js-phone').mask("+7(999)999-99-99?");
+$('.js-phone').mask("+7(999)999-99-99?");
 
-	
-	$(".tech-doc>li>span").on('click', function(e){
-		e.preventDefault();		
-		var answerId = $(this).next(".tech-doc__inside");
-		if( !$(this).hasClass("tech-doc__active")){
-			$(".tech-doc__inside").slideUp();
-			$(".tech-doc>li>span").removeClass("tech-doc__active");
-		}
-		$(this).toggleClass("tech-doc__active"); 
-		$(answerId).slideToggle();
-	});
-	$(".tech-doc__inside>li>span").on('click', function(e){
-		e.preventDefault();		
-		var answerId = $(this).next(".tech-doc__inside-links");
-		if( !$(this).hasClass("tech-doc__active_inside")){
-			$(".tech-doc__inside-links").slideUp();
-			$(".tech-doc__inside>li>span").removeClass("tech-doc__active_inside");
-		}
-		$(this).toggleClass("tech-doc__active_inside"); 
-		$(answerId).slideToggle();
-	});
 
-	
+$(".tech-doc>li>span").on('click', function(e){
+	e.preventDefault();		
+	var answerId = $(this).next(".tech-doc__inside");
+	if( !$(this).hasClass("tech-doc__active")){
+		$(".tech-doc__inside").slideUp();
+		$(".tech-doc>li>span").removeClass("tech-doc__active");
+	}
+	$(this).toggleClass("tech-doc__active"); 
+	$(answerId).slideToggle();
+});
+$(".tech-doc__inside>li>span").on('click', function(e){
+	e.preventDefault();		
+	var answerId = $(this).next(".tech-doc__inside-links");
+	if( !$(this).hasClass("tech-doc__active_inside")){
+		$(".tech-doc__inside-links").slideUp();
+		$(".tech-doc__inside>li>span").removeClass("tech-doc__active_inside");
+	}
+	$(this).toggleClass("tech-doc__active_inside"); 
+	$(answerId).slideToggle();
+});
+
+
 	// sidebar accordeon on mobile
 	
 	$(".sidebar-catalog>li>span").on('click', function(e){
+		
 		if(window.matchMedia('(max-width : 770px)').matches){
 			e.preventDefault();		
 			var answerId = $(this).next(".sidebar-catalog__showmenu");
@@ -137,5 +138,11 @@ $(document).ready(function(){
 		}
 	});
 	
+	$('.sidebar-catalog').hover(function () {
+		if(window.matchMedia('(min-width : 770px)').matches){
+			var x = $('.sidebar-main').outerWidth();				
+			$('.sidebar-catalog__showmenu').css('left', x-7);
+		}
+	});	
 
 });

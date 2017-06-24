@@ -1,7 +1,7 @@
 <div class="info-row info-row_top">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4 col-sm-12">
+			<div class="col-md-4 col-sm-12 col-lg-4">
 				<div class="logo-box">
 					<a href="/">
 						<img src="img/header.png" alt="CityGaz">	
@@ -9,7 +9,7 @@
 					<div class="slogan">городская <br> газовая служба</div>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-12">
+			<div class="col-md-3 col-sm-12 col-lg-4">
 				<div class="contact-box hidden-md">
 					<div class="contact-address">
 						<strong>г. Нижний Новгород,</strong> <br>
@@ -22,7 +22,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-12">
+			<div class="col-md-5 col-sm-12 col-lg-4">
 				<div class="right-box">
 					<a href="#" class="button-question">Задать вопрос</a>
 					<div class="cart">

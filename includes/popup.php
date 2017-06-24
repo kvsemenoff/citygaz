@@ -23,12 +23,11 @@
 <div class="mobile-window" id="mobile">
 	<span class="modal-close"><i class="fa fa-times" aria-hidden="true"></i></span>
 	<div class="mobile-line"></div>
-	<a href="/">
 		<div class="mobile-logo">
-			<img src="img/header.png" alt="CityGaz">	
+			<a href="/">
+				<img src="img/header.png" alt="CityGaz">	
+			</a>		
 		</div>
-	</a>
-	
 	<ul class="mobile-main-menu">
 		<li><a href="#">О компании</a></li>
 		<li><a href="#">Монтаж</a></li>

@@ -2,7 +2,6 @@ html,body{
 	background-color: #f5f6f8;
 }
 .sidebar-main{
-	// max-width: 277px;
 	width: 100%;
 	display: inline-block;
 	float: left;
@@ -12,6 +11,9 @@ html,body{
 	}
 	.sidebar-catalog{
 		max-width: none;
+	}
+	@media only screen and (min-width : 1200px) {
+		max-width: 277px;
 	}
 }
 .brand{
@@ -140,14 +142,19 @@ html,body{
 // sidebar -catalog page
 
 
-.sidebar-catalogpage{
-	max-width: 277px;
+.sidebar-catalogpage{	
 	width: 100%;
 	display: inline-block;
 	float: left;
 	font-family: 'Roboto', sans-serif;
 	.burg-title{
 		padding: 33px 0 29px 27px;				
+	}
+	.sidebar-catalog{
+		max-width: none;
+	}
+	@media only screen and (min-width : 1200px) {
+		max-width: 277px;
 	}
 }
 .filter-clear{

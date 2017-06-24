@@ -10,6 +10,9 @@ html, body {
     padding: 39px 0 40px 27px; }
   .sidebar-main .sidebar-catalog {
     max-width: none; }
+  @media only screen and (min-width: 1200px) {
+    .sidebar-main {
+      max-width: 277px; } }
 
 .brand {
   margin-bottom: 15px;
@@ -104,13 +107,17 @@ html, body {
     line-height: 23px; }
 
 .sidebar-catalogpage {
-  max-width: 277px;
   width: 100%;
   display: inline-block;
   float: left;
   font-family: 'Roboto', sans-serif; }
   .sidebar-catalogpage .burg-title {
     padding: 33px 0 29px 27px; }
+  .sidebar-catalogpage .sidebar-catalog {
+    max-width: none; }
+  @media only screen and (min-width: 1200px) {
+    .sidebar-catalogpage {
+      max-width: 277px; } }
 
 .filter-clear {
   float: right;

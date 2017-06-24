@@ -28,11 +28,12 @@
 				<li><a href="#">Реле протока, группы ГВС</a></li>
 				<li><a href="#">Теплообменники</a></li>
 				<li><a href="#">Термостаты безопасности</a></li>
+				<li><a href="#">Термостаты безопасности</a></li>
 			</ul> 
 			<a href='#' class='watch-more'>Смотреть ещё</a>
 		</div>
 		<div>
-			<p class='catalog_title'>Запчасти к плитам</p>
+			<p class='catalog_title'>Запчасти к котлам</p>
 			<ul class="catalog-list">
 				<li><a href="#">Программаторы</a></li>
 				<li><a href="#">Расширительные баки</a></li>
@@ -53,7 +54,7 @@
 			<a href='#' class='watch-more'>Смотреть ещё</a>
 		</div>
 		<div>
-			<p class='catalog_title'>Запчасти к плитам</p>
+			<p class='catalog_title'>Запчасти к электрооборудованию</p>
 			<ul class="catalog-list">
 				<li><a href="#">Программаторы</a></li>
 				<li><a href="#">Расширительные баки</a></li>
@@ -61,7 +62,7 @@
 			</ul> 
 		</div>
 		<div>
-			<p class='catalog_title'>Запчасти к плитам</p>
+			<p class='catalog_title'>Запчасти к водонагревателям</p>
 			<ul class="catalog-list">
 				<li><a href="#">Программаторы</a></li>
 				<li><a href="#">Расширительные баки</a></li>
@@ -76,13 +77,16 @@
 			<a href='#' class='watch-more'>Смотреть ещё</a>
 		</div>
 	</div>
-	<div style='width:100%;float:left;background-color: red;'>sfd</div>
 </div>
 <script src="../../libs/jquery/dist/jquery.js"></script>
 <script>
 	$(document).ready(function() {
 
+		$top_catalog = $('.catalog div:nth-child(3)').outerHeight(true);
+		$('.catalog div:nth-child(4)').css({'top': $top_catalog});
+
 		$('.catalog-list').each(function() {
+
 			var li = $(this).find('li').size();
 			if( li > 13 ){
 				$(this).find('li').slice(13, li).hide();

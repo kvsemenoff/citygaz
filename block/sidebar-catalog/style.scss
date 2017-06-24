@@ -15,9 +15,12 @@
 			font-weight: 100;
 			line-height: 22px;
 			display: block;
-			padding: 14px 0px 14px 37px;
+			padding: 14px 5px 14px 37px;
 			position: relative;
-			cursor: pointer;			
+			cursor: pointer;
+			@media only screen and (min-width : 1200px) {
+				padding: 14px 20px 14px 37px;
+			}			
 			&:after{
 				content: "\f054";
 				position: absolute;

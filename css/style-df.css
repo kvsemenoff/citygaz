@@ -2,13 +2,14 @@ html, body {
   background-color: #f5f6f8; }
 
 .sidebar-main {
-  max-width: 277px;
   width: 100%;
   display: inline-block;
   float: left;
   font-family: 'Roboto', sans-serif; }
   .sidebar-main .burg-title {
     padding: 39px 0 40px 27px; }
+  .sidebar-main .sidebar-catalog {
+    max-width: none; }
 
 .brand {
   margin-bottom: 15px;
@@ -316,7 +317,6 @@ html, body {
     color: white;
     font-size: 19px;
     font-weight: 400;
-    line-height: 40px;
     display: inline-block; }
     .slidermain__txttop span b {
       color: #ffc000; }
@@ -342,7 +342,9 @@ html, body {
     .slidermain__txttop {
       padding: 53px 33px 15px 33px; }
       .slidermain__txttop h2 {
-        margin-bottom: 52px; } }
+        margin-bottom: 52px; }
+      .slidermain__txttop span {
+        line-height: 40px; } }
 
 .slidermain__txtbottom {
   width: 100%;

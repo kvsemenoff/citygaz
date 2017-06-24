@@ -29,6 +29,10 @@
 	<link rel="stylesheet" href="block/inputsubmit/style.css">
 	<link rel="stylesheet" href="block/inputtext/style.css">
 	<link rel="stylesheet" href="block/item-row/style.css">
+
+	<link rel="stylesheet" href="block/tovar-item/style.css">
+	<link rel="stylesheet" href="block/tovar-row/style.css">
+	
 	<link rel="stylesheet" href="block/search-box/style.css">
 	<link rel="stylesheet" href="block/select/style.css">
 	<link rel="stylesheet" href="block/table/style.css">

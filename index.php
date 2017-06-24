@@ -16,7 +16,105 @@
 					<div class="col-md-9 paddingnone">
 						<?php require_once('includes/slider-main.php'); ?>
 						<div class="clearfix"></div>
-						
+
+						<!-- Акция. Начало -->
+
+						<div class="item-row">
+							<div class="burg-title">Акция</div>
+							<a href="#" class="watch-more">Смотреть ещё</a>
+						</div>
+						<div class='tovar-row'>
+							<div class='tovar-item'>
+								<a href='#'>
+									<div>
+										<img src='img/engine.png'/>
+									</div>
+								</a>
+								<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
+								<p class='old-price'><span>8 600</span></p>
+								<p class='price orange'><span>5 200</span></p>
+							</div>
+							<div class='tovar-item'>
+								<a href='#'>
+									<div>
+										<img src='img/cooler.png'/>
+									</div>
+								</a>
+								<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр </a>
+								<p class='old-price'><span>8 600</span></p>
+								<p class='price orange'><span>5 200</span></p>
+							</div>
+							<div class='tovar-item'>
+								<a href='#'>
+									<div>
+										<img src='img/12345.png'/>
+									</div>
+								</a>
+								<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
+								<p class='old-price'><span>8 600</span></p>
+								<p class='price orange'><span>5 200</span></p>
+							</div>
+							<div class='tovar-item'>
+								<a href='#'>
+									<div>
+										<img src='img/5665220.png'/>
+									</div>
+								</a>
+								<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
+								<p class='old-price'><span>8 600</span></p>
+								<p class='price orange'><span>5 200</span></p>
+							</div>
+						</div>
+						<!-- Акция. Конец -->
+
+						<!-- Хиты продаж. Начало -->
+						<div class="item-row">
+							<div class="burg-title">Хит продаж</div>
+							<a href="#" class="watch-more">Смотреть ещё</a>
+						</div>
+						<div class='tovar-row'>
+							<div class='tovar-item'>
+								<a href='#'>
+									<div>
+										<img src='img/engine.png'/>
+									</div>
+								</a>
+								<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
+								<p class='old-price'><span>8 600</span></p>
+								<p class='price orange'><span>5 200</span></p>
+							</div>
+							<div class='tovar-item'>
+								<a href='#'>
+									<div>
+										<img src='img/cooler.png'/>
+									</div>
+								</a>
+								<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр </a>
+								<p class='old-price'><span>8 600</span></p>
+								<p class='price orange'><span>5 200</span></p>
+							</div>
+							<div class='tovar-item'>
+								<a href='#'>
+									<div>
+										<img src='img/12345.png'/>
+									</div>
+								</a>
+								<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
+								<p class='old-price'><span>8 600</span></p>
+								<p class='price orange'><span>5 200</span></p>
+							</div>
+							<div class='tovar-item'>
+								<a href='#'>
+									<div>
+										<img src='img/5665220.png'/>
+									</div>
+								</a>
+								<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
+								<p class='old-price'><span>8 600</span></p>
+								<p class='price orange'><span>5 200</span></p>
+							</div>
+						</div>
+						<!-- Хиты продаж. Конец -->
 						<div class="content-part">
 							<h3>Добро пожаловать на сайт компании CityGaz Service </h3>
 							<p>CityGaz Service – организация созданная в 2004 году при участии зарубежных производителей газового оборудования и их генеральных дистрибьюторов в России. Компании-производители обеспокоены невысоким ростом темпа продаж своего оборудования на нашем рынке.</p>

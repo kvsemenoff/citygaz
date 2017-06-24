@@ -35,7 +35,7 @@
 
 .article, .in_stock {
   margin: 0 !important;
-  padding: 10px 0 !important;
+  padding: 10px !important;
   font-size: 13px; }
 
 /* ╨Р╤А╤В╨╕╨║╤Г╨╗*/
@@ -86,7 +86,7 @@
 .tovar-item p {
   text-align: center;
   margin: 40px 0 20px 0;
-  padding: 10px;
+  padding: 10px 0;
   color: #e8bd40; }
 
 .tovar-item span {
@@ -110,7 +110,7 @@
 .gray span {
   border: 1px solid #e4e4e6; }
 
-/*╨Ю╤А╨░╨╜╨╢╨╡╨▓╨░╤П ╤А╨░╨╝╨║╨░ ╨▓╨╛╨║╤А╤Г╨│ ╤Ж╨╡╨╜╤Л*/
+/*╨Ю╤А╨░╨╜╨╢╨╡╨▓╨░╤П ╤А╨░╨╝╨║╨░ ╨▓╨╛╨║╤А╤Г╨│ ╤Ж╨╡╨╜╤Лasdddsdds*/
 .orange span {
   border: 2px solid #e8bd40; }
 

@@ -627,7 +627,18 @@ html,body{
 	.brearcrumbs{
 		max-width: none;
 		float: right;
-		width: 82%;
+		width: 100%;
+		margin-top: 15px;
+		@media only screen and (min-width : 770px) {
+			width: 72%;
+			margin-top: 0;
+		}
+		@media only screen and (min-width : 992px) {
+			width: 79%;
+		}
+		@media only screen and (min-width : 1200px) {
+			width: 82.5%;
+		}
 	}
 }
 
@@ -647,17 +658,26 @@ html,body{
 
 
 .product__block{
-
+	@media only screen and (min-width : 992px) {
+		height: 588px;
+		overflow: hidden;
+	}	
 }
 
 .product__leftbox{
-	max-width: 735px;
 	width: 100%;
 	float: left;
 	padding: 20px 16px;
 	position: relative;
 	background-color: #fff;
-	outline: 1px solid red;
+	height: 100%;
+	@media only screen and (min-width : 770px) {
+		width: 62%;
+	}
+	@media only screen and (min-width : 1200px) {
+		max-width: 735px;
+		width: 100%;
+	}
 	>span{
 		position: absolute;
 		top: 20px;
@@ -672,26 +692,38 @@ html,body{
 		padding: 0 9px;
 	}
 }
-.product__imgbox{
-	display: inline-block;
+.product__imgbox{	
 	max-width: 535px;
 	width: 100%;
-	margin: 30px 0 60px 23px;
+	margin: 0 auto;	
+	@media only screen and (min-width : 992px) {
+		max-width: 500px;
+		display: inline-block;
+	}
 	@media only screen and (min-width : 1200px) {
 		margin: 30px 0 60px 23px;	
+		max-width: 535px;
 	}
 	img{
-		max-width: 100%;
+		width: 100%;
 		height: auto;
 	}
 }
 
-.product__galerybox{
-	width: 107px;
-	float: right;
-	vertical-align: top;
+.product__galerybox{	
+	vertical-align: top;	
+	text-align: center;
+	margin: 30px 0 0px 0;
+	@media only screen and (min-width : 770px) {
+		margin: 30px 0 40px 0;
+	}
+	@media only screen and (min-width : 1200px) {
+		width: 107px;
+		float: right;
+		margin: 0;
+	}
 	a{
-		width: 100%;
+		width: 107px;
 		height: 107px;
 		display: inline-block;
 		background-color: #fff;
@@ -703,23 +735,33 @@ html,body{
 		}
 	}
 }
+.product__galerybox-active{
+	border: 1px solid #ffc000 !important;
+}
 
 
 
 
-
-.product__rightbox{
-	max-width: 412px;
+.product__rightbox{	
 	width: 100%;
 	float: right;
-	padding: 25px 23px;
+	padding: 15px 15px;
 	background-color: #fff;
-	outline: 1px solid green;
+	height: 100%;
+	@media only screen and (min-width : 770px) {
+		width: 37%;
+	}
+	@media only screen and (min-width : 1200px) {
+		max-width: 412px;
+		width: 100%;
+		padding: 37px 25px;	
+	}
 	h2{
 		color: #435266;
 		font-size: 24px;
 		font-weight: 400;
 		line-height: 31px;
+		margin-bottom: 18px;
 	}
 }
 
@@ -761,8 +803,10 @@ html,body{
 	font-weight: 100;
 	line-height: 17px;
 	display: block;
+	margin: 17px 0 12px 0;
 }
 .product__charbox{
+	padding-left: 4px;
 	li{
 		color: #435266;
 		font-size: 14px;
@@ -777,17 +821,26 @@ html,body{
 	font-size: 14px;
 	font-weight: 100;
 	line-height: 21px;
+	margin-top: 11px;
 }
 
 .product__pricebox{
+	margin: 15px 0 0 0px;
+	padding-left: 8px;
+	text-align: center;
 	.product__oldprice{
 		color: #4c5b6f;
 		font-size: 22px;
 		font-weight: 700;
 		line-height: 28px;
-		display: block;
-		width: 135px;
+		display: block;		
+		margin-bottom: 9px;
+		padding-left: 9px;
 		text-align: center;
+		@media only screen and (min-width : 992px) {
+			width: 142px;
+			padding-left: 0;		
+		}
 	}
 	.product__newprice{
 		color: #4c5b6f;
@@ -797,7 +850,7 @@ html,body{
 		border-radius: 20px;
 		display: inline-block;
 		border: 2px solid #ffc000;
-		padding: 0 20px 0 30px;
+		padding: 0 20px 0 30px;		
 	}	
 	a{
 		color: white;
@@ -807,6 +860,18 @@ html,body{
 		background-color: #ffc000;
 		border-radius: 20px;
 		display: inline-block;
-		padding: 0 50px;
+		padding: 0 50px;	
+		margin-top: 15px;	
+	}
+	@media only screen and (min-width : 992px) {
+		margin: 70px 0 0 0px;
+		text-align: left;	
+		.product__newprice{
+			float: left;
+		}
+		a{
+			float: right;
+			margin-top: 0;
+		}
 	}
 }

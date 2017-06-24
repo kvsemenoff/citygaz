@@ -34,7 +34,7 @@
 								<a href="img/product1.jpg">
 									<img src="img/productgalery2.jpg" alt="">
 								</a>
-								<a href="img/product1.jpg">
+								<a href="img/productgalery3.jpg">
 									<img src="img/productgalery3.jpg" alt="">
 								</a>
 							</div>
@@ -64,7 +64,7 @@
 								<a href="#">Купить</a>
 							</div>
 						</div>
-
+						<div class="clear"></div>
 					</div>
 
 
@@ -83,4 +83,14 @@
 	</div>
 </body>
 </html>
-
+<script>
+	$('.product__galerybox a').on('click',function(evt) { 
+		evt.preventDefault();     		
+		var imgPath = $(this).attr('href');         
+		var oldImage = $('.product__imgbox img');              
+		var newImage = $('<img src="' + imgPath +'">' );
+		$('.product__galerybox a').removeClass('product__galerybox-active');
+		$(this).addClass('product__galerybox-active');
+		$(this).parents('.product__leftbox').find('.product__imgbox').html(newImage);      
+	});
+</script>

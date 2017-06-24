@@ -31,7 +31,7 @@
 											<img src='img/engine.png'/>
 										</div>
 									</a>
-									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
+									<a href='#' class="item-title">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
 									<p class='old-price'><span>8 600</span></p>
 									<p class='price orange'><span>5 200</span></p>
 								</div>
@@ -43,7 +43,7 @@
 											<img src='img/cooler.png'/>
 										</div>
 									</a>
-									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр </a>
+									<a href='#' class="item-title">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр </a>
 									<p class='old-price'><span>8 600</span></p>
 									<p class='price orange'><span>5 200</span></p>
 								</div>
@@ -55,7 +55,7 @@
 											<img src='img/12345.png'/>
 										</div>
 									</a>
-									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
+									<a href='#' class="item-title">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
 									<p class='old-price'><span>8 600</span></p>
 									<p class='price orange'><span>5 200</span></p>
 								</div>
@@ -67,7 +67,7 @@
 											<img src='img/5665220.png'/>
 										</div>
 									</a>
-									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
+									<a href='#' class="item-title">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
 									<p class='old-price'><span>8 600</span></p>
 									<p class='price orange'><span>5 200</span></p>
 								</div>
@@ -85,7 +85,7 @@
 											<img src='img/engine.png'/>
 										</div>
 									</a>
-									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
+									<a href='#' class="item-title">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
 									<p class='old-price'><span>8 600</span></p>
 									<p class='price orange'><span>5 200</span></p>
 								</div>
@@ -97,7 +97,7 @@
 											<img src='img/cooler.png'/>
 										</div>
 									</a>
-									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр </a>
+									<a href='#' class="item-title">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр </a>
 									<p class='old-price'><span>8 600</span></p>
 									<p class='price orange'><span>5 200</span></p>
 								</div>
@@ -109,7 +109,7 @@
 											<img src='img/12345.png'/>
 										</div>
 									</a>
-									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
+									<a href='#' class="item-title">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
 									<p class='old-price'><span>8 600</span></p>
 									<p class='price orange'><span>5 200</span></p>
 								</div>
@@ -121,7 +121,7 @@
 											<img src='img/5665220.png'/>
 										</div>
 									</a>
-									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
+									<a href='#' class="item-title">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
 									<p class='old-price'><span>8 600</span></p>
 									<p class='price orange'><span>5 200</span></p>
 								</div>

@@ -1,7 +1,8 @@
-.item-row{
-	text-align:right;
-	padding:10px;
-}
+.item-row {
+  text-align: right;
+  padding: 10px;
+  margin-bottom: 15px; }
+
 .burg-title {
   font-family: 'Roboto', sans-serif;
   background-image: url("../../img/burger.svg");
@@ -11,22 +12,19 @@
   font-size: 15px;
   font-weight: 400;
   line-height: 17px;
-  padding-left:27px;
-  float:left;
-}
+  padding-left: 27px;
+  float: left; }
 
+a.watch-more {
+  border: 1px solid #d8d9db;
+  color: #59677b;
+  text-decoration: none;
+  font-family: 'Roboto-Thin';
+  padding: 7px 15px;
+  border-radius: 40px;
+  font-size: 14px;
+  background: transparent; }
 
-  a.watch-more{
-	border:1px solid #d8d9db;
-	color:#59677b;
-	text-decoration:none;
-	font-family:'Roboto-Thin';
-	padding:7px 15px;
-	border-radius:40px;
-	font-size:14px;
-	background:transparent;
-}
-
-
+/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */

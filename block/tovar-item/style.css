@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .tovar-item {
   background-color: white;
-  padding: 10px;
+  padding: 0px 20px 20px 20px;
   width: 100%;
   max-width: 300px;
   margin: 0 auto;
@@ -9,7 +9,8 @@
   transition: 0.5s;
   position: relative;
   overflow: hidden;
-  font-family: 'Roboto'; }
+  font-family: 'Roboto';
+  text-align: center; }
 
 /*╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡*/
 .more_inf {
@@ -36,7 +37,7 @@
 
 .article, .in_stock {
   margin: 0 !important;
-  padding: 10px !important;
+  padding: 10px 0 !important;
   font-size: 13px; }
 
 /* ╨Р╤А╤В╨╕╨║╤Г╨╗*/
@@ -50,7 +51,7 @@
   color: #76cb6c !important; }
 
 .in_stock:before {
-  content: '✔';
+  content: 'тЬФ';
   padding: 0 3px; }
 
 .tovar-item a:hover {
@@ -62,33 +63,34 @@
   box-shadow: 0px 0px 37px -4px rgba(0, 0, 0, 0.61); }
 
 .tovar-item div {
-  max-height: 180px;
-  height: 150px;
+  height: 194px;
   position: relative;
-  float: left;
   width: 100%;
-  margin-bottom: 10px; }
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .tovar-item img {
-  margin: auto;
   display: block;
-  max-width: 100%;
-  margin-bottom: 15px; 
-  max-height:100%;}
+  max-width: 100%; }
 
 .tovar-item a {
   text-decoration: underline;
   font-size: 15.2px;
-  display: block; 
-  clear:both;}
+  display: block; }
+
+.tovar-item a.item-title {
+  text-decoration: underline;
+  font-size: 13px;
+  line-height: 17px;
+  display: block;
+  color: #0048b7; }
 
 .tovar-item a:nth-child(2) {
   text-align: left; }
 
 .tovar-item p {
   text-align: center;
-  margin: 40px 0 20px 0;
-  padding: 10px 0;
   color: #e8bd40; }
 
 .tovar-item span {
@@ -98,31 +100,34 @@
   content: '.-'; }
 
 .old-price {
-  text-decoration: line-through;
+  display: inline-block;
+  position: relative;
+  margin-top: 11px;
+  margin-bottom: 10px;
+  color: #4c5b6f;
+  font-size: 15px; }
+
+.old-price:before {
   position: absolute;
-  margin: auto !important;
-  text-align: center;
-  width: 93%; }
+  content: "";
+  width: 120%;
+  top: 8px;
+  left: -20%;
+  height: 1px;
+  background: #ffc000; }
 
 .price span {
-  padding: 5px 20px;
-  border-radius: 40px; }
+  padding: 4px 32px;
+  border-radius: 40px;
+  color: #4c5b6f;
+  font-size: 15px; }
 
 /*╨б╨╡╤А╨░╤П ╤А╨░╨╝╨║╨░ ╨▓╨╛╨║╤А╤Г╨│ ╤Ж╨╡╨╜╤Л*/
 .gray span {
   border: 1px solid #e4e4e6; }
 
-/*╨Ю╤А╨░╨╜╨╢╨╡╨▓╨░╤П ╤А╨░╨╝╨║╨░ ╨▓╨╛╨║╤А╤Г╨│ ╤Ж╨╡╨╜╤Лasdddsdds*/
+/*╨Ю╤А╨░╨╜╨╢╨╡╨▓╨░╤П ╤А╨░╨╝╨║╨░ ╨▓╨╛╨║╤А╤Г╨│ ╤Ж╨╡╨╜╤Л*/
 .orange span {
-  border: 2px solid #e8bd40; }
+  border: 2px solid #ffc000; }
 
-@media all and (max-width:600px){
-  .tovar-item a,p{font-size:10px;}
-  .tovar-item div{height:90px;}.
-  .old-price{width:80%}
-  .tovar-item p{margin:20px 0 0 0;}
-  .tovar-item .price span{padding:5px 10px;}
-  .article, .in_stock{font-size:8px;}
-  .hit, .actia{font-size:10px;width:20px;}
-}
 /*# sourceMappingURL=style.css.map */

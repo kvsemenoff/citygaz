@@ -1,6 +1,6 @@
 .tovar-item{
 	background-color:white;
-	padding:10px;
+	padding: 0px 20px 20px 20px;
 	//margin:10px 2px;
 	width: 100%;
 	max-width: 300px;
@@ -10,6 +10,7 @@
 	position:relative;
 	overflow:hidden;
 	font-family:'Roboto';
+	text-align: center;
 }
 
 /*Подробнее*/
@@ -81,19 +82,20 @@
 }
 
 .tovar-item div{
-	max-height:180px;
-	height:150px;
+	//padding-bottom: 10px;
+	height:194px;
 	position:relative;
-	float:left;
 	width:100%;
-	margin-bottom:10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .tovar-item img{
-	margin:auto;
+	//margin:auto;
 	display:block;
 	max-width:100%;
-	margin-bottom:15px;
+	
 }
 
 .tovar-item a{
@@ -101,6 +103,16 @@
 	font-size:15.2px;
 	display:block;
 }
+.tovar-item a.item-title{
+	text-decoration:underline;
+	font-size: 13px;
+	line-height: 17px;
+	
+	display:block;
+	color: #0048b7;
+}
+
+
 
 .tovar-item a:nth-child(2){
 	text-align:left;
@@ -108,8 +120,8 @@
 
 .tovar-item p{
 	text-align:center;
-	margin:40px 0 20px 0;
-	padding:10px 0;
+	//margin:40px 0 20px 0;
+	//padding:10px 0;
 	color:#e8bd40;
 }
 
@@ -122,16 +134,31 @@
 }
 
 .old-price{
-	text-decoration:line-through;
-	position:absolute;
-	margin:auto !important;
-	text-align:center;
-	width:93%;
+	display: inline-block;
+	position: relative;
+	margin-top: 11px;
+	margin-bottom: 10px;
+	color: #4c5b6f;
+	font-size: 15px;
+	//position:absolute;
+	//margin:auto !important;
+	//text-align:center;
+	//width:93%;
 }
-
+.old-price:before{
+	position: absolute;
+	content: "";
+	width: 120%;
+	top: 8px;
+	left: -20%;
+	height: 1px;
+	background: #ffc000;
+}
 .price span{
-	padding:5px 20px;
+	padding: 4px 32px;
 	border-radius:40px;
+	color: #4c5b6f;
+	font-size: 15px;
 }
 
 /*Серая рамка вокруг цены*/
@@ -142,13 +169,12 @@
 /*Оранжевая рамка вокруг цены*/
 
 .orange span{
-	border:2px solid #e8bd40;
+	border:2px solid #ffc000;
 }
 
 @media all and (max-width : 600px) {
-	.tovar-item a,p{font-size:10px;}
-	.tovar-item div{height:90px;}.
-	.old-price{width:80%}
-	.tovar-item p{margin:20px 0 0 0;}
-	body{background-color:red;}
+	// .tovar-item a,p{font-size:10px;}
+	// .tovar-item div{height:90px;}
+	// .old-price{width:80%}
+	// .tovar-item p{margin:20px 0 0 0;}
 }

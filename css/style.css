@@ -15,19 +15,28 @@ body, html {
 .vertical-align {
   vertical-align: middle; }
 
-.body {
+body {
   font-family: 'Roboto', sans-serif;
   color: #38414c;
   font-size: 15px;
   font-weight: 100; }
 
+.content-part {
+  background: #fff;
+  padding: 50px 33px; }
+  .content-part p {
+    line-height: 26px;
+    margin-bottom: 26px; }
+
 strong {
   font-weight: 700; }
 
 h1, h2, h3, h4, h5, h6 {
+  display: inline-block;
   font-family: 'Roboto', sans-serif;
   color: #484d56;
-  font-weight: 400; }
+  font-weight: 400;
+  margin-bottom: 24px; }
 
 h1 {
   font-size: 23px; }

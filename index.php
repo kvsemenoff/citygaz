@@ -23,8 +23,9 @@
 							<div class="burg-title">Акция</div>
 							<a href="#" class="watch-more">Смотреть ещё</a>
 						</div>
-						<div class='tovar-row'>
-							<div class='tovar-item'>
+						<div class="tovar-row">
+						<div class="col">
+							<div class="tovar-item">
 								<a href='#'>
 									<div>
 										<img src='img/engine.png'/>
@@ -34,6 +35,8 @@
 								<p class='old-price'><span>8 600</span></p>
 								<p class='price orange'><span>5 200</span></p>
 							</div>
+						</div>
+						<div class="col">
 							<div class='tovar-item'>
 								<a href='#'>
 									<div>
@@ -44,6 +47,8 @@
 								<p class='old-price'><span>8 600</span></p>
 								<p class='price orange'><span>5 200</span></p>
 							</div>
+						</div>
+						<div class="col">
 							<div class='tovar-item'>
 								<a href='#'>
 									<div>
@@ -54,6 +59,8 @@
 								<p class='old-price'><span>8 600</span></p>
 								<p class='price orange'><span>5 200</span></p>
 							</div>
+						</div>
+						<div class="col">
 							<div class='tovar-item'>
 								<a href='#'>
 									<div>
@@ -65,6 +72,8 @@
 								<p class='price orange'><span>5 200</span></p>
 							</div>
 						</div>
+					</div>
+					<div class="clear"></div>
 						<!-- Акция. Конец -->
 
 						<!-- Хиты продаж. Начало -->

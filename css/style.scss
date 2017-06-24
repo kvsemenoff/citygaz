@@ -3,6 +3,7 @@
 body, html{
 	height:100%;
 }
+
 .container{	
 	@media only screen and (min-width : 1200px) {
 		max-width: 1190px;
@@ -19,6 +20,9 @@ body, html{
 }
 .footer {
 	flex: 0 0 auto;
+}
+.clear{
+	clear: both;
 }
 .vertical-align{
 	vertical-align:middle;

@@ -93,6 +93,198 @@
 						<div class="clear"></div>
 					</div>
 
+					<div class="product__txtblock">
+						<h2>Водогазовый блок Mertic для колонки Mora</h2>
+						<div class="clear"></div>
+						<div class="product__txtblock-document">
+							<div class="product__documents">
+								<span>Документы:</span>
+								<a href="#">Паспорт для котла Baxi </a>
+								<a href="#">Сертификат</a>
+							</div>
+
+							Торговая марка BRC Gas Equipment была основана в 1977 году недалеко от итальянского Турина. С момента своего основания компания занялась проведением исследований и разработкой автомобильного газобаллонного оборудования, и в короткий срок стала лидером в этой отрасли.
+							В 2003 году был заключен договор о продуктивном сотрудничестве с компанией Impco (США), что существенно увеличило инвестиционный и технологический потенциал компании. После приобретения в 2009 году канадской компании TeleflexGF итальянцы становятся мировым лидером в разработке и производстве автомобильного ГБО.
+							На сегодняшний день компания BRC выпускает весь спектр газового оборудования на автомобиль, от самых простых систем 
+							
+						</div>	
+
+						<h3>Водогазовый блок Mertic для колонки Mora</h3>
+						<p>В 2003 году был заключен договор о продуктивном сотрудничестве с компанией Impco (США), что существенно увеличило инвестиционный и технологический потенциал компании. После приобретения в 2009 году канадской компании TeleflexGF итальянцы становятся мировым лидером в разработке и производстве автомобильного ГБО.
+							На сегодняшний день компания BRC выпускает весь спектр газового оборудования на автомобиль, от самых простых систем для карбюраторных двигателей до последних инновационных разработок. В исследовательских центрах BRC идет постоянная работа по усовершенствованию существующих и разработке новых систем ГБО, что позволяет использовать итальянское оборудование с любыми, даже самыми современными двигателями.
+						</p>						
+						<h4>Теплообменник  биометрический</h4>
+						<ol class="product__txtcharactericstics">
+							<li>Общая длина - 390мм.</li>
+							<li>Длинна рабочей части - 270мм.</li>
+							<li>Ширина рабочей части - 180мм.</li>
+							<li>Страна производитель: Италия.</li>
+						</ol>
+						<br>
+						<a href="#" class="product__error">Сообщить о неточности описания</a>
+					</div>
+
+					
+					<div class="product__sliderblock">
+						<div class="burg-title">Похожие товары</div>
+						<div class="clear"></div>
+						<div class='tovar-row-slider'>						
+							<div class='owl-carousel'>
+								<div class='tovar-item'>
+									<p class='article'>Артикул 1234567</p>
+									<p class='in_stock'>В наличии</p>
+									<a href='#'>
+										<div>
+											<img src='img/engine.png'/>
+										</div>
+									</a>
+									<em class="clearfix"></em>
+									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>									
+									<p class='price grey'><span>5 200</span></p>
+									<a href='#' class='more_inf'>Подробнее</a>
+								</div>
+								<div class='tovar-item'>
+									<p class='article'>Артикул 1234567</p>
+									<p class='in_stock'>В наличии</p>
+									<a href='#'>
+										<div>
+											<p class='hit'>хит</p>
+											<img src='img/engine.png'/>
+										</div>
+									</a>
+									<em class="clearfix"></em>
+									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
+									
+									<p class='price grey'><span>5 200</span></p>
+									<a href='#' class='more_inf'>Подробнее</a>
+								</div>
+								<div class='tovar-item'>
+									<p class='article'>Артикул 1234567</p>
+									<p class='in_stock'>В наличии</p>
+									<a href='#'>
+										<div>
+											<p class='actia'>Акция</p>
+											<img src='img/engine.png'/>
+										</div>
+									</a>
+									<em class="clearfix"></em>
+									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
+									<p class='old-price'><span>8 600</span></p>
+									<p class='price orange'><span>5 200</span></p>
+									<a href='#' class='more_inf'>Подробнее</a>
+								</div>
+								<div class='tovar-item'>
+									<p class='article'>Артикул 1234567</p>
+									<p class='in_stock'>В наличии</p>
+									<a href='#'>
+										<div>
+											<img src='img/cooler.png'/>
+										</div>
+									</a>
+									<em class="clearfix"></em>
+									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр </a>
+									
+									<p class='price grey'><span>5 200</span></p>
+									<a href='#' class='more_inf'>Подробнее</a>
+								</div>
+								<div class='tovar-item'>
+									<p class='article'>Артикул 1234567</p>
+									<p class='in_stock'>В наличии</p>
+									<a href='#'>
+										<div>
+											<img src='img/12345.png'/>
+										</div>
+									</a>
+									<em class="clearfix"></em>
+									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
+									
+									<p class='price grey'><span>5 200</span></p>
+									<a href='#' class='more_inf'>Подробнее</a>
+								</div>								
+							</div>							
+						</div>
+					</div>
+					
+					<div class="product__sliderblock marginbottom">
+						<div class="burg-title">Вы смотрели</div>
+						<div class="clear"></div>
+						<div class='tovar-row-slider'>						
+							<div class='owl-carousel'>
+								<div class='tovar-item'>
+									<p class='article'>Артикул 1234567</p>
+									<p class='in_stock'>В наличии</p>
+									<a href='#'>
+										<div>
+											<img src='img/engine.png'/>
+										</div>
+									</a>
+									<em class="clearfix"></em>
+									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>									
+									<p class='price grey'><span>5 200</span></p>
+									<a href='#' class='more_inf'>Подробнее</a>
+								</div>
+								<div class='tovar-item'>
+									<p class='article'>Артикул 1234567</p>
+									<p class='in_stock'>В наличии</p>
+									<a href='#'>
+										<div>
+											<p class='hit'>хит</p>
+											<img src='img/engine.png'/>
+										</div>
+									</a>
+									<em class="clearfix"></em>
+									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
+									
+									<p class='price grey'><span>5 200</span></p>
+									<a href='#' class='more_inf'>Подробнее</a>
+								</div>
+								<div class='tovar-item'>
+									<p class='article'>Артикул 1234567</p>
+									<p class='in_stock'>В наличии</p>
+									<a href='#'>
+										<div>
+											<p class='actia'>Акция</p>
+											<img src='img/engine.png'/>
+										</div>
+									</a>
+									<em class="clearfix"></em>
+									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
+									<p class='old-price'><span>8 600</span></p>
+									<p class='price orange'><span>5 200</span></p>
+									<a href='#' class='more_inf'>Подробнее</a>
+								</div>
+								<div class='tovar-item'>
+									<p class='article'>Артикул 1234567</p>
+									<p class='in_stock'>В наличии</p>
+									<a href='#'>
+										<div>
+											<img src='img/cooler.png'/>
+										</div>
+									</a>
+									<em class="clearfix"></em>
+									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр </a>
+									
+									<p class='price grey'><span>5 200</span></p>
+									<a href='#' class='more_inf'>Подробнее</a>
+								</div>
+								<div class='tovar-item'>
+									<p class='article'>Артикул 1234567</p>
+									<p class='in_stock'>В наличии</p>
+									<a href='#'>
+										<div>
+											<img src='img/12345.png'/>
+										</div>
+									</a>
+									<em class="clearfix"></em>
+									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
+									
+									<p class='price grey'><span>5 200</span></p>
+									<a href='#' class='more_inf'>Подробнее</a>
+								</div>								
+							</div>							
+						</div>
+					</div>
+
 
 
 

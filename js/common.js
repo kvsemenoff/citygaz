@@ -40,6 +40,36 @@ $(document).ready(function(){
 	// // END бургер (legatkani)
 
 
+
+	$(".owl-carousel").owlCarousel({
+		loop:true,
+		nav:true,
+		autoplay:false,
+		smartSpeed:1000,
+		margin:4,
+		mouseDrag:false,
+		touchDrag: false,
+		center:false,
+		navText:['<span class="prev-left"></span>','<span class="next-right"></span>'],
+		responsive:{
+			0:{
+				items:1
+			},
+			550:{
+				items:2
+			},
+			770:{
+				items:3
+			},
+			992:{
+				items:4
+			},
+			1200:{
+				items:5
+			}
+		}
+	});
+
 	// slider &  counter
 	var owlcart = $(".slider-owl-carousel");
 	owlcart.owlCarousel({

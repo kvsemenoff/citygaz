@@ -11,7 +11,7 @@
 			
 			<div class="container">
 				<div class="row">
-					<div class="left-side" style="display: none;">
+					<div class="left-side">
 						<?php require_once('includes/sidebar-catalog.php'); ?>
 					</div>
 					<div class="right-side">

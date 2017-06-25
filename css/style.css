@@ -2,8 +2,30 @@ body, html {
   height: 100%; }
 
 .container-main {
-  width: 1167px;
+  width: 100%;
+  padding: 0px 15px;
   margin: 0 auto; }
+  @media only screen and (min-width: 768px) {
+    .container-main {
+      max-width: 1167px;
+      padding: 0px; } }
+
+.left-side {
+  width: 100%;
+  float: left; }
+  @media only screen and (min-width: 768px) {
+    .left-side {
+      width: 277px; } }
+
+.right-side {
+  width: 100%;
+  float: right; }
+  @media only screen and (min-width: 768px) {
+    .right-side {
+      width: 70%; } }
+  @media only screen and (min-width: 1120px) {
+    .right-side {
+      width: 872px; } }
 
 @media only screen and (min-width: 1200px) {
   .container {
@@ -69,15 +91,6 @@ a.watch-more {
   border-radius: 40px;
   font-size: 14px;
   background: transparent; }
-
-.left-side {
-  width: 277px;
-  float: left;
-  margin-right: 14px; }
-
-.right-side {
-  width: 872px;
-  float: right; }
 
 .info-row {
   color: #435266;

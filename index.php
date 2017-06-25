@@ -8,6 +8,7 @@
 	<div class="wrapper">
 		<div class="content">
 			<?php require_once('includes/header_top.php'); ?>
+			<div class="clearfix"></div>
 			<div class="container-main">
 				<div class="left-side">
 					<?php require_once('includes/sidebar-main.php'); ?>

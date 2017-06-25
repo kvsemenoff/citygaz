@@ -357,7 +357,7 @@ html,body{
 	position: relative;
 	float: left;
 	@media only screen and (min-width : 1200px) {
-		max-width: 580px;
+		max-width: 555px;//580
 		height: 307px;
 		overflow: hidden;
 	}
@@ -833,9 +833,21 @@ html,body{
 		margin-bottom: 9px;
 		padding-left: 9px;
 		text-align: center;
+		position: relative;
+		&:after{
+			content: "";
+			position: absolute;
+			top:50%;
+			left:45%;
+			transform:translate(-50%,-50%);
+			height: 1px;
+			width: 100px;	
+			border-bottom: 2px solid #ffc000;;		
+		}
 		@media only screen and (min-width : 992px) {
-			width: 142px;
-			padding-left: 0;		
+			width: 110px;
+			padding-left: 0;
+			margin-left: 9px;		
 		}
 	}
 	.product__newprice{
@@ -1062,55 +1074,13 @@ html,body{
 		padding: 30px 0 19px 27px;
 		display: block;
 		width: 100%;
-		background-position: left top 57%;
-	}
-	.tovar-item{
-		width: 100%;
-
-	}
-	.in_stock:before{
-		content: "";
-		display: inline-block;
-		width: 17px;
-		height: 10px;
-		background: url("../img/galkagreen.png")no-repeat left center;
-
-	}
-	.tovar-item {
-		.grey span{
-			border: 1px solid #d8d9db;
+		&:before{
+			top: 34px;
 		}
-		p{
-			margin: 45px 0 14px 0;
-			span{
-				padding: 5px 30px;
-			}
-		}
-		a{
-			color: #0048b7;
-			font-size: 13px;
-			font-weight: 100;
-			line-height: 17px;
-			text-decoration: underline;
-		}
-		div{
-			height: 130px;
-			max-width: 212px;
-			margin: 0 auto;
-			img{
-				height: 100%;
-			}
-		}
-		.more_inf{
-			color: #1056b5;
-			font-size: 12px;
-			font-weight: 400;
-			line-height: 17px;
-			text-decoration: underline;
-		}
+		
 	}
 }
-.tovar-row-slider .prev-left, .next-right{
+.tovar-row-slider .prev-left, .tovar-row-slider .next-right{
 	color: #c3c3c5;
 	font-family: "FontAwesome";
 	font-size: 27px;
@@ -1147,4 +1117,154 @@ html,body{
 }
 .marginbottom{
 	margin-bottom: 45px;
+}
+.tovaritem{
+	max-width: 212px;
+	width: 100%;
+	background-color: #fff;
+	padding: 18px 14px 18px 14px;
+	margin-top: 10px;
+	&:hover{
+		webkit-box-shadow: 0px 0px 25px -4px rgba(0, 0, 0, 0.51);
+		-moz-box-shadow: 0px 0px 25px -4px rgba(0, 0, 0, 0.51);
+		box-shadow: 0px 0px 25px -4px rgba(0, 0, 0, 0.5);
+	}
+	@media only screen and (min-width : 1200px) {
+		min-height: 357px;
+	}
+}
+.tovaritem__toptxt{
+	margin-bottom: 31px;
+}
+.tovaritem__art{
+	color: #435266;
+	font-size: 12px;
+	font-weight: 100;
+	line-height: 17px;
+	display: inline-block;
+	float: left;
+}
+.tovaritem__gotcha{
+	display: inline-block;
+	color: #20b603;
+	font-size: 12px;
+	font-weight: 100;
+	line-height: 17px;
+	float: right;
+	background: url(../img/galkagreen.png) no-repeat left center;
+	padding-left: 15px;
+}
+.tovaritem__img{
+	clear: both;
+	position: relative;
+	max-width: 170px;
+	margin: 0 auto;
+	width: 100%;
+	height: 140px;
+	&:after{
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left:50%;
+		transform:translateX(-50%);
+		width: 15px;
+		height: 16px;
+		background:url("../img/zoomimg1.png")no-repeat center;
+	}
+	a{
+		display: block;
+		width: 100%;
+		height: 100%;
+		padding: 15px 5px 15px 5px;
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+.tovaritem__reklama1, .tovaritem__reklama2{
+	position: absolute;
+	top:0;
+	left:0;
+	color: white;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+	padding: 0 7px;
+	z-index: 10;
+}
+.tovaritem__reklama1{
+	background-color: #ffc000;
+}
+.tovaritem__reklama2{
+	background-color: #1056b5;
+}
+.tovaritem__txtbottom{
+	padding: 0 5px;
+}
+.tovaritem__nameproduct{
+	color: #0048b7;
+	font-size: 13px;
+	font-weight: 100;
+	line-height: 17px;
+	text-decoration: underline;
+	display: inline-block;
+	text-align: left;
+	padding-bottom: 10px;
+	&:hover{
+		color: #e8bd40;
+	}
+}
+
+.tovaritem__pricebox{
+	min-height: 87px;
+	text-align: center;
+}
+.tovaritem__oldprice{
+	color: #4c5b6f;
+	font-size: 15px;
+	font-weight: 100;
+	line-height: 19px;
+	padding-bottom: 5px;
+	display: inline-block;
+	position: relative;
+	height: 22px;
+	&:after{
+		content: "";
+		position: absolute;
+		top:7px;
+		left:0;
+		width: 100%;
+		height: 1px;
+		border-bottom: 2px solid #ffc000;
+	}
+}
+.tovaritem__newprice{
+	color: #435266;
+	font-size: 15px;
+	font-weight: 100;
+	line-height: 26px;
+	display: block;
+	border-radius: 15px;
+	max-width: 115px;
+	margin: 0 auto;
+}
+.tovaritem__border1{
+	border: 1px solid #d8d9db;
+}
+.tovaritem__border2{
+	border: 2px solid #ffc000;
+}
+.tovaritem__more{
+	color: #1056b5;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 17px;
+	text-decoration: underline;
+	display: inline-block;
+	margin-top: 19px;
+	&:hover{
+		color: #e8bd40;
+	}
 }

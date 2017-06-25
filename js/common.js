@@ -39,6 +39,15 @@ $(document).ready(function(){
 	// });
 	// // END бургер (legatkani)
 
+	$("a[data-fancybox-group=group]").fancybox({
+		'transitionIn' : 'none',
+		'transitionOut' : 'none',
+		'titlePosition' : 'over',
+		'titleFormat' : function(title, currentArray, currentIndex, currentOpts) {
+			return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+		}
+	});
+
 
 
 	$(".owl-carousel").owlCarousel({
@@ -46,7 +55,7 @@ $(document).ready(function(){
 		nav:true,
 		autoplay:false,
 		smartSpeed:1000,
-		margin:4,
+		margin:5,
 		mouseDrag:false,
 		touchDrag: false,
 		center:false,

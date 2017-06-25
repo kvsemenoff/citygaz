@@ -11,11 +11,227 @@
 			
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3">
+					<div class="left-side" style="display: none;">
 						<?php require_once('includes/sidebar-catalog.php'); ?>
 					</div>
-					<div class="col-md-9">
-						Правая часть 
+					<div class="right-side">
+
+						<div class="catalogpage">
+							<div class="search-box">		
+								<select>
+									<option value="1">поиск по названию</option>
+									<option value="2">поиск по бренду</option>
+									<option value="3">поиск по цене</option>
+								</select>			
+								<input type="text" placeholder="Что будем искать?" name="uname">
+								<button>Найти</button>
+								<div class="clearfix"></div>
+							</div>
+							<ul class="brearcrumbs">
+								<li><a href="#">Главная</a></li>
+								<li><span>Запчасти к водонагревателям</span></li>
+							</ul>
+
+							<div class="catalogpage__parts">
+								<h2 class="catalogpage__parts-cap">Запчасти к водонагревателям</h2>
+								<ul class="catalog-list">
+									<li><a href="#">Программаторы</a></li>
+									<li><a href="#">Расширительные баки</a></li>
+									<li><a href="#">Реле протока, группы ГВС</a></li>	
+								</ul>
+								<ul class="catalog-list">
+									<li><a href="#">Циркуляционные насосы</a></li>
+									<li><a href="#">Электроды розжига </a></li>
+									<li><a href="#">3-х ходовые клапана, Аксессуары</a></li>	
+								</ul>
+								<ul class="catalog-list">
+									<li><a href="#">Реле протока, группы ГВС</a></li>
+									<li><a href="#">Теплообменники</a></li>
+									<li><a href="#">Термостаты безопасности</a></li>	
+								</ul>
+								<ul class="catalog-list">
+									<li><a href="#">Расширительные баки</a></li>
+									<li><a href="#">Реле протока, группы ГВС</a></li>
+									<li><a href="#">Термостаты безопасности</a></li>	
+								</ul>
+							</div>
+
+							
+							<div class="catalogpage__filter">
+								<div class="catalogpage__filter-box">
+									<span>Сортировать по:</span>
+									<select>
+										<option value="1">артикулу</option>
+										<option value="2">бренду</option>
+										<option value="3">цене</option>
+									</select>
+								</div>
+								<div class="catalogpage__filter-box">
+									<span>Выводить по:</span>
+									<select>
+										<option value="1">20</option>
+										<option value="2">40</option>
+										<option value="3">50</option>
+									</select>
+								</div>
+								<div class="catalogpage__filter-links">
+									<a href="#">Список</a>
+									<a href="#" class="catalogpage__filter-linkactive">Плитка</a>
+								</div>
+								<div class="clear"></div>
+							</div>
+
+
+
+							<div class="catalogpage__tovarlist">
+
+								<div class="catalogpage__tovarlistbox">
+									<div class="catalogpage__tovarlistimg">
+										<a href="img/tovaritem3.jpg" data-fancybox-group="group">
+											<img src="img/tovaritem3.jpg" alt="">
+										</a>
+									</div>
+									<div class="catalogpage__tovarlisttxtbox">
+										<span class="tovaritem__art">Артикул: 5478845</span>
+										<span class="tovaritem__art">Производитель:  Ariston</span>
+										<span class="tovaritem__gotcha">В наличии</span>
+										<div class="clear"></div>
+										<a href="#" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр 
+										</a>
+									</div>									
+									<div class="catalogpage__tovarlistpricebox catalogpage__new">
+										<div class="clear"></div>
+										<span class="tovaritem__newprice tovaritem__border1">15 900 .-</span>
+										<a href="#" class="tovaritem__more">Подробнее</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+								<div class="catalogpage__tovarlistbox">
+									<div class="catalogpage__tovarlistimg">
+										<span class="tovaritem__reklama1">Акция</span>
+										<a href="img/tovaritem1.jpg" data-fancybox-group="group">
+											<img src="img/tovaritem1.jpg" alt="">
+										</a>
+									</div>
+									<div class="catalogpage__tovarlisttxtbox">
+										<span class="tovaritem__art">Артикул: 5478845</span>
+										<span class="tovaritem__art">Производитель:  Ariston</span>
+										<span class="tovaritem__gotcha">В наличии</span>
+										<div class="clear"></div>
+										<a href="#" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр 
+										</a>
+									</div>									
+									<div class="catalogpage__tovarlistpricebox catalogpage__old">
+										<span class="tovaritem__oldprice">58 600 .-</span>
+										<div class="clear"></div>
+										<span class="tovaritem__newprice tovaritem__border2">15 900 .-</span>
+										<a href="#" class="tovaritem__more">Подробнее</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+								<div class="catalogpage__tovarlistbox">
+									<div class="catalogpage__tovarlistimg">
+										<a href="img/tovaritem2.jpg" data-fancybox-group="group">
+											<img src="img/tovaritem2.jpg" alt="">
+										</a>
+									</div>
+									<div class="catalogpage__tovarlisttxtbox">
+										<span class="tovaritem__art">Артикул: 5478845</span>
+										<span class="tovaritem__art">Производитель:  Ariston</span>
+										<span class="tovaritem__gotcha">В наличии</span>
+										<div class="clear"></div>
+										<a href="#" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр 
+										</a>
+									</div>									
+									<div class="catalogpage__tovarlistpricebox catalogpage__new">
+										<div class="clear"></div>
+										<span class="tovaritem__newprice tovaritem__border1">15 900 .-</span>
+										<a href="#" class="tovaritem__more">Подробнее</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+								<div class="catalogpage__tovarlistbox">
+									<div class="catalogpage__tovarlistimg">
+										<span class="tovaritem__reklama2">Хит</span>
+										<a href="img/tovaritem3.jpg" data-fancybox-group="group">
+											<img src="img/tovaritem3.jpg" alt="">
+										</a>
+									</div>
+									<div class="catalogpage__tovarlisttxtbox">
+										<span class="tovaritem__art">Артикул: 5478845</span>
+										<span class="tovaritem__art">Производитель:  Ariston</span>
+										<span class="tovaritem__gotcha">В наличии</span>
+										<div class="clear"></div>
+										<a href="#" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр 
+										</a>
+									</div>									
+									<div class="catalogpage__tovarlistpricebox catalogpage__new">
+										<div class="clear"></div>
+										<span class="tovaritem__newprice tovaritem__border1">15 900 .-</span>
+										<a href="#" class="tovaritem__more">Подробнее</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+								<div class="catalogpage__tovarlistbox">
+									<div class="catalogpage__tovarlistimg">
+										<span class="tovaritem__reklama1">Акция</span>
+										<a href="img/tovaritem1.jpg" data-fancybox-group="group">
+											<img src="img/tovaritem1.jpg" alt="">
+										</a>
+									</div>
+									<div class="catalogpage__tovarlisttxtbox">
+										<span class="tovaritem__art">Артикул: 5478845</span>
+										<span class="tovaritem__art">Производитель:  Ariston</span>
+										<span class="tovaritem__gotcha">В наличии</span>
+										<div class="clear"></div>
+										<a href="#" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр 
+										</a>
+									</div>									
+									<div class="catalogpage__tovarlistpricebox catalogpage__old">
+										<span class="tovaritem__oldprice">58 600 .-</span>
+										<div class="clear"></div>
+										<span class="tovaritem__newprice tovaritem__border2">15 900 .-</span>
+										<a href="#" class="tovaritem__more">Подробнее</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+								<div class="catalogpage__tovarlistbox">
+									<div class="catalogpage__tovarlistimg">
+										<a href="img/tovaritem2.jpg" data-fancybox-group="group">
+											<img src="img/tovaritem2.jpg" alt="">
+										</a>
+									</div>
+									<div class="catalogpage__tovarlisttxtbox">
+										<span class="tovaritem__art">Артикул: 5478845</span>
+										<span class="tovaritem__art">Производитель:  Ariston</span>
+										<span class="tovaritem__gotcha">В наличии</span>
+										<div class="clear"></div>
+										<a href="#" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр 
+										</a>
+									</div>									
+									<div class="catalogpage__tovarlistpricebox catalogpage__new">
+										<div class="clear"></div>
+										<span class="tovaritem__newprice tovaritem__border1">15 900 .-</span>
+										<a href="#" class="tovaritem__more">Подробнее</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						</div> 
 					</div>
 				</div>
 			</div>

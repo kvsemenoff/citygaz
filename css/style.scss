@@ -3,7 +3,11 @@
 body, html{
 	height:100%;
 }
+.container-main{
+	width: 1167px;
+	margin: 0 auto;
 
+}
 .container{	
 	@media only screen and (min-width : 1200px) {
 		max-width: 1190px;
@@ -20,6 +24,7 @@ body, html{
 }
 .footer {
 	flex: 0 0 auto;
+	margin-top: 50px;
 }
 .clear{
 	clear: both;
@@ -76,6 +81,15 @@ a.watch-more{
 	background:transparent;
 }
 
+.left-side{
+	width: 277px;
+	float: left;
+	margin-right: 14px;
+}
+.right-side{
+	width: 872px;
+	float: right;
+}
 .info-row{
 	color: #435266;
 	font-family: 'Roboto', sans-serif;

@@ -1,6 +1,10 @@
 body, html {
   height: 100%; }
 
+.container-main {
+  width: 1167px;
+  margin: 0 auto; }
+
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1190px;
@@ -15,7 +19,8 @@ body, html {
   flex: 1 0 auto; }
 
 .footer {
-  flex: 0 0 auto; }
+  flex: 0 0 auto;
+  margin-top: 50px; }
 
 .clear {
   clear: both; }
@@ -64,6 +69,15 @@ a.watch-more {
   border-radius: 40px;
   font-size: 14px;
   background: transparent; }
+
+.left-side {
+  width: 277px;
+  float: left;
+  margin-right: 14px; }
+
+.right-side {
+  width: 872px;
+  float: right; }
 
 .info-row {
   color: #435266;

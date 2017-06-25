@@ -1,4 +1,5 @@
 .catalog-list{
+	overflow: hidden;
 	li {
 		background-image: url("../../img/ulliimg.png");
 		background-repeat: no-repeat;
@@ -17,7 +18,17 @@
 		}
 	}
 }
+.catalog-list_height-one{
+	height: 522px;
+}
+.catalog-list_height-two{
+	height: 321px;
+}
+.catalog-list_height-three{
+	height: 306px;
+	overflow: 1px solid red;
 
+}
 .catalog-list__big{
 	li{
 		padding-left: 25px;

@@ -560,7 +560,7 @@ html, body {
       width: 62%; } }
   @media only screen and (min-width: 1200px) {
     .product__leftbox {
-      max-width: 720px;
+      max-width: 735px;
       width: 100%; } }
   .product__leftbox > span {
     position: absolute;

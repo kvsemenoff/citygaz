@@ -24,20 +24,7 @@ $(document).ready(function(){
 	});
 
 
-	// $('.burger a').on("click", function(){
-	// 	$('.main-menu').slideToggle();
-	// });
 
-	// // Бургер (legatkani)
-	// $(".burger").click(function(){
-	// 	$(".main-menu__style").slideDown(500);
-	// 	$(".fa-bars").css("display", "none");
-	// });
-	// $(".main-menu__closer").click(function(){
-	// 	$(".main-menu__style").slideUp(500);
-	// 	$(".fa-bars").css("display", "inline-block");
-	// });
-	// // END бургер (legatkani)
 
 	$("a[data-fancybox-group=group]").fancybox({
 		'transitionIn' : 'none',
@@ -195,4 +182,21 @@ $(".tech-doc__inside>li>span").on('click', function(e){
 		$(this).parents('.product__leftbox').find('.product__imgbox').html(newImage);      
 	});
 	////////////
+
+
+	$(".busket__listbox-kolvo .busket__button").on("click", function() {
+		var button = $(this);
+		var oldValue = button.parent().find("input").val();
+		if (button.text() == "+") {
+			var newVal = parseFloat(oldValue) + 1;
+		}
+		else {
+			if (oldValue > 1) {
+				var newVal = parseFloat(oldValue) - 1;
+			} else {
+				newVal = 1;
+			}
+		}
+		button.parent().find("input").val(newVal);
+	});
 });

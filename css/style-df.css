@@ -1376,4 +1376,340 @@ html, body {
     line-height: 26px;
     padding-bottom: 30px; }
 
+.busketpage {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 12px; }
+  .busketpage .brearcrumbs {
+    max-width: none; }
+  .busketpage .burg-title {
+    margin: 18px 0 21px 0; }
+
+.busket__topbox {
+  background-color: #fff;
+  padding: 0 15px 0 15px;
+  margin-bottom: 11px; }
+  .busket__topbox span {
+    color: #435266;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 43px;
+    display: inline-block;
+    float: left; }
+  .busket__topbox .busket__prod, .busket__topbox .busket__price, .busket__topbox .busket__kol, .busket__topbox .busket__summ, .busket__topbox .busket__del {
+    width: 100%; }
+  @media only screen and (min-width: 770px) {
+    .busket__topbox .busket__prod {
+      width: 48%; }
+    .busket__topbox .busket__price {
+      max-width: 92px; }
+    .busket__topbox .busket__kol {
+      max-width: 120px; }
+    .busket__topbox .busket__summ {
+      width: auto; }
+    .busket__topbox .busket__del {
+      float: right;
+      width: auto; } }
+  @media only screen and (min-width: 992px) {
+    .busket__topbox {
+      padding: 0 22px 0 35px; }
+      .busket__topbox .busket__prod {
+        width: 48%; }
+      .busket__topbox .busket__price {
+        max-width: 145px; }
+      .busket__topbox .busket__kol {
+        max-width: 140px; } }
+  @media only screen and (min-width: 1200px) {
+    .busket__topbox {
+      padding: 0 22px 0 65px; }
+      .busket__topbox .busket__prod {
+        width: 54%; }
+      .busket__topbox .busket__summ {
+        width: 135px;
+        text-align: center; } }
+
+.busket__listbox {
+  background-color: #fff;
+  margin-bottom: 6px;
+  min-height: 114px; }
+  .busket__listbox .catalogpage__tovarlistimg {
+    height: 105px;
+    width: 160px; }
+    .busket__listbox .catalogpage__tovarlistimg a {
+      padding: 10px 17px 10px 15px; }
+  .busket__listbox .catalogpage__tovarlisttxtbox {
+    text-align: center;
+    width: 100%;
+    padding: 19px 15px 0 15px; }
+    .busket__listbox .catalogpage__tovarlisttxtbox .tovaritem__art {
+      margin-right: 0; }
+    .busket__listbox .catalogpage__tovarlisttxtbox a {
+      width: 100%;
+      text-align: center; }
+  @media only screen and (min-width: 770px) {
+    .busket__listbox {
+      padding-right: 40px; }
+      .busket__listbox .catalogpage__tovarlisttxtbox {
+        text-align: left;
+        max-width: 150px;
+        padding: 19px 0px 0 0; }
+        .busket__listbox .catalogpage__tovarlisttxtbox a {
+          width: 100%;
+          text-align: left; } }
+  @media only screen and (min-width: 992px) {
+    .busket__listbox .catalogpage__tovarlisttxtbox {
+      max-width: 260px; } }
+  @media only screen and (min-width: 1200px) {
+    .busket__listbox .catalogpage__tovarlisttxtbox {
+      max-width: 435px; } }
+
+.busket__listboxprice {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  padding-top: 15px;
+  text-align: center; }
+  .busket__listboxprice .busket__listboxoldpr {
+    display: inline-block;
+    color: #4c5b6f;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 21px;
+    height: 21px;
+    margin-bottom: 9px;
+    position: relative; }
+    .busket__listboxprice .busket__listboxoldpr:after {
+      content: "";
+      position: absolute;
+      top: 7px;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      border-bottom: 2px solid #ffc000; }
+  .busket__listboxprice .busket__listboxnewpr {
+    color: #343c48;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 19px;
+    display: block; }
+  @media only screen and (min-width: 770px) {
+    .busket__listboxprice {
+      width: 95px;
+      padding-top: 17px; } }
+
+.busket__listbox-kolvo {
+  display: block;
+  width: 115px;
+  border: 1px solid #d8d9db;
+  border-radius: 15px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  vertical-align: bottom; }
+  @media only screen and (min-width: 770px) {
+    .busket__listbox-kolvo {
+      display: inline-block;
+      margin-top: 0; } }
+  @media only screen and (min-width: 992px) {
+    .busket__listbox-kolvo {
+      margin: 0 17px 0 57px; } }
+  @media only screen and (min-width: 1200px) {
+    .busket__listbox-kolvo {
+      margin: 0 60px; } }
+  .busket__listbox-kolvo .busket__button {
+    color: #4c5b6f;
+    font-size: 27px;
+    font-weight: 100;
+    line-height: 30px;
+    user-select: none;
+    cursor: pointer; }
+  .busket__listbox-kolvo input[type='text'] {
+    border: 0;
+    color: #343c48;
+    font-size: 15px;
+    font-weight: 100;
+    background-color: #fff;
+    line-height: 30px;
+    height: 30px;
+    width: 40px;
+    padding: 0px;
+    user-select: none;
+    vertical-align: top;
+    padding-top: 2px;
+    text-align: center; }
+
+.busket__listbox-summ {
+  display: inline-block;
+  text-align: center;
+  vertical-align: bottom;
+  width: 100%;
+  padding-top: 15px; }
+  .busket__listbox-summ span {
+    color: #343c48;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 19px; }
+  @media only screen and (min-width: 770px) {
+    .busket__listbox-summ {
+      width: 85px;
+      padding-top: 0; } }
+
+.busket__listbox-del {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding-top: 15px; }
+  .busket__listbox-del a {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("../img/close.png") no-repeat center; }
+  @media only screen and (min-width: 770px) {
+    .busket__listbox-del {
+      float: right;
+      width: auto;
+      padding-top: 42px; } }
+
+.busket__bootombox {
+  margin-top: 24px;
+  padding: 0 50px 0 50px;
+  background-color: #fff; }
+  .busket__bootombox .busket__itogo {
+    color: #435266;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 45px;
+    display: inline-block;
+    float: left; }
+  .busket__bootombox .busket__allprice {
+    color: #4c5b6f;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 45px;
+    display: inline-block;
+    float: right; }
+  @media only screen and (min-width: 770px) {
+    .busket__bootombox {
+      padding: 0 117px 0 65px; } }
+
+.busket__formbox {
+  padding-top: 9px; }
+  .busket__formbox .burg-title {
+    margin-bottom: 33px; }
+  .busket__formbox .checkbox__custom {
+    position: relative;
+    width: 26px;
+    height: 25px;
+    background-color: #fff;
+    border: 0; }
+  .busket__formbox .checkbox__hidden:checked + .checkbox__custom::before {
+    top: 6px;
+    right: 0px;
+    bottom: 2px;
+    left: 6px;
+    width: 14px;
+    height: 11px;
+    background: url(../../img/checked2.png) no-repeat; }
+  .busket__formbox .checkbox__label {
+    color: #435266;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+    max-width: 220px; }
+    @media only screen and (min-width: 770px) {
+      .busket__formbox .checkbox__label {
+        max-width: none; } }
+  .busket__formbox .busket__leftbox, .busket__formbox .busket__rightbox {
+    max-width: 470px;
+    display: inline-block;
+    float: left;
+    margin-bottom: 20px; }
+    .busket__formbox .busket__leftbox p, .busket__formbox .busket__rightbox p {
+      color: #435266;
+      line-height: 22px;
+      font-size: 15px;
+      font-weight: 400;
+      padding-left: 40px; }
+      .busket__formbox .busket__leftbox p span, .busket__formbox .busket__rightbox p span {
+        font-size: 14px;
+        font-weight: 100; }
+    @media only screen and (min-width: 770px) {
+      .busket__formbox .busket__leftbox, .busket__formbox .busket__rightbox {
+        max-width: 360px;
+        margin-bottom: 0; } }
+    @media only screen and (min-width: 992px) {
+      .busket__formbox .busket__leftbox, .busket__formbox .busket__rightbox {
+        max-width: 440px; } }
+    @media only screen and (min-width: 1200px) {
+      .busket__formbox .busket__leftbox, .busket__formbox .busket__rightbox {
+        max-width: 470px; } }
+  @media only screen and (min-width: 992px) {
+    .busket__formbox .busket__rightbox {
+      float: right; } }
+  @media only screen and (min-width: 1200px) {
+    .busket__formbox .busket__rightbox {
+      margin-left: 120px;
+      float: left; } }
+
+.busket__messagebox {
+  padding-top: 8px; }
+  .busket__messagebox input[type="text"], .busket__messagebox textarea {
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 44px;
+    color: #343c48;
+    height: 44px;
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 0 19px;
+    background-color: #fff;
+    border: 0;
+    width: 100%; }
+  .busket__messagebox textarea {
+    min-height: 105px; }
+  @media only screen and (min-width: 770px) {
+    .busket__messagebox .busket__messageright {
+      float: right;
+      width: 50%; }
+    .busket__messagebox .busket__messageleft {
+      float: left;
+      width: 49%; } }
+  .busket__messagebox .busket__messagesubmit {
+    text-align: center;
+    margin-top: 10px; }
+    .busket__messagebox .busket__messagesubmit input {
+      color: white;
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 50px;
+      text-transform: uppercase;
+      text-align: center;
+      border: 0;
+      width: 100%;
+      background-color: #ffc000; }
+      @media only screen and (min-width: 770px) {
+        .busket__messagebox .busket__messagesubmit input {
+          padding: 0 65px;
+          width: auto; } }
+      .busket__messagebox .busket__messagesubmit input:hover {
+        background-color: #1e73c6; }
+
+.busket__txtbottom {
+  background-color: #fff;
+  padding: 24px 30px;
+  margin-top: 35px; }
+  .busket__txtbottom h4 {
+    display: block;
+    color: #313843;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px; }
+  .busket__txtbottom p {
+    color: #343c48;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 26px;
+    padding-bottom: 11px; }
+
 /*# sourceMappingURL=style-df.css.map */

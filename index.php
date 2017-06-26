@@ -18,76 +18,128 @@
 					<div class="clearfix"></div>
 					<div class='catalog'>
 						<div class="cat-col">
-							<div class="cat-item cat-item_one">
-								<p class='catalog_title'>Запчасти <br> к плитам</p>
-								<ul class="catalog-list">
-									<li><a href="#">Программаторы</a></li>
-									<li><a href="#">Расширительные баки</a></li>
-									<li><a href="#">Реле протока, группы ГВС</a></li>
-									<li><a href="#">Теплообменники</a></li>
-									<li><a href="#">Термостаты безопасности</a></li>
-									<li><a href="#">Программаторы</a></li>
-									<li><a href="#">Расширительные баки</a></li>
-									<li><a href="#">Реле протока, группы ГВС</a></li>
-									<li><a href="#">Теплообменники</a></li>
-									<li><a href="#">Термостаты безопасности</a></li>
-									<li><a href="#">Программаторы</a></li>
-									<li><a href="#">Расширительные баки</a></li>
-									<li><a href="#">Реле протока, группы ГВС</a></li>
-									<li><a href="#">Теплообменники</a></li>
-									<li><a href="#">Термостаты безопасности</a></li>
-									<li><a href="#">Термостаты безопасности</a></li>
-								</ul> 
-								<a href='#' class='watch-more watch-more_small'>Смотреть ещё</a>
+							<div class="cat-item">
+								<p class='catalog_title catalog_title_cooker'>Запчасти <br> к плитам</p>
+								<div class="cat-item_one catid">
+									<ul class="catalog-list">
+										<li><a href="#">Программаторы</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Программаторы</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Программаторы</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Программаторы</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+									</ul> 
+									<a href='#' class='watch-more watch-more_small'>Смотреть ещё</a>
+								</div>
+								<div class="cat-item-inner">
+									<p class='catalog_title catalog_title_cooker'>Запчасти <br> к плитам</p>
+									<ul class="catalog-list"></ul> 
+								</div>
 							</div>
 						</div>
 						<div class="cat-col">
-							<div class="cat-item cat-item_one">
-								<p class='catalog_title'>Запчасти <br> к котлам</p>
-								<ul class="catalog-list">
-									<li><a href="#">Программаторы</a></li>
-									<li><a href="#">Расширительные баки</a></li>
-									<li><a href="#">Реле протока, группы ГВС</a></li>
-									<li><a href="#">Теплообменники</a></li>
-									<li><a href="#">Термостаты безопасности</a></li>
-									<li><a href="#">Расширительные баки</a></li>
-									<li><a href="#">Реле протока, группы ГВС</a></li>
-									<li><a href="#">Теплообменники</a></li>
-									<li><a href="#">Термостаты безопасности</a></li>
-									<li><a href="#">Расширительные баки</a></li>
-									<li><a href="#">Реле протока, группы ГВС</a></li>
-									<li><a href="#">Теплообменники</a></li>
-									<li><a href="#">Термостаты безопасности</a></li>
-									<li><a href="#">Теплообменники</a></li>
-									<li><a href="#">Термостаты безопасности</a></li>
-								</ul> 
-								<a href='#' class='watch-more watch-more_small'>Смотреть ещё</a>
+							<div class="cat-item">
+								<div class="cat-item_one catid">
+									<p class='catalog_title catalog_title_htautomation'>Запчасти <br> к котлам</p>
+									<ul class="catalog-list">
+										<li><a href="#">Программаторы</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+									</ul> 
+									<a href='#' class='watch-more watch-more_small'>Смотреть ещё</a>
+								</div>
+								<div class="cat-item-inner">
+									<p class='catalog_title catalog_title_htautomation'>Запчасти <br> к котлам</p>
+									<ul class="catalog-list"></ul> 
+								</div>
 							</div>
-							
 						</div>
 						<div class="cat-col">
-							<div class="cat-item cat-item_two">
-								<p class='catalog_title'>Запчасти к <br>электрооборудованию</p>
-								<ul class="catalog-list">
-									<li><a href="#">Программаторы</a></li>
-									<li><a href="#">Расширительные баки</a></li>
-									<li><a href="#">Реле протока, группы ГВС</a></li>
-								</ul> 
+							<div class="cat-item">
+								<div class="cat-item_two catid">
+									<p class='catalog_title catalog_title_pulse'>Запчасти к <br>электрооборудованию</p>
+									<ul class="catalog-list">
+										<li><a href="#">Программаторы</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+									</ul> 
+								</div>
+								<div class="cat-item-inner">
+									<p class='catalog_title catalog_title_pulse'>Запчасти к <br>электрооборудованию</p>
+									<ul class="catalog-list"></ul> 
+								</div>
 							</div>
-							<div class="cat-item cat-item_three">
-								<p class='catalog_title'>Запчасти к <br> водонагревателям</p>
-								<ul class="catalog-list">
-									<li><a href="#">Программаторы</a></li>
-									<li><a href="#">Расширительные баки</a></li>
-									<li><a href="#">Реле протока, группы ГВС</a></li>
-									<li><a href="#">Теплообменники</a></li>
-									<li><a href="#">Термостаты безопасности</a></li>
-									<li><a href="#">Теплообменники</a></li>
-									<li><a href="#">Термостаты безопасности</a></li>
-									<li><a href="#">Теплообменники</a></li>
-									<li><a href="#">Термостаты безопасности</a></li>
-								</ul> 
-								<a href='#' class='watch-more watch-more_small'>Смотреть ещё</a>
+							<div class="cat-item">
+								<div class="cat-item_three catid">
+									<p class='catalog_title catalog_title_gas-blue'>Запчасти к <br> водонагревателям</p>
+									<ul class="catalog-list">
+										<li><a href="#">Программаторы</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+										<li><a href="#">Теплообменники</a></li>
+										<li><a href="#">Термостаты безопасности</a></li>
+									</ul> 
+									<a href='#' class='watch-more watch-more_small'>Смотреть ещё</a>
+								</div>
+								<div class="cat-item-inner">
+									<p class='catalog_title catalog_title_pulse'>Запчасти к <br>электрооборудованию</p>
+									<ul class="catalog-list"></ul> 
+								</div>
 							</div>
 						</div>
 					</div>

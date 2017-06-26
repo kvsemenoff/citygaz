@@ -55,7 +55,7 @@
 	<h3>Вы добавили в корзину</h3>
 	<div>
 		<div>
-		<p class='article'>Артикул 1234567</p>
+		<p>Артикул 1234567</p>
 		<a href='#'>Запчасти для газовых колонок:комплектующие</a>
 	</div>
 		<img src='../img/5665220.png' />
@@ -101,8 +101,8 @@
 
 </div>
 
-<script src="../libs/jquery/dist/jquery.js"></script>
-<script src="../js/popup.js"></script>
+<script src="libs/jquery/dist/jquery.js"></script>
+<script src="js/popup.js"></script>
 <script>
 	$(document).ready(function() {
 		$("form[name='popup_form']").submit(function() {

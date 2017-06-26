@@ -184,6 +184,7 @@ $(".tech-doc__inside>li>span").on('click', function(e){
 	////////////
 
 
+
 	$(".busket__listbox-kolvo .busket__button").on("click", function() {
 		var button = $(this);
 		var oldValue = button.parent().find("input").val();
@@ -199,4 +200,6 @@ $(".tech-doc__inside>li>span").on('click', function(e){
 		}
 		button.parent().find("input").val(newVal);
 	});
+
+
 });

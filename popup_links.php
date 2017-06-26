@@ -14,20 +14,8 @@
 					<?php require_once('includes/sidebar-main.php'); ?>
 				</div>
 				<div class="right-side">
-					<div class="search-box">		
-						<select>
-							<option value="1">поиск по названию</option>
-							<option value="2">поиск по бренду</option>
-							<option value="3">поиск по цене</option>
-						</select>			
-						<input type="text" placeholder="Что будем искать?" name="uname">
-						<button>Найти</button>
-						<div class="clearfix"></div>
-					</div>
-					
 					<?php require_once('includes/slider-main.php'); ?>
 					<div class="clearfix"></div>
-
 					<div class='catalog'>
 						<div class="cat-col">
 
@@ -162,66 +150,116 @@
 					<div class="clear"></div>
 					<!-- Акция. Начало -->
 
-					<div class="item-row">
-						<div class="burg-title">Акция</div>
-						<a href="#" class="watch-more">Смотреть ещё</a>
-					</div>
-					<div class="tovar-row">
-						<div class="col">
-							<div class="tovar-item">
-								<a href='#'>
-									<div>
-										<img src='img/engine.png'/>
-									</div>
-								</a>
-								<a href='#' class="item-title">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
-								<p class='old-price'><span>8 600</span></p>
-								<p class='price orange'><span>5 200</span></p>
-							</div>
+					<a href="#order" data-modal="modal" >Заказать ремонт   .</a>
+						<a href="#compl" data-modal="modal" >Пожаловаться   .</a>
+						<a href="#ask-question" data-modal="modal" >Задать вопрос   .</a>
+						<a href="#description" data-modal="modal" >Неточность описания  .</a>
+						<a href='#bucket_popup' data-modal="modal">Корзина   .</a>
+						<a href='#thanks' data-modal="modal">Спасибо</a>
+
+						<div class="modal-window" id="order">
+							<span class="modal-close"></span>
+							<h3>Заказать ремонт</h3>
+							<form name='popup_form'>
+							<input type="text" placeholder="Ваше имя *" name="uname" required>
+							<input type="text" placeholder="Телефон *" name="phone" required>
+							<input type="text" placeholder="Адрес" name='address'>
+							<textarea placeholder="Сообщение" name='text'></textarea>
+							<input type="submit" value='Заказать ремонт'></input>
+							</form>
+
 						</div>
-						<div class="col">
-							<div class='tovar-item'>
-								<a href='#'>
-									<div>
-										<img src='img/cooler.png'/>
-									</div>
-								</a>
-								<a href='#' class="item-title">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр </a>
-								<p class='old-price'><span>8 600</span></p>
-								<p class='price orange'><span>5 200</span></p>
-							</div>
+
+						<div class="modal-window" id="compl">
+							<span class="modal-close"></span>
+							<h3>Жалобы клиентов</h3>
+							<form name='popup_form'>
+							<input type="text" placeholder="Ваше имя *" name="uname" required>
+							<input type="text" placeholder="Телефон *" name="phone" required>
+							<input type="text" placeholder="Ваш Email" name='email'>
+							<textarea placeholder="Текст жалобы" name='text'></textarea>
+							<input type="submit" value='Отправить жалобу'></input>
+							</form>
+
 						</div>
-						<div class="col">
-							<div class='tovar-item'>
-								<a href='#'>
-									<div>
-										<img src='img/12345.png'/>
-									</div>
-								</a>
-								<a href='#' class="item-title">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
-								<p class='old-price'><span>8 600</span></p>
-								<p class='price orange'><span>5 200</span></p>
-							</div>
+
+						<div class="modal-window" id="ask-question">
+							<span class="modal-close"></span>
+							<h3>Задать вопрос</h3>
+							<form name='popup_form'>
+							<input type="text" placeholder="Ваше имя *" name="uname" required>
+							<input type="text" placeholder="Телефон " name="phone">
+							<input type="text" placeholder="Ваш Email *" name='email' required>
+							<textarea placeholder="Вопрос" name='text'></textarea>
+							<input type="submit" value='Задать вопрос'></input>
+							</form>
+
 						</div>
-						<div class="col">
-							<div class='tovar-item'>
-								<a href='#'>
-									<div>
-										<img src='img/5665220.png'/>
-									</div>
-								</a>
-								<a href='#' class="item-title">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
-								<p class='old-price'><span>8 600</span></p>
-								<p class='price orange'><span>5 200</span></p>
-							</div>
+
+						<div class="modal-window" id="description">
+							<span class="modal-close"></span>
+							<h3>Неточность описания</h3>
+							<form name='popup_form'>
+							<input type="text" placeholder="Ваше имя" name="uname">
+							<input type="text" placeholder="Ваш Email" name='email'>
+							<textarea placeholder="Сообщение *" name='text' required></textarea>
+							<input type="submit" value='Отправить на проверку' ></input>
+							</form>
+
 						</div>
-					</div>
-					<div class="clear"></div>
+
+						<div class="modal-window" id="bucket_popup">
+							<h3>Вы добавили в корзину</h3>
+							<div>
+								<div>
+								<p>Артикул 1234567</p>
+								<a href='#'>Запчасти для газовых колонок:комплектующие</a>
+							</div>
+								<img src='../img/5665220.png' />
+							</div>
+							<input type="submit" value='Оформить заказ' ></input>
+							<a class="modal-close">Продолжить покупки</a>
+
+						</div>
+
+						<div class="modal-window" id="thanks">
+							<span class="modal-close"></span>
+							<br>
+							<span class="popup-title">Спасибо за вашу заявку!</span>
+							<p>
+								В ближайшее время наш менеджер <br> свяжется с Вами.
+							</p>	
+						</div>
+
+						<div class="mobile-window" id="mobile">
+							<span class="modal-close"><i class="fa fa-times" aria-hidden="true"></i></span>
+							<div class="mobile-line"></div>
+								<div class="mobile-logo">
+									<a href="/">
+										<img src="../img/header.png" alt="CityGaz">	
+									</a>		
+								</div>
+							<ul class="mobile-main-menu">
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Монтаж</a></li>
+								<li><a href="#">Ремонт и обслуживаение</a></li>
+								<li><a href="#">Как заказать</a></li>
+								<li class="active">
+									<a href="#" class="active-bg">Доставка и оплата</a>
+									<ul class="main-manu2">
+										<li><a href="#">Доставка курьером</a></li>
+										<li><a href="#">Доставка почтой</a></li>
+										<li><a href="#">Самовывоз</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Документы</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+
+						</div>
 					<!-- Акция. Конец -->
 
 					<!-- Хиты продаж. Начало -->
-
-					<a href='#thanks' data-modal="modal">Спасибо</a>
 
 					<div class="item-row">
 						<div class="burg-title">Хит продаж</div>

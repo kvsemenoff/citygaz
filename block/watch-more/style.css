@@ -5,7 +5,8 @@ a.watch-more {
   padding: 6px 13px;
   border-radius: 40px;
   font-size: 13px;
-  transition: 0.4s; }
+  transition: 0.4s;
+  font-family: inherit; }
   a.watch-more:hover {
     background: #e6e8eb;
     color: #2f3e56;

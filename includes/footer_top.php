@@ -24,7 +24,7 @@
 			</div>
 			<div class="col-md-3 col-sm-12">
 				<div class="right-box">
-					<a href="#" class="button-question">Задать вопрос</a>
+					<a href="#ask-question" data-modal="modal" class="button-question">Задать вопрос</a>
 				</div>
 			</div>
 			<div class="clearfix"></div>

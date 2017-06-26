@@ -1,19 +1,5 @@
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="../css/reset.css" />
-	<link rel="stylesheet" href="../libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
-	<link rel="stylesheet" href="../block/inputtext/style.css" />
-	<link rel="stylesheet" href="../css/popup.css" />
-	<link rel="stylesheet" href="../block/textarea/style.css" />
-</head>
-<body>
-<div class='container'>
-<a href="#order" data-modal="modal" >Заказать ремонт   .</a>
-<a href="#compl" data-modal="modal" >Пожаловаться   .</a>
-<a href="#ask-question" data-modal="modal" >Задать вопрос   .</a>
-<a href="#description" data-modal="modal" >Неточность описания  .</a>
-<a href='#bucket_popup' data-modal="modal">Корзина   .</a>
-<a href='#thanks' data-modal="modal">Спасибо</a>
+
+
 <div class="modal-window" id="order">
 	<span class="modal-close"></span>
 	<h3>Заказать ремонт</h3>
@@ -60,7 +46,7 @@
 	<input type="text" placeholder="Ваше имя" name="uname">
 	<input type="text" placeholder="Ваш Email" name='email'>
 	<textarea placeholder="Сообщение *" name='text' required></textarea>
-	<input type="submit" value='Отправит на проверку' ></input>
+	<input type="submit" value='Отправить на проверку' ></input>
 	</form>
 
 </div>
@@ -69,7 +55,7 @@
 	<h3>Вы добавили в корзину</h3>
 	<div>
 		<div>
-		<p class='article'>Артикул 1234567</p>
+		<p>Артикул 1234567</p>
 		<a href='#'>Запчасти для газовых колонок:комплектующие</a>
 	</div>
 		<img src='../img/5665220.png' />
@@ -114,11 +100,9 @@
 	</ul>
 
 </div>
-</div>
-</body>
 
-<script src="../libs/jquery/dist/jquery.js"></script>
-<script src="../js/popup.js"></script>
+<script src="libs/jquery/dist/jquery.js"></script>
+<script src="js/popup.js"></script>
 <script>
 	$(document).ready(function() {
 		$("form[name='popup_form']").submit(function() {

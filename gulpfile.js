@@ -19,6 +19,7 @@ var css_our = new Array(
 	'block/button/style.css',
 	'block/button-question/style.css',
 	'block/catalog-list/style.css',
+	'block/catalog/style.css',
 	'block/inputsubmit/style.css',
 	'block/inputtext/style.css',
 	'block/item-row/style.css',
@@ -53,6 +54,7 @@ var scss_our = new Array(
 	'block/button/style.scss',
 	'block/button-question/style.scss',
 	'block/catalog-list/style.scss',
+	'block/catalog/style.scss',
 	'block/inputsubmit/style.scss',
 	'block/inputtext/style.scss',
 	'block/item-row/style.scss',
@@ -72,7 +74,8 @@ var css_libs = new Array(
 	'libs/owl.carousel/assets/owl.carousel.css',
 	'libs/select/selectric.css',
 	'libs/rangeslider/ion.rangeSlider.css',
-	'libs/rangeslider/ion.rangeSlider.skinFlat.css'
+	'libs/rangeslider/ion.rangeSlider.skinFlat.css',
+	'libs/select/selectric.css'
 );
 
 var css_all = css_libs.concat(css_our); 
@@ -84,7 +87,8 @@ var css_style_name = 'style.min.css';
 var js_our = new Array(
 	'js/fonts.js',
 	'js/popup.js',
-	'js/common.js'
+	'js/common.js',
+	'block/catalog/script.js'
 );
 var js_libs = new Array(
 	'libs/jquery/jquery-1.11.1.min.js',
@@ -93,7 +97,8 @@ var js_libs = new Array(
 	'libs/fancybox/jquery.fancybox.pack.js',
 	'libs/select/jquery.selectric.min.js',
 	'js/jquery.maskedinput.min.js',
-	'libs/rangeslider/ion.rangeSlider.js'
+	'libs/rangeslider/ion.rangeSlider.js',
+	'libs/select/jquery.selectric.min.js'
 );
 var js_all = js_libs.concat(js_our);
 

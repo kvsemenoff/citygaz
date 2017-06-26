@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="libs/select/selectric.css">
 	<link rel="stylesheet" href="libs/rangeslider/ion.rangeSlider.css" />
     <link rel="stylesheet" href="libs/rangeslider/ion.rangeSlider.skinFlat.css" />	
+    <link rel="stylesheet" href="libs/select/selectric.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/popup.css">
@@ -27,6 +28,7 @@
 	<link rel="stylesheet" href="block/button-question/style.css">
 	<link rel="stylesheet" href="block/catalog-list/style.css">
 	<link rel="stylesheet" href="block/catalog/style.css">
+
 	<link rel="stylesheet" href="block/inputsubmit/style.css">
 	<link rel="stylesheet" href="block/inputtext/style.css">
 	<link rel="stylesheet" href="block/item-row/style.css">

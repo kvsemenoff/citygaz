@@ -14,8 +14,20 @@
 					<?php require_once('includes/sidebar-main.php'); ?>
 				</div>
 				<div class="right-side">
+					<div class="search-box">		
+						<select>
+							<option value="1">поиск по названию</option>
+							<option value="2">поиск по бренду</option>
+							<option value="3">поиск по цене</option>
+						</select>			
+						<input type="text" placeholder="Что будем искать?" name="uname">
+						<button>Найти</button>
+						<div class="clearfix"></div>
+					</div>
+					
 					<?php require_once('includes/slider-main.php'); ?>
 					<div class="clearfix"></div>
+
 					<div class='catalog'>
 						<div class="cat-col">
 

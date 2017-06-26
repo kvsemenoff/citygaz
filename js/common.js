@@ -195,4 +195,6 @@ $(".tech-doc__inside>li>span").on('click', function(e){
 		$(this).parents('.product__leftbox').find('.product__imgbox').html(newImage);      
 	});
 	////////////
+
+	$('select').selectric();
 });

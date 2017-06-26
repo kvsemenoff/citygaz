@@ -127,6 +127,7 @@
         color: #fff !important;
         transition: 0.7s; }
   .main-menu .active {
+    z-index: 500;
     position: relative; }
     .main-menu .active:hover {
       background-color: #1e73c6; }
@@ -173,7 +174,8 @@
           height: 40px;
           text-align: left; }
           .main-menu .active .main-manu2 li a:hover {
-            background: none; }
+            background: none;
+            color: #ffc000 !important; }
     .main-menu .active:hover .main-manu2 {
       display: block; }
 

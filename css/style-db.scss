@@ -160,6 +160,7 @@
 	}
 
 	.active{
+		z-index: 500;
 		&:hover{
 			background-color: #1e73c6;
 			.active-bg{
@@ -210,6 +211,7 @@
 					text-align: left;
 					&:hover{
 						background: none;
+						color: #ffc000 !important;
 					}
 				}
 			}

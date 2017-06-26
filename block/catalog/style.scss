@@ -1,10 +1,8 @@
 .catalog{
 	width: 100%;
 	position:relative;
-	//margin-bottom: 138px;
 	clear: both;
 	margin-top: 37px;
-	//min-height: 555px;
 }
 .catalog .cat-col{
 	width: 100%;
@@ -27,40 +25,40 @@
 .catalog .cat-item{
 	width: 100%;
 	padding:25px 30px;
-	padding-bottom: 40px;
+	padding-bottom: 30px;
 	padding-top: 40px;
 	margin: 0 auto;
 	background: #fff;
 	margin-bottom: 4px;
 	position: relative;
-	//height: 520px;
-
-	//overflow: hidden;
 }
 .catalog .cat-item_one{
-	height: 522px;
-	//height: auto;
+	height: 459px;
 	overflow: hidden;
 	.catalog-list{
 		height: 322px;
 	}
 }
 .catalog .cat-item_two{
-	height: 212px;
+	height: 146px;
 	overflow: hidden;
 	.catalog-list{
-		height: 81px;
+		height: 85px;
 	}
 }
 .catalog .cat-item_three{
-	height: 306px;
+	height: 239px;
+	padding-top: 5px;
 	overflow: hidden;
 	.watch-more{
-		margin-top: -15px;
+		margin-top: -19px !important;
 		position: absolute;
 	}
 	.catalog-list{
 		height: 128px;
+	}
+	.catalog_title{
+		margin-top: -5px;
 	}
 }
 
@@ -92,8 +90,6 @@
 	background-image:url(../../img/gas-blue.png);
 }
 
-
-
 .catalog .catalog-list{
 	margin-bottom:30px;
 	z-index: 50;
@@ -102,7 +98,7 @@
 
 .catalog .watch-more{
 	display: inline-block;
-	margin-top: 10px;
+	margin-top: 8px;
 }
 .catalog-list-absolute{
 	display: none;
@@ -124,11 +120,9 @@
 	padding-top: 40px;
 	padding-left: 29px;
 	width: 100%;
-	//height: 1950px;
 	background: #fff;
 	z-index: 50;
 	-webkit-box-shadow: 0px 0px 37px -4px rgba(0,0,0,0.61);
 	-moz-box-shadow: 0px 0px 37px -4px rgba(0,0,0,0.61);
 	box-shadow: 0px 0px 37px -4px rgba(0,0,0,0.61);
-
 }

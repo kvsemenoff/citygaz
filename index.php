@@ -18,9 +18,11 @@
 					<div class="clearfix"></div>
 					<div class='catalog'>
 						<div class="cat-col">
+
 							<div class="cat-item">
-								<p class='catalog_title catalog_title_cooker'>Запчасти <br> к плитам</p>
 								<div class="cat-item_one catid">
+									<p class='catalog_title catalog_title_cooker'>Запчасти <br> к плитам</p>
+								
 									<ul class="catalog-list">
 										<li><a href="#">Программаторы</a></li>
 										<li><a href="#">Расширительные баки</a></li>
@@ -111,6 +113,8 @@
 									<p class='catalog_title catalog_title_pulse'>Запчасти к <br>электрооборудованию</p>
 									<ul class="catalog-list">
 										<li><a href="#">Программаторы</a></li>
+										<li><a href="#">Расширительные баки</a></li>
+										<li><a href="#">Реле протока, группы ГВС</a></li>
 										<li><a href="#">Расширительные баки</a></li>
 										<li><a href="#">Реле протока, группы ГВС</a></li>
 									</ul> 

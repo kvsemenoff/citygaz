@@ -110,9 +110,9 @@
 .old-price:before {
   position: absolute;
   content: "";
-  width: 120%;
+  width: 50px;
   top: 8px;
-  left: -20%;
+  margin-left:-5px;
   height: 1px;
   background: #ffc000; }
 
@@ -133,7 +133,6 @@
 
 @media all and (max-width:600px){
   .tovar-item a,p{font-size:10px;}
-  .tovar-item div{height:90px;}.
   .old-price{width:80%}
   .tovar-item p{margin:20px 0 0 0;}
   .tovar-item .price span{padding:5px 10px;}

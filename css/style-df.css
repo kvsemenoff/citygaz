@@ -119,9 +119,6 @@ html, body {
     display: inline-block; }
   .sidebar-catalogpage .sidebar-catalog {
     max-width: none; }
-  @media only screen and (min-width: 1200px) {
-    .sidebar-catalogpage {
-      max-width: 277px; } }
 
 .filter-clear {
   float: right;
@@ -294,7 +291,7 @@ html, body {
   float: left; }
   @media only screen and (min-width: 1200px) {
     .slidermain {
-      max-width: 555px;
+      max-width: 580px;
       height: 307px;
       overflow: hidden; } }
 
@@ -337,7 +334,8 @@ html, body {
     font-weight: 700;
     line-height: 34px;
     text-transform: uppercase;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    display: block; }
   .slidermain__txttop a {
     color: white;
     font-size: 13px;

@@ -158,9 +158,9 @@ html,body{
 	.sidebar-catalog{
 		max-width: none;
 	}
-	@media only screen and (min-width : 1200px) {
-		max-width: 277px;
-	}
+	// @media only screen and (min-width : 1200px) {
+	// 	max-width: 277px;
+	// }
 }
 .filter-clear{
 	float: right;
@@ -358,7 +358,7 @@ html,body{
 	position: relative;
 	float: left;
 	@media only screen and (min-width : 1200px) {
-		max-width: 555px;//580
+		max-width: 580px;
 		height: 307px;
 		overflow: hidden;
 	}
@@ -408,6 +408,7 @@ html,body{
 		line-height: 34px;
 		text-transform: uppercase;
 		margin-bottom: 15px;
+		display: block;
 	}
 	a{
 		color: white;

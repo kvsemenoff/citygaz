@@ -55,5 +55,5 @@
 <script src="js/fonts.js"></script>
 <script src="js/popup.js"></script>
 <script src="js/common.js"></script>
-
+<script src="block/catalog/script.js"></script>
 <!-- scripts end -->

@@ -1,19 +1,3 @@
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="../css/reset.css" />
-	<link rel="stylesheet" href="../libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
-	<link rel="stylesheet" href="../block/inputtext/style.css" />
-	<link rel="stylesheet" href="../css/popup.css" />
-	<link rel="stylesheet" href="../block/textarea/style.css" />
-</head>
-<body>
-<div class='container'>
-<a href="#order" data-modal="modal" >Заказать ремонт   .</a>
-<a href="#compl" data-modal="modal" >Пожаловаться   .</a>
-<a href="#ask-question" data-modal="modal" >Задать вопрос   .</a>
-<a href="#description" data-modal="modal" >Неточность описания  .</a>
-<a href='#bucket_popup' data-modal="modal">Корзина   .</a>
-<a href='#thanks' data-modal="modal">Спасибо</a>
 <div class="modal-window" id="order">
 	<span class="modal-close"></span>
 	<h3>Заказать ремонт</h3>
@@ -114,8 +98,6 @@
 	</ul>
 
 </div>
-</div>
-</body>
 
 <script src="../libs/jquery/dist/jquery.js"></script>
 <script src="../js/popup.js"></script>

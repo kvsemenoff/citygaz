@@ -67,12 +67,12 @@ var scss_our = new Array(
 	'block/sidebar-catalog/style.scss'
 );
 var css_libs = new Array(
-	'libs/bootstrap/bootstrap-grid-3.3.1.min.css"',
-	'libs/fancybox/jquery.fancybox.css"',
-	'libs/owl.carousel/assets/owl.carousel.css"',
+	'libs/bootstrap/bootstrap-grid-3.3.1.min.css',
+	'libs/fancybox/jquery.fancybox.css',
+	'libs/owl.carousel/assets/owl.carousel.css',
 	'libs/select/selectric.css',
-	'libs/rangeslider/ion.rangeSlider.css"',
-	'libs/rangeslider/ion.rangeSlider.skinFlat.css"'
+	'libs/rangeslider/ion.rangeSlider.css',
+	'libs/rangeslider/ion.rangeSlider.skinFlat.css'
 );
 
 var css_all = css_libs.concat(css_our); 

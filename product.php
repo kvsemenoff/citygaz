@@ -129,78 +129,110 @@
 						<div class="burg-title">Похожие товары</div>
 						<div class="clear"></div>
 						<div class='tovar-row-slider'>						
-							<div class='owl-carousel'>
-								<div class='tovar-item'>
-									<p class='article'>Артикул 1234567</p>
-									<p class='in_stock'>В наличии</p>
-									<a href='#'>
-										<div>
-											<img src='img/engine.png'/>
+							<div class='owl-carousel'>								
+								<div class="tovaritem">
+									<div class="tovaritem__toptxt">
+										<span class="tovaritem__art">Артикул: 5478845</span>
+										<span class="tovaritem__gotcha">В наличии</span>
+									</div>
+									<div class="tovaritem__img">					
+										<a href="img/tovaritem1.jpg" data-fancybox-group="group">
+											<img src="img/tovaritem1.jpg" alt="">
+										</a>
+									</div>
+									<div class="tovaritem__txtbottom">
+										<a href="#" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр
+										</a>
+										<div class="tovaritem__pricebox">
+											<span class="tovaritem__oldprice"></span>			
+											<span class="tovaritem__newprice tovaritem__border1">15 900 .-</span>
+											<a href="#" class="tovaritem__more">Подробнее</a>
 										</div>
-									</a>
-									<em class="clearfix"></em>
-									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>									
-									<p class='price grey'><span>5 200</span></p>
-									<a href='#' class='more_inf'>Подробнее</a>
+									</div>
 								</div>
-								<div class='tovar-item'>
-									<p class='article'>Артикул 1234567</p>
-									<p class='in_stock'>В наличии</p>
-									<a href='#'>
-										<div>
-											<p class='hit'>хит</p>
-											<img src='img/engine.png'/>
+								<div class="tovaritem">
+									<div class="tovaritem__toptxt">
+										<span class="tovaritem__art">Артикул: 5478845</span>
+										<span class="tovaritem__gotcha">В наличии</span>
+									</div>
+									<div class="tovaritem__img">
+										<span class="tovaritem__reklama2">Хит</span>
+										<a href="img/tovaritem1.jpg" data-fancybox-group="group">
+											<img src="img/tovaritem2.jpg" alt="">
+										</a>
+									</div>
+									<div class="tovaritem__txtbottom">
+										<a href="#" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр
+										</a>
+										<div class="tovaritem__pricebox">	
+											<span class="tovaritem__oldprice"></span>		
+											<span class="tovaritem__newprice tovaritem__border1">15 900 .-</span>
+											<a href="#" class="tovaritem__more">Подробнее</a>
 										</div>
-									</a>
-									<em class="clearfix"></em>
-									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
-									
-									<p class='price grey'><span>5 200</span></p>
-									<a href='#' class='more_inf'>Подробнее</a>
+									</div>
 								</div>
-								<div class='tovar-item'>
-									<p class='article'>Артикул 1234567</p>
-									<p class='in_stock'>В наличии</p>
-									<a href='#'>
-										<div>
-											<p class='actia'>Акция</p>
-											<img src='img/engine.png'/>
+								<div class="tovaritem">
+									<div class="tovaritem__toptxt">
+										<span class="tovaritem__art">Артикул: 5478845</span>
+										<span class="tovaritem__gotcha">В наличии</span>
+									</div>
+									<div class="tovaritem__img">
+										<span class="tovaritem__reklama1">Акция</span>
+										<a href="img/tovaritem1.jpg" data-fancybox-group="group">
+											<img src="img/cooler.png" alt="">
+										</a>
+									</div>
+									<div class="tovaritem__txtbottom">
+										<a href="#" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр
+										</a>
+										<div class="tovaritem__pricebox">
+											<span class="tovaritem__oldprice">58 600 .-</span>
+											<span class="tovaritem__newprice tovaritem__border2">15 900 .-</span>
+											<a href="#" class="tovaritem__more">Подробнее</a>
 										</div>
-									</a>
-									<em class="clearfix"></em>
-									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
-									<p class='old-price'><span>8 600</span></p>
-									<p class='price orange'><span>5 200</span></p>
-									<a href='#' class='more_inf'>Подробнее</a>
+									</div>
 								</div>
-								<div class='tovar-item'>
-									<p class='article'>Артикул 1234567</p>
-									<p class='in_stock'>В наличии</p>
-									<a href='#'>
-										<div>
-											<img src='img/cooler.png'/>
+								<div class="tovaritem">
+									<div class="tovaritem__toptxt">
+										<span class="tovaritem__art">Артикул: 5478845</span>
+										<span class="tovaritem__gotcha">В наличии</span>
+									</div>
+									<div class="tovaritem__img">					
+										<a href="img/tovaritem3.jpg" data-fancybox-group="group">
+											<img src="img/tovaritem3.jpg" alt="">
+										</a>
+									</div>
+									<div class="tovaritem__txtbottom">
+										<a href="#" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр
+										</a>
+										<div class="tovaritem__pricebox">	
+											<span class="tovaritem__oldprice"></span>	
+											<span class="tovaritem__newprice tovaritem__border1">15 900 .-</span>
+											<a href="#" class="tovaritem__more">Подробнее</a>
 										</div>
-									</a>
-									<em class="clearfix"></em>
-									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр </a>
-									
-									<p class='price grey'><span>5 200</span></p>
-									<a href='#' class='more_inf'>Подробнее</a>
+									</div>
 								</div>
-								<div class='tovar-item'>
-									<p class='article'>Артикул 1234567</p>
-									<p class='in_stock'>В наличии</p>
-									<a href='#'>
-										<div>
-											<img src='img/12345.png'/>
+								<div class="tovaritem">
+									<div class="tovaritem__toptxt">
+										<span class="tovaritem__art">Артикул: 5478845</span>
+										<span class="tovaritem__gotcha">В наличии</span>
+									</div>
+									<div class="tovaritem__img">					
+										<a href="img/tovaritem1.jpg" data-fancybox-group="group">
+											<img src="img/tovaritem1.jpg" alt="">
+										</a>
+									</div>
+									<div class="tovaritem__txtbottom">
+										<a href="#" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр
+										</a>
+										<div class="tovaritem__pricebox">
+											<span class="tovaritem__oldprice"></span>				
+											<span class="tovaritem__newprice tovaritem__border1">15 900 .-</span>
+											<a href="#" class="tovaritem__more">Подробнее</a>
 										</div>
-									</a>
-									<em class="clearfix"></em>
-									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
-									
-									<p class='price grey'><span>5 200</span></p>
-									<a href='#' class='more_inf'>Подробнее</a>
-								</div>								
+									</div>
+								</div>
+
 							</div>							
 						</div>
 					</div>
@@ -209,84 +241,116 @@
 						<div class="burg-title">Вы смотрели</div>
 						<div class="clear"></div>
 						<div class='tovar-row-slider'>						
-							<div class='owl-carousel'>
-								<div class='tovar-item'>
-									<p class='article'>Артикул 1234567</p>
-									<p class='in_stock'>В наличии</p>
-									<a href='#'>
-										<div>
-											<img src='img/engine.png'/>
+							<div class='owl-carousel'>								
+								<div class="tovaritem">
+									<div class="tovaritem__toptxt">
+										<span class="tovaritem__art">Артикул: 5478845</span>
+										<span class="tovaritem__gotcha">В наличии</span>
+									</div>
+									<div class="tovaritem__img">					
+										<a href="img/tovaritem1.jpg" data-fancybox-group="group">
+											<img src="img/tovaritem1.jpg" alt="">
+										</a>
+									</div>
+									<div class="tovaritem__txtbottom">
+										<a href="#" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр
+										</a>
+										<div class="tovaritem__pricebox">
+											<span class="tovaritem__oldprice"></span>			
+											<span class="tovaritem__newprice tovaritem__border1">15 900 .-</span>
+											<a href="#" class="tovaritem__more">Подробнее</a>
 										</div>
-									</a>
-									<em class="clearfix"></em>
-									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>									
-									<p class='price grey'><span>5 200</span></p>
-									<a href='#' class='more_inf'>Подробнее</a>
+									</div>
 								</div>
-								<div class='tovar-item'>
-									<p class='article'>Артикул 1234567</p>
-									<p class='in_stock'>В наличии</p>
-									<a href='#'>
-										<div>
-											<p class='hit'>хит</p>
-											<img src='img/engine.png'/>
+								<div class="tovaritem">
+									<div class="tovaritem__toptxt">
+										<span class="tovaritem__art">Артикул: 5478845</span>
+										<span class="tovaritem__gotcha">В наличии</span>
+									</div>
+									<div class="tovaritem__img">
+										<span class="tovaritem__reklama2">Хит</span>
+										<a href="img/tovaritem1.jpg" data-fancybox-group="group">
+											<img src="img/tovaritem2.jpg" alt="">
+										</a>
+									</div>
+									<div class="tovaritem__txtbottom">
+										<a href="#" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр
+										</a>
+										<div class="tovaritem__pricebox">	
+											<span class="tovaritem__oldprice"></span>		
+											<span class="tovaritem__newprice tovaritem__border1">15 900 .-</span>
+											<a href="#" class="tovaritem__more">Подробнее</a>
 										</div>
-									</a>
-									<em class="clearfix"></em>
-									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
-									
-									<p class='price grey'><span>5 200</span></p>
-									<a href='#' class='more_inf'>Подробнее</a>
+									</div>
 								</div>
-								<div class='tovar-item'>
-									<p class='article'>Артикул 1234567</p>
-									<p class='in_stock'>В наличии</p>
-									<a href='#'>
-										<div>
-											<p class='actia'>Акция</p>
-											<img src='img/engine.png'/>
+								<div class="tovaritem">
+									<div class="tovaritem__toptxt">
+										<span class="tovaritem__art">Артикул: 5478845</span>
+										<span class="tovaritem__gotcha">В наличии</span>
+									</div>
+									<div class="tovaritem__img">
+										<span class="tovaritem__reklama1">Акция</span>
+										<a href="img/tovaritem1.jpg" data-fancybox-group="group">
+											<img src="img/cooler.png" alt="">
+										</a>
+									</div>
+									<div class="tovaritem__txtbottom">
+										<a href="#" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр
+										</a>
+										<div class="tovaritem__pricebox">
+											<span class="tovaritem__oldprice">58 600 .-</span>
+											<span class="tovaritem__newprice tovaritem__border2">15 900 .-</span>
+											<a href="#" class="tovaritem__more">Подробнее</a>
 										</div>
-									</a>
-									<em class="clearfix"></em>
-									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
-									<p class='old-price'><span>8 600</span></p>
-									<p class='price orange'><span>5 200</span></p>
-									<a href='#' class='more_inf'>Подробнее</a>
+									</div>
 								</div>
-								<div class='tovar-item'>
-									<p class='article'>Артикул 1234567</p>
-									<p class='in_stock'>В наличии</p>
-									<a href='#'>
-										<div>
-											<img src='img/cooler.png'/>
+								<div class="tovaritem">
+									<div class="tovaritem__toptxt">
+										<span class="tovaritem__art">Артикул: 5478845</span>
+										<span class="tovaritem__gotcha">В наличии</span>
+									</div>
+									<div class="tovaritem__img">					
+										<a href="img/tovaritem3.jpg" data-fancybox-group="group">
+											<img src="img/tovaritem3.jpg" alt="">
+										</a>
+									</div>
+									<div class="tovaritem__txtbottom">
+										<a href="#" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр
+										</a>
+										<div class="tovaritem__pricebox">	
+											<span class="tovaritem__oldprice"></span>	
+											<span class="tovaritem__newprice tovaritem__border1">15 900 .-</span>
+											<a href="#" class="tovaritem__more">Подробнее</a>
 										</div>
-									</a>
-									<em class="clearfix"></em>
-									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр </a>
-									
-									<p class='price grey'><span>5 200</span></p>
-									<a href='#' class='more_inf'>Подробнее</a>
+									</div>
 								</div>
-								<div class='tovar-item'>
-									<p class='article'>Артикул 1234567</p>
-									<p class='in_stock'>В наличии</p>
-									<a href='#'>
-										<div>
-											<img src='img/12345.png'/>
+								<div class="tovaritem">
+									<div class="tovaritem__toptxt">
+										<span class="tovaritem__art">Артикул: 5478845</span>
+										<span class="tovaritem__gotcha">В наличии</span>
+									</div>
+									<div class="tovaritem__img">					
+										<a href="img/tovaritem1.jpg" data-fancybox-group="group">
+											<img src="img/tovaritem1.jpg" alt="">
+										</a>
+									</div>
+									<div class="tovaritem__txtbottom">
+										<a href="#" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр
+										</a>
+										<div class="tovaritem__pricebox">
+											<span class="tovaritem__oldprice"></span>				
+											<span class="tovaritem__newprice tovaritem__border1">15 900 .-</span>
+											<a href="#" class="tovaritem__more">Подробнее</a>
 										</div>
-									</a>
-									<em class="clearfix"></em>
-									<a href='#'>Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр</a>
-									
-									<p class='price grey'><span>5 200</span></p>
-									<a href='#' class='more_inf'>Подробнее</a>
-								</div>								
+									</div>
+								</div>
+
 							</div>							
 						</div>
 					</div>
 
 
-
+					
 
 				</div>
 			</div>

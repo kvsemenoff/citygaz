@@ -1,70 +1,128 @@
 .catalog{
-	font-family:'Roboto';
+	width: 100%;
 	position:relative;
-	min-height: 555px;
+	clear: both;
+	margin-top: 37px;
+}
+.catalog .cat-col{
+	width: 100%;
+	margin-right: 4px;
+	float: left;
+	&::last-child{
+		margin-right: 0px;
+	}
+	@media only screen and (min-width : 410px) {
+		width:calc(50% - 4px);	
+	}
+	@media only screen and (min-width : 1006px) {
+		width:calc(33.333% - 4px);	
+	}
+
+}
+.catalog .cat-col:last-child{
+	margin-right: 0px;
+}
+.catalog .cat-item{
+	width: 100%;
+	padding:25px 30px;
+	padding-bottom: 30px;
+	padding-top: 40px;
+	margin: 0 auto;
+	background: #fff;
+	margin-bottom: 4px;
+	position: relative;
+}
+.catalog .cat-item_one{
+	height: 459px;
+	overflow: hidden;
+	.catalog-list{
+		height: 322px;
+	}
+}
+.catalog .cat-item_two{
+	height: 146px;
+	overflow: hidden;
+	.catalog-list{
+		height: 85px;
+	}
+}
+.catalog .cat-item_three{
+	height: 239px;
+	padding-top: 5px;
+	overflow: hidden;
+	.watch-more{
+		margin-top: -19px !important;
+		position: absolute;
+	}
+	.catalog-list{
+		height: 128px;
+	}
+	.catalog_title{
+		margin-top: -5px;
+	}
 }
 
-.catalog div:nth-child(4) .catalog-list{
-	height:152px;
-	overflow:hidden;
-}
 
-.catalog div:nth-child(2){
-	left:33.5%;
-}
-
-.catalog div:nth-child(3){
-	left:67%;
-}
-
-.catalog div:nth-child(4){
-	left:67%;
-}
 
 .catalog_title{
 	font-size:16px;
-	font-family:'Roboto';
-	padding-left:55px;
+	color: #2e3641;
+	padding-left:57px;
 	background-repeat:no-repeat;
-	max-width:80%;
+	line-height: 17px;
 	margin-bottom:20px;
 	min-height:44px;
 }
 
-.catalog div:nth-child(1) .catalog_title{
+.catalog .catalog_title_cooker{
 	background-image:url(../../img/cooker.png);
 }
 
-.catalog div:nth-child(2) .catalog_title{
+.catalog .catalog_title_htautomation{
 	background-image:url(../../img/htautomation.png);
 }
 
-.catalog div:nth-child(3) .catalog_title{
+.catalog .catalog_title_pulse{
 	background-image:url(../../img/pulse.png);
 }
 
-.catalog div:nth-child(4) .catalog_title{
+.catalog .catalog_title_gas-blue{
 	background-image:url(../../img/gas-blue.png);
-}
-
-.catalog div{
-	float:left;
-	padding:25px 30px;
-	background-color:white;
-	margin:2px 2px;
-	min-width:246px !important;
-	position:absolute;
-	width:33%;
 }
 
 .catalog .catalog-list{
 	margin-bottom:30px;
+	z-index: 50;
+	height: auto;
 }
 
 .catalog .watch-more{
-	font-size:12px;
-	margin-left:0;
-	background-color:#f5f6f8;
-	border:0;
-	color:#556273;
+	display: inline-block;
+	margin-top: 8px;
+}
+.catalog-list-absolute{
+	display: none;
+	z-index: 88000;
+	
+}
+
+.catalog-active{
+	-webkit-box-shadow: 0px 0px 37px -4px rgba(0,0,0,0.61);
+	-moz-box-shadow: 0px 0px 37px -4px rgba(0,0,0,0.61);
+	box-shadow: 0px 0px 37px -4px rgba(0,0,0,0.61);
+
+}
+.cat-item-inner{
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	padding-top: 40px;
+	padding-left: 29px;
+	width: 100%;
+	background: #fff;
+	z-index: 50;
+	-webkit-box-shadow: 0px 0px 37px -4px rgba(0,0,0,0.61);
+	-moz-box-shadow: 0px 0px 37px -4px rgba(0,0,0,0.61);
+	box-shadow: 0px 0px 37px -4px rgba(0,0,0,0.61);
 }

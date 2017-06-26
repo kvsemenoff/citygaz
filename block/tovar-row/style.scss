@@ -1,3 +1,17 @@
 .tovar-row{
 	width:100%;
 }
+.col{
+	width: 100%;	
+	float: left;
+	margin-right: 4px;
+	@media only screen and (min-width : 552px) {
+		width:calc(50% - 4px);	
+	}
+	@media only screen and (min-width : 785px) {
+		width:calc(25% - 4px);	
+	}
+}
+.col::last-child{
+	margin-right: 0px;
+}

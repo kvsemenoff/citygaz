@@ -21,22 +21,22 @@
       .search-box .selectric-wrapper {
         max-width: 285px;
         width: 100%; } }
-  .search-box input {
+  .search-box input[type="text"] {
     border: none;
     height: 50px;
     float: left;
     border: 1px solid #eaeaea; }
     @media only screen and (min-width: 570px) {
-      .search-box input {
+      .search-box input[type="text"] {
         max-width: none;
         width: 40%;
         border-left: 0;
         border-right: 0; } }
     @media only screen and (min-width: 992px) {
-      .search-box input {
-        max-width: 445px;
+      .search-box input[type="text"] {
+        max-width: 451px;
         width: 100%; } }
-    .search-box input::-ms-clear {
+    .search-box input[type="text"]::-ms-clear {
       display: none; }
   .search-box button {
     color: white;

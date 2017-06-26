@@ -1,32 +1,25 @@
-.item-row{
-	text-align:right;
-	padding:10px;
-}
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 17px;
+  margin-top: 17px; }
+
 .burg-title {
-  font-family: 'Roboto', sans-serif;
-  background-image: url("../../img/burger.svg");
-  background-repeat: no-repeat;
-  background-position: left center;
+  display: block;
+  position: relative;
   color: #435266;
   font-size: 15px;
   font-weight: 400;
-  line-height: 17px;
-  padding-left:27px;
-  float:left;
-}
+  padding-left: 27px; }
 
-
-  a.watch-more{
-	border:1px solid #d8d9db;
-	color:#59677b;
-	text-decoration:none;
-	font-family:'Roboto-Thin';
-	padding:7px 15px;
-	border-radius:40px;
-	font-size:14px;
-	background:transparent;
-}
-
-
+.burg-title::before {
+  position: absolute;
+  content: "";
+  width: 14px;
+  height: 11px;
+  background: url("../../img/burger.svg") no-repeat left center;
+  left: 0px;
+  top: 5px; }
 
 /*# sourceMappingURL=style.css.map */

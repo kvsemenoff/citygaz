@@ -202,4 +202,10 @@ $(".tech-doc__inside>li>span").on('click', function(e){
 	});
 
 
+	$('.brand__allbrends a').on('click',  function(event) {
+		event.preventDefault();
+		$(this).toggleClass('brand__allbrends__activelink');
+		$(this).parent().next('.brand__hiddenbox').slideToggle();
+	});
+
 });

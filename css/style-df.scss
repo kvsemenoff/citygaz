@@ -25,8 +25,7 @@ html,body{
 	background-color: #fff;
 	padding: 7px 20px 20px 25px;
 }
-.brand__box{
-	
+.brand__box{	
 	.brand__img{
 		display: inline-block;
 		width: 120px;
@@ -40,11 +39,15 @@ html,body{
 		color: #1358b6;
 		font-size: 15px;
 		font-weight: 100;
-		line-height: 53px;
+		line-height: 55px;
 		text-decoration: underline;
+		transition:0.4s;
 		&:hover{
-			line-height: 53px;
+			line-height: 55px;
 			font-weight: 100;
+			color: #de9302;
+			text-decoration: none;
+			transition:0.4s;
 		}
 	}
 }
@@ -57,17 +60,44 @@ html,body{
 		font-weight: 100;
 		line-height: 30px;
 		text-decoration: underline;
-		background-image: url("../img/selectimg.png");
-		background-repeat: no-repeat;
-		background-position: right center;
+		position: relative;
 		padding-right: 34px;
+		transition:0.4s;
+		&:after{
+			content: "";
+			position: absolute;
+			top:4px;
+			right:0;
+			width: 10px;
+			height: 12px;
+			-webkit-transform:rotate(-90deg);
+			-moz-transform:rotate(-90deg);
+			-ms-transform:rotate(-90deg);
+			transform:rotate(-90deg);
+			background-image: url("../img/selectimg.png");
+			background-repeat: no-repeat;
+			background-position:center;
+		}
 		&:hover{
 			line-height: 30px;
 			font-weight: 100;
+			color: #de9302;
+			text-decoration: none;
+			transition:0.4s;
 		}
 	}
 }
-
+.brand__allbrends .brand__allbrends__activelink{
+	&:after{
+		-webkit-transform:rotate(0deg);
+		-moz-transform:rotate(0deg);
+		-ms-transform:rotate(0deg);
+		transform:rotate(0deg);
+	}
+}
+.brand__hiddenbox{
+	display: none;
+}
 
 .sidebar-buttons{
 	a{

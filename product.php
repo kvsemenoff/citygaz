@@ -25,7 +25,9 @@
 						<div class="product__leftbox">
 							<span>Акция</span>
 							<div class="product__imgbox">
-								<img src="img/product1.jpg" alt="">
+								<a href="img/product1.jpg" data-fancybox-group="group">
+									<img src="img/product1.jpg" alt="">
+								</a>	
 							</div>
 							<div class="product__galerybox">
 								<a href="img/product1.jpg">

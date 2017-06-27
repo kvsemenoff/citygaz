@@ -804,7 +804,7 @@ html,body{
 	span:first-child{
 		color: #20b603;
 		font-size: 12px;
-		font-weight: 100;
+		font-weight: 400;
 		line-height: 17px;
 		display: inline-block;
 		padding: 0 22px 0 18px;
@@ -814,7 +814,7 @@ html,body{
 		color: #435266;
 		font-size: 14px;
 		line-height: 17px;
-		font-weight: 100;
+		font-weight: 300;
 		b{
 			font-weight: 400;
 		}
@@ -824,7 +824,7 @@ html,body{
 	color: #435266;
 	font-size: 14px;
 	line-height: 17px;
-	font-weight: 100;
+	font-weight: 300;
 	display: block;
 	b{
 		font-weight: 400;
@@ -833,7 +833,7 @@ html,body{
 .product__characteristic{
 	color: #5d656f;
 	font-size: 14px;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 17px;
 	display: block;
 	margin: 17px 0 12px 0;
@@ -843,7 +843,7 @@ html,body{
 	li{
 		color: #435266;
 		font-size: 14px;
-		font-weight: 100;
+		font-weight: 400;
 		line-height: 27px;	
 		background: url("../img/ulliimg.png")no-repeat left center;
 		padding-left: 24px;
@@ -852,9 +852,13 @@ html,body{
 .product__txtbox{
 	color: #435266;
 	font-size: 14px;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 21px;
 	margin-top: 11px;
+	overflow: hidden;
+	@media only screen and (min-width : 992px) {
+		height: 135px;
+	}
 }
 
 .product__pricebox{
@@ -912,7 +916,7 @@ html,body{
 		}	
 	}
 	@media only screen and (min-width : 992px) {
-		margin: 70px 0 0 0px;
+		margin: 19px 0 0 0px;
 		text-align: left;	
 		.product__newprice{
 			float: left;
@@ -964,7 +968,7 @@ html,body{
 	span{
 		color: #435266;
 		font-size: 14px;
-		font-weight: 100;
+		font-weight: 400;
 		line-height: 18px;
 	}
 }
@@ -990,7 +994,7 @@ html,body{
 	span{
 		color: #435266;
 		font-size: 14px;
-		font-weight: 100;
+		font-weight: 400;
 		line-height: 18px;
 		display: block;
 		margin-top: 15px;
@@ -1022,12 +1026,13 @@ html,body{
 	p{
 		color: #435266;
 		font-size: 14px;
-		font-weight: 100;
+		font-weight: 400;
 		line-height: 25px;
 		margin-bottom: 25px;
 	}
 	@media only screen and (min-width : 770px) {
-		padding: 31px 25px 30px 38px;	
+		padding: 31px 25px 30px 38px;
+		margin-bottom: 30px;	
 	}
 }
 .product__txtblock-document{
@@ -1063,6 +1068,9 @@ html,body{
 		line-height: 36px;
 		text-decoration: underline;	
 		background: url("../img/document2.png") no-repeat left center;
+		&:hover{
+			text-decoration: none;	
+		}
 	}
 }
 .product__txtcharactericstics{	
@@ -1071,7 +1079,7 @@ html,body{
 	li{
 		color: #435266;
 		font-size: 14px;
-		font-weight: 100;
+		font-weight: 400;
 		line-height: 30px;
 		&:before {
 			counter-increment: myCounter;
@@ -1091,7 +1099,7 @@ html,body{
 .product__error{
 	color: #435266;
 	font-size: 14px;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 17px;
 	text-decoration: underline;
 	display: inline-block;
@@ -1108,9 +1116,12 @@ html,body{
 		padding: 0 40px;
 	}
 	.burg-title{
-		margin: 30px 0 19px 0px;
+		margin: 10px 0 14px 0px;
 		display: block;
 		width: 100%;	
+	}
+	.tovaritem{
+		margin: 15px 0 15px 0;
 	}
 }
 .tovar-row-slider .prev-left, .tovar-row-slider .next-right{
@@ -1172,7 +1183,7 @@ html,body{
 .tovaritem__art{
 	color: #435266;
 	font-size: 12px;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 17px;
 	display: inline-block;
 	float: left;
@@ -1181,7 +1192,7 @@ html,body{
 	display: inline-block;
 	color: #20b603;
 	font-size: 12px;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 17px;
 	float: right;
 	background: url(../img/galkagreen.png) no-repeat left center;
@@ -1241,7 +1252,7 @@ html,body{
 .tovaritem__nameproduct{
 	color: #0048b7;
 	font-size: 13px;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 17px;
 	text-decoration: underline;
 	display: inline-block;
@@ -1278,7 +1289,7 @@ html,body{
 .tovaritem__newprice{
 	color: #435266;
 	font-size: 15px;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 26px;
 	display: block;
 	border-radius: 15px;
@@ -1365,9 +1376,9 @@ html,body{
 
 .catalogpage__filter{
 	padding: 10px 11px 6px 11px;
-    background-color: #fff;
-    width: 100%;
-    margin: 35px 0 9px 0;
+	background-color: #fff;
+	width: 100%;
+	margin: 35px 0 9px 0;
 }	
 .catalogpage__filter-box{
 	display: inline-block;

@@ -69,22 +69,22 @@
 
 					
 					<div class="product__promotion">
-						<div class="product__promotion-box">
+						<a href="#" target="_blank" class="product__promotion-box">
 							<h4>Доставка</h4>
 							<span>Мы доставим любым удобным способом</span>
-						</div>
-						<div class="product__promotion-box">
+						</a>
+						<a href="#" target="_blank" class="product__promotion-box">
 							<h4>Оплата</h4>
 							<span>Оплатить вы можете любым удобнымсм способом</span>
-						</div>
-						<div class="product__promotion-box">
+						</a>
+						<a href="#" target="_blank" class="product__promotion-box">
 							<h4>Как заказать</h4>
 							<span>Закажите на сайте уже сейчас</span>
-						</div>
-						<div class="product__promotion-box">
+						</a>
+						<a href="#" target="_blank" class="product__promotion-box">
 							<h4>Заказать ремонт</h4>
 							<span>Мы можем отремонтировать</span>
-						</div>
+						</a>
 
 						<div class="product__question">
 							<a href="#" class="button-question">Задать вопрос</a>

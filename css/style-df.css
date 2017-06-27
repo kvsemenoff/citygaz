@@ -161,12 +161,14 @@ html, body {
   padding: 7px 12px;
   margin: 29px 0 25px 0;
   border: 1px solid #c0c6ce;
-  background-color: transparent; }
+  background-color: transparent;
+  transition: 0.4s; }
   .filter-clear:hover {
     font-weight: 700;
     color: #fff;
     background-color: #ffc000;
-    border-color: transparent; }
+    border-color: transparent;
+    transition: 0.4s; }
 
 .sidebar__filterrange {
   background-color: #fff;
@@ -223,11 +225,13 @@ html, body {
   background-color: transparent;
   border: 1px solid #d3d8de;
   display: inline-block;
-  margin-bottom: 21px; }
+  margin-bottom: 21px;
+  transition: 0.4s; }
   .applyfilter:hover {
     color: #fff;
     background-color: #1e73c6;
-    border-color: transparent; }
+    border-color: transparent;
+    transition: 0.4s; }
 
 .rangeslidr {
   position: relative;
@@ -772,8 +776,10 @@ html, body {
     border-radius: 20px;
     display: inline-block;
     padding: 0 50px;
-    margin-top: 15px; }
+    margin-top: 15px;
+    transition: 0.4s; }
     .product__pricebox a:hover {
+      transition: 0.4s;
       background-color: #1e73c6; }
   @media only screen and (min-width: 992px) {
     .product__pricebox {
@@ -994,8 +1000,10 @@ html, body {
   width: 100%;
   background-color: #fff;
   padding: 18px 14px 18px 14px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  transition: 0.4s; }
   .tovaritem:hover {
+    transition: 0.4s;
     webkit-box-shadow: 0px 0px 25px -4px rgba(0, 0, 0, 0.51);
     -moz-box-shadow: 0px 0px 25px -4px rgba(0, 0, 0, 0.51);
     box-shadow: 0px 0px 25px -4px rgba(0, 0, 0, 0.5); }
@@ -1080,8 +1088,10 @@ html, body {
   text-decoration: underline;
   display: inline-block;
   text-align: left;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  transition: 0.4s; }
   .tovaritem__nameproduct:hover {
+    transition: 0.4s;
     color: #e8bd40; }
 
 .tovaritem__pricebox {
@@ -1769,12 +1779,14 @@ html, body {
       text-align: center;
       border: 0;
       width: 100%;
-      background-color: #ffc000; }
+      background-color: #ffc000;
+      transition: 0.5s; }
       @media only screen and (min-width: 770px) {
         .busket__messagebox .busket__messagesubmit input {
           padding: 0 65px;
           width: auto; } }
       .busket__messagebox .busket__messagesubmit input:hover {
+        transition: 0.5s;
         background-color: #1e73c6; }
 
 .busket__txtbottom {

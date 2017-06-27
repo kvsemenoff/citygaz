@@ -15,7 +15,8 @@
       display: block;
       padding: 14px 5px 14px 37px;
       position: relative;
-      cursor: pointer; }
+      cursor: pointer;
+      transition: 0.2s; }
       @media only screen and (min-width: 1200px) {
         .sidebar-catalog > li span {
           padding: 14px 20px 14px 37px; } }
@@ -42,6 +43,7 @@
         transition: 0.4s;
         transition-delay: 0.15s; } }
     .sidebar-catalog > li:hover span {
+      transition: 0.2s;
       background-color: #1e73c6;
       color: white;
       font-weight: 400; }

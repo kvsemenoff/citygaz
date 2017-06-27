@@ -190,9 +190,6 @@ html,body{
 	.sidebar-catalog{
 		max-width: none;
 	}
-	// @media only screen and (min-width : 1200px) {
-	// 	max-width: 277px;
-	// }
 }
 .filter-clear{
 	float: right;
@@ -206,11 +203,13 @@ html,body{
 	margin: 29px 0 25px 0;
 	border: 1px solid #c0c6ce;
 	background-color: transparent;
+	transition:0.4s;
 	&:hover{
 		font-weight: 700;
 		color: #fff;
 		background-color: #ffc000;
 		border-color: transparent;
+		transition:0.4s;
 	}
 }
 
@@ -274,10 +273,12 @@ html,body{
 	border: 1px solid #d3d8de;
 	display: inline-block;
 	margin-bottom: 21px;
+	transition:0.4s;
 	&:hover{
 		color:#fff;
 		background-color: #1e73c6;
 		border-color: transparent;
+		transition:0.4s;
 	}
 }
 
@@ -911,7 +912,9 @@ html,body{
 		display: inline-block;
 		padding: 0 50px;	
 		margin-top: 15px;
+		transition:0.4s;
 		&:hover{
+			transition:0.4s;
 			background-color: #1e73c6;
 		}	
 	}
@@ -1168,7 +1171,9 @@ html,body{
 	background-color: #fff;
 	padding: 18px 14px 18px 14px;
 	margin-top: 10px;
+	transition:0.4s;
 	&:hover{
+		transition:0.4s;
 		webkit-box-shadow: 0px 0px 25px -4px rgba(0, 0, 0, 0.51);
 		-moz-box-shadow: 0px 0px 25px -4px rgba(0, 0, 0, 0.51);
 		box-shadow: 0px 0px 25px -4px rgba(0, 0, 0, 0.5);
@@ -1258,7 +1263,9 @@ html,body{
 	display: inline-block;
 	text-align: left;
 	padding-bottom: 10px;
+	transition:0.4s;
 	&:hover{
+		transition:0.4s;
 		color: #e8bd40;
 	}
 }
@@ -2122,11 +2129,13 @@ html,body{
 			border: 0;
 			width: 100%;
 			background-color: #ffc000;
+			transition:0.5s;
 			@media only screen and (min-width : 770px) {
 				padding: 0 65px;
 				width: auto;
 			}
 			&:hover{
+				transition:0.5s;
 				background-color: #1e73c6;
 			}
 		}

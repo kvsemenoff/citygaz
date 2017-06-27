@@ -221,7 +221,6 @@
 
 					<!-- Хиты продаж. Начало -->
 
-					<a href='#thanks' data-modal="modal">Спасибо</a>
 
 					<div class="item-row">
 						<div class="burg-title">Хит продаж</div>

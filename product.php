@@ -89,7 +89,7 @@
 						</a>
 
 						<div class="product__question">
-							<a href="#" class="button-question">Задать вопрос</a>
+							<a href="#ask-question" data-modal="modal" class="button-question">Задать вопрос</a>
 							<span>Мы свяжемся с вами в течении 15 минут</span>
 						</div>
 						<div class="clear"></div>

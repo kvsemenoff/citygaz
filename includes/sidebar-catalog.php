@@ -197,6 +197,6 @@
 	
 	<div class="sidebar-buttons">
 		<a href="#">Продажа газового оборудования </a>
-		<a href="#">Жалобы и предложения клиентов</a>
+		<a href="#compl" data-modal="modal" >Жалобы и предложения клиентов</a>
 	</div>
 </div>

@@ -442,6 +442,8 @@ html, body {
     left: 0;
     width: 100%;
     height: 100%; }
+  .slidermain .prev-left:hover, .next-right:hover {
+    color: #ffc000; }
 
 .slidermain .prev-left {
   right: 0px;

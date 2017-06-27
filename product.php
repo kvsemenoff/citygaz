@@ -121,7 +121,8 @@
 							<li>Страна производитель: Италия.</li>
 						</ol>
 						<br>
-						<a href="#" class="product__error">Сообщить о неточности описания</a>
+						<a href="#description" data-modal="modal" class="product__error">Сообщить о неточности описания</a>
+						<a href='#thanks' data-modal="modal">Спасибо</a>
 					</div>
 
 					

@@ -57,7 +57,7 @@
 .catalog_title {
   font-size: 16px;
   color: #2e3641;
-  padding-left: 57px;
+  padding-left: 50px;
   background-repeat: no-repeat;
   line-height: 17px;
   margin-bottom: 20px;
@@ -106,5 +106,8 @@
   -webkit-box-shadow: 0px 0px 37px -4px rgba(0, 0, 0, 0.61);
   -moz-box-shadow: 0px 0px 37px -4px rgba(0, 0, 0, 0.61);
   box-shadow: 0px 0px 37px -4px rgba(0, 0, 0, 0.61); }
+
+.catalog .modal-close {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */

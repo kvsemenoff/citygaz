@@ -65,6 +65,10 @@ body {
     line-height: 26px;
     margin-bottom: 26px; }
 
+.content-part h3{
+  font-weight: 700;
+}
+
 strong {
   font-weight: 700; }
 

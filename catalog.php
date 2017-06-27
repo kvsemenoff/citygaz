@@ -58,7 +58,7 @@
 
 							
 							<div class="catalogpage__filter">
-								<div class="catalogpage__filter-box">
+								<div class="catalogpage__filter-box catalogpage__filtersort">
 									<span>Сортировать по:</span>
 									<select>
 										<option value="1">артикулу</option>
@@ -66,7 +66,7 @@
 										<option value="3">цене</option>
 									</select>
 								</div>
-								<div class="catalogpage__filter-box">
+								<div class="catalogpage__filter-box catalogpage__filtervivod">
 									<span>Выводить по:</span>
 									<select>
 										<option value="1">20</option>

@@ -32,13 +32,11 @@ html, body {
   display: inline-block;
   color: #1358b6;
   font-size: 15px;
-  font-weight: 100;
+  font-weight: 400;
   line-height: 55px;
   text-decoration: underline;
   transition: 0.4s; }
   .brand__box a:hover {
-    line-height: 55px;
-    font-weight: 100;
     color: #de9302;
     text-decoration: none;
     transition: 0.4s; }
@@ -49,7 +47,7 @@ html, body {
   .brand__allbrends a {
     color: #0944b4;
     font-size: 13px;
-    font-weight: 100;
+    font-weight: 400;
     line-height: 30px;
     text-decoration: underline;
     position: relative;
@@ -58,7 +56,7 @@ html, body {
     .brand__allbrends a:after {
       content: "";
       position: absolute;
-      top: 4px;
+      top: 2px;
       right: 0;
       width: 10px;
       height: 12px;
@@ -70,8 +68,6 @@ html, body {
       background-repeat: no-repeat;
       background-position: center; }
     .brand__allbrends a:hover {
-      line-height: 30px;
-      font-weight: 100;
       color: #de9302;
       text-decoration: none;
       transition: 0.4s; }
@@ -93,16 +89,21 @@ html, body {
   background-color: #1056b5;
   display: block;
   padding: 22px 12px 25px 70px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  transition: 0.5s; }
   .sidebar-buttons a:hover {
     background-color: #ffc000;
     line-height: 23px;
     font-weight: 400;
-    color: white; }
+    color: white;
+    transition: 0.5s; }
 .sidebar-buttons a:nth-child(1) {
   background-image: url("../img/gas.png");
   background-repeat: no-repeat;
-  background-position: 25px 50%; }
+  background-position: 25px 50%;
+  background-color: #ffc000; }
+  .sidebar-buttons a:nth-child(1):hover {
+    background-color: #1056b5; }
 .sidebar-buttons a:nth-child(2) {
   background-image: url("../img/sidebarbutton.png");
   background-repeat: no-repeat;

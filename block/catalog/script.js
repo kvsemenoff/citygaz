@@ -10,7 +10,6 @@ $(document).ready(function() {
 		//$(this).parents('.cat-item_one').find('.catalog-list').css('left','0px');
 		//alert($(this).parents('.cat-item_one').find('.catalog-list-absolute').height());
 		var height = $(this).parents('.cat-item_one').find('.catalog-list-absolute').height()+150;
-		$('.catalog .modal-close').css({'display':'block'});
 
 		//$(this).parents('.cat-item_one').css('height',height);
 		//$(this).parents('.cat-item_one').find('.catalog-list').css('height',height);
@@ -40,5 +39,4 @@ $(document).ready(function() {
 	// 	$(this).css({'display':'none'});
 	// 	return false;
 	// });
-
 });

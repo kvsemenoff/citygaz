@@ -55,10 +55,10 @@
 	<h3>Вы добавили в корзину</h3>
 	<div>
 		<div>
-		<p>Артикул 1234567</p>
-		<a href='#'>Запчасти для газовых колонок:комплектующие</a>
+		<p>Артикул 24687965</p>
+		<a href='#'>Водогазовый блок Mertic для колонки Mora</a>
 	</div>
-		<img src='../img/5665220.png' />
+		<img src='img/product1.jpg' />
 	</div>
 	<input type="submit" value='Оформить заказ' ></input>
 	<a class="modal-close">Продолжить покупки</a>

@@ -86,7 +86,8 @@
       padding: 10px; }
   .cart .cart-text {
     padding-left: 20px;
-    float: left; }
+    float: left; 
+    font-weight:400;}
 
 .main-menu {
   background: #fff !important;

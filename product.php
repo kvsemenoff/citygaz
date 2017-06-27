@@ -63,7 +63,7 @@
 							<div class="product__pricebox">
 								<span class="product__oldprice">8 600 .-</span>
 								<span class="product__newprice">5 200 .-</span>
-								<a href="#">Купить</a>
+								<a href='#bucket_popup' data-modal="modal">Купить</a>
 							</div>
 						</div>
 						<div class="clear"></div>

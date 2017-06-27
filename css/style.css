@@ -115,10 +115,15 @@ a.watch-more {
     .logo-box, .contact-box, .right-box {
       margin: 0px; } }
 
+.slogan{
+  font-weight:400;
+}
+
 .contact-address {
   background: url("../img/marker.png") no-repeat top 8px left;
   padding-left: 24px;
   line-height: 22px;
+  font-weight: 400;
   word-spacing: nowrap; }
   .contact-address strong {
     font-weight: 400; }

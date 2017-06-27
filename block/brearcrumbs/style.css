@@ -4,23 +4,13 @@
   margin: 0 auto;
   border: 1px solid #e2e5ea;
   background-color: transparent;
-  padding: 0 18px;
-  overflow: hidden;
-  white-space: nowrap; }
+  padding: 0 18px; }
   .brearcrumbs li {
     display: inline-block;
     font-size: 14px;
     font-weight: 400;
     line-height: 40px;
     vertical-align: top; }
-    .brearcrumbs li:last-child {
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      max-width: 140px; }
-      @media only screen and (min-width: 350px) {
-        .brearcrumbs li:last-child {
-          max-width: none; } }
     .brearcrumbs li a {
       color: #1e72c7;
       text-decoration: underline;
@@ -39,6 +29,8 @@
         font-size: 11px;
         font-weight: 400;
         line-height: 15px; }
+      .brearcrumbs li a:hover {
+        text-decoration: none; }
     .brearcrumbs li span {
       color: #6a7a8f;
       display: inline-block; }

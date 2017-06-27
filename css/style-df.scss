@@ -315,12 +315,12 @@ html,body{
 
 
 .filterblock{
-	padding: 22px 33px 22px 33px;
+	padding: 22px 33px 3px 33px;
 	background-color: #fff;
-	margin-bottom: 14px;
+	margin-bottom: 18px;
 }
 .filterbrends{
-	padding: 5px 33px 22px 33px;
+	padding: 18px 33px 22px 33px;
 	background-color: #fff;
 	margin-bottom: 14px;
 	.filtertopcaption{
@@ -804,7 +804,7 @@ html,body{
 	span:first-child{
 		color: #20b603;
 		font-size: 12px;
-		font-weight: 100;
+		font-weight: 400;
 		line-height: 17px;
 		display: inline-block;
 		padding: 0 22px 0 18px;
@@ -814,7 +814,7 @@ html,body{
 		color: #435266;
 		font-size: 14px;
 		line-height: 17px;
-		font-weight: 100;
+		font-weight: 300;
 		b{
 			font-weight: 400;
 		}
@@ -824,7 +824,7 @@ html,body{
 	color: #435266;
 	font-size: 14px;
 	line-height: 17px;
-	font-weight: 100;
+	font-weight: 300;
 	display: block;
 	b{
 		font-weight: 400;
@@ -833,7 +833,7 @@ html,body{
 .product__characteristic{
 	color: #5d656f;
 	font-size: 14px;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 17px;
 	display: block;
 	margin: 17px 0 12px 0;
@@ -843,7 +843,7 @@ html,body{
 	li{
 		color: #435266;
 		font-size: 14px;
-		font-weight: 100;
+		font-weight: 400;
 		line-height: 27px;	
 		background: url("../img/ulliimg.png")no-repeat left center;
 		padding-left: 24px;
@@ -852,9 +852,13 @@ html,body{
 .product__txtbox{
 	color: #435266;
 	font-size: 14px;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 21px;
 	margin-top: 11px;
+	overflow: hidden;
+	@media only screen and (min-width : 992px) {
+		height: 135px;
+	}
 }
 
 .product__pricebox{
@@ -912,7 +916,7 @@ html,body{
 		}	
 	}
 	@media only screen and (min-width : 992px) {
-		margin: 70px 0 0 0px;
+		margin: 19px 0 0 0px;
 		text-align: left;	
 		.product__newprice{
 			float: left;
@@ -964,7 +968,7 @@ html,body{
 	span{
 		color: #435266;
 		font-size: 14px;
-		font-weight: 100;
+		font-weight: 400;
 		line-height: 18px;
 	}
 }
@@ -990,7 +994,7 @@ html,body{
 	span{
 		color: #435266;
 		font-size: 14px;
-		font-weight: 100;
+		font-weight: 400;
 		line-height: 18px;
 		display: block;
 		margin-top: 15px;
@@ -1022,12 +1026,13 @@ html,body{
 	p{
 		color: #435266;
 		font-size: 14px;
-		font-weight: 100;
+		font-weight: 400;
 		line-height: 25px;
 		margin-bottom: 25px;
 	}
 	@media only screen and (min-width : 770px) {
-		padding: 31px 25px 30px 38px;	
+		padding: 31px 25px 30px 38px;
+		margin-bottom: 30px;	
 	}
 }
 .product__txtblock-document{
@@ -1063,6 +1068,9 @@ html,body{
 		line-height: 36px;
 		text-decoration: underline;	
 		background: url("../img/document2.png") no-repeat left center;
+		&:hover{
+			text-decoration: none;	
+		}
 	}
 }
 .product__txtcharactericstics{	
@@ -1071,7 +1079,7 @@ html,body{
 	li{
 		color: #435266;
 		font-size: 14px;
-		font-weight: 100;
+		font-weight: 400;
 		line-height: 30px;
 		&:before {
 			counter-increment: myCounter;
@@ -1091,7 +1099,7 @@ html,body{
 .product__error{
 	color: #435266;
 	font-size: 14px;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 17px;
 	text-decoration: underline;
 	display: inline-block;
@@ -1108,9 +1116,12 @@ html,body{
 		padding: 0 40px;
 	}
 	.burg-title{
-		margin: 30px 0 19px 0px;
+		margin: 10px 0 14px 0px;
 		display: block;
 		width: 100%;	
+	}
+	.tovaritem{
+		margin: 15px 0 15px 0;
 	}
 }
 .tovar-row-slider .prev-left, .tovar-row-slider .next-right{
@@ -1172,7 +1183,7 @@ html,body{
 .tovaritem__art{
 	color: #435266;
 	font-size: 12px;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 17px;
 	display: inline-block;
 	float: left;
@@ -1181,7 +1192,7 @@ html,body{
 	display: inline-block;
 	color: #20b603;
 	font-size: 12px;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 17px;
 	float: right;
 	background: url(../img/galkagreen.png) no-repeat left center;
@@ -1208,7 +1219,7 @@ html,body{
 		display: block;
 		width: 100%;
 		height: 100%;
-		padding: 15px 5px 15px 5px;
+		padding: 15px 5px 35px 5px;
 		img{
 			width: 100%;
 			height: 100%;
@@ -1241,7 +1252,7 @@ html,body{
 .tovaritem__nameproduct{
 	color: #0048b7;
 	font-size: 13px;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 17px;
 	text-decoration: underline;
 	display: inline-block;
@@ -1278,7 +1289,7 @@ html,body{
 .tovaritem__newprice{
 	color: #435266;
 	font-size: 15px;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 26px;
 	display: block;
 	border-radius: 15px;
@@ -1364,10 +1375,10 @@ html,body{
 
 
 .catalogpage__filter{
-	padding: 10px 11px;
+	padding: 10px 11px 6px 11px;
 	background-color: #fff;
 	width: 100%;
-	margin: 35px 0 11px 0;
+	margin: 35px 0 9px 0;
 }	
 .catalogpage__filter-box{
 	display: inline-block;
@@ -1409,6 +1420,25 @@ html,body{
 		}
 	}	
 }
+.catalogpage__filtersort{
+	.selectric-wrapper{
+		max-width: 114px;
+		text-align: center;
+	}
+	.selectric .button{
+		right: 5px;
+	}
+}
+.catalogpage__filtervivod{
+	.selectric-wrapper{
+		max-width: 60px;
+		text-align: center;
+	}
+	.selectric .button{
+		right: 5px;
+	}
+}
+
 
 .catalogpage__filter-links{
 	display: block;
@@ -1418,17 +1448,25 @@ html,body{
 		float: right;
 		margin-top: 0;
 		display: inline-block;
+		margin-right: 10px;
 	}
 	a{
 		color: #435266;
 		font-size: 12px;
-		font-weight: 100;
+		font-weight: 400;
 		line-height: 24px;
 		padding: 0 12px;
-		margin-left: 7px;
+		margin-left: 2px;
 		display: inline-block;
 		border-radius: 3px;
 		border: 1px solid #c0c6ce;
+		transition:0.5s;
+		&:hover{
+			transition:0.5s;
+			background-color: #1e73c6;
+			border-color: transparent;
+			color: white;
+		}
 	}
 	.catalogpage__filter-linkactive{
 		color: white;
@@ -1740,7 +1778,7 @@ html,body{
 	@media only screen and (min-width : 1200px) {
 		padding: 0 22px 0 65px;
 		.busket__prod{
-			width: 54%;
+			width: 55%;
 		}
 		.busket__summ{
 			width: 135px;
@@ -1780,9 +1818,10 @@ html,body{
 		.catalogpage__tovarlisttxtbox{
 			text-align: left;
 			max-width: 150px;
-			padding: 19px 0px 0 0 ;			
+			padding: 17px 0px 0 0 ;			
 			a{
-				width: 100%;
+				width: 80%;
+				line-height: 17px;
 				text-align: left;
 			}
 		}
@@ -1795,7 +1834,7 @@ html,body{
 	}
 	@media only screen and (min-width : 1200px) {
 		.catalogpage__tovarlisttxtbox{
-			max-width: 435px;			
+			max-width: 451px;			
 		}
 	}
 }
@@ -1827,22 +1866,23 @@ html,body{
 	.busket__listboxnewpr{
 		color: #343c48;
 		font-size: 15px;
-		font-weight: 100;
+		font-weight: 400;
 		line-height: 19px;
 		display: block;
-	}
-	
+	}	
 	@media only screen and (min-width : 770px) {
-		width: 95px;
+		width: 105px;
 		padding-top: 17px;
 	}	
 }
-
+.busket__listboxpriceforoldprice{
+	@media only screen and (min-width : 770px) {
+		padding-top: 25px;
+	}	
+}
 .busket__listbox-kolvo{
 	display: block;
-	width: 115px;
-	border: 1px solid #d8d9db;
-	border-radius: 15px;
+	width: 115px;	
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 15px;
@@ -1855,21 +1895,28 @@ html,body{
 		margin: 0 17px 0 57px;
 	}
 	@media only screen and (min-width : 1200px) {
-		margin: 0 60px;
+		margin: 0 64px -8px 50px;
+
+	}
+	div{
+		border: 1px solid #d8d9db;
+		border-radius: 15px;
 	}
 	.busket__button{
 		color: #4c5b6f;
 		font-size: 27px;
-		font-weight: 100;
+		font-weight: 400;
 		line-height: 30px;
 		user-select:none;
 		cursor: pointer;
+		width: 17px;
+		display: inline-block;
 	}
 	input[type='text']{
 		border: 0;
 		color: #343c48;
 		font-size: 15px;
-		font-weight: 100;
+		font-weight: 400;
 		background-color: #fff;
 		line-height: 30px;
 		height: 30px;
@@ -1890,7 +1937,7 @@ html,body{
 	span{
 		color: #343c48;
 		font-size: 15px;
-		font-weight: 100;
+		font-weight: 400;
 		line-height: 19px;
 	}
 	@media only screen and (min-width : 770px) {
@@ -1911,8 +1958,8 @@ html,body{
 	}
 	@media only screen and (min-width : 770px) {
 		float: right;
-		width: auto;
-		padding-top: 42px;
+		width: 15px;
+		padding-top: 50px;
 	}
 }
 
@@ -1984,11 +2031,7 @@ html,body{
 			line-height: 22px;
 			font-size: 15px;
 			font-weight: 400;
-			padding-left: 40px;
-			span{
-				font-size: 14px;
-				font-weight: 100;
-			}
+			padding-left: 40px;			
 		}
 		@media only screen and (min-width : 770px) {
 			max-width: 360px;
@@ -2016,13 +2059,10 @@ html,body{
 
 
 .busket__messagebox{
-	padding-top: 8px;
-	.burg-title{
-
-	}
+	padding-top: 8px;	
 	input[type="text"], textarea{
 		font-size: 15px;
-		font-weight: 100;
+		font-weight: 400;
 		line-height: 44px;
 		color: #343c48;
 		height: 44px;
@@ -2033,10 +2073,32 @@ html,body{
 		border: 0;
 		width: 100%;
 	}
+	.placeinput {
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		height: 44px;
+	}
+	.place_holder {
+		z-index: 100;    
+		cursor: text;   
+		position: absolute;
+		top: 0px;
+		left: 18px;
+		width: 110px;    
+		display: none;
+		color: #343c48;
+	}
+	.placeinput input:invalid + .place_holder {
+		display: inline;
+	}	
+	.place_holder span {
+		color: red;
+	}
 	textarea{
 		min-height: 105px;
 	}
-	
+
 	@media only screen and (min-width : 770px) {
 		.busket__messageright{
 			float: right;
@@ -2085,7 +2147,7 @@ html,body{
 	p{
 		color: #343c48;
 		font-size: 15px;
-		font-weight: 100;
+		font-weight: 300;
 		line-height: 26px;
 		padding-bottom: 11px;
 	}

@@ -38,7 +38,7 @@
 							<div class="catalogpage__tovarlisttxtbox">
 								<span class="tovaritem__art">Артикул: 5478845</span>	
 								<div class="clear"></div>
-								<a href="#" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр 
+								<a href="#" target="_blank" target="_blank" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр 
 								</a>
 							</div>
 							<div class="busket__listboxprice">
@@ -46,9 +46,11 @@
 								<span class="busket__listboxnewpr">5 200 .-</span>
 							</div>
 							<div class="busket__listbox-kolvo">
-								<span class="busket__button">-</span>
-								<input type="text" value="1" disabled="disabled">  
-								<span class="busket__button">+</span>
+								<div>
+									<span class="busket__button">-</span>
+									<input type="text" value="1" disabled="disabled">  
+									<span class="busket__button">+</span>
+								</div>
 							</div>
 							<div class="busket__listbox-summ">
 								<span>5 200 .-</span>
@@ -67,17 +69,19 @@
 							<div class="catalogpage__tovarlisttxtbox">
 								<span class="tovaritem__art">Артикул: 5478845</span>	
 								<div class="clear"></div>
-								<a href="#" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр 
+								<a href="#" target="_blank" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр 
 								</a>
 							</div>
-							<div class="busket__listboxprice">
+							<div class="busket__listboxprice busket__listboxpriceforoldprice" >
 								<span class="busket__listboxoldpr">58 600 .-</span>
 								<span class="busket__listboxnewpr">5 200 .-</span>
 							</div>
 							<div class="busket__listbox-kolvo">
-								<span class="busket__button">-</span>
-								<input type="text" value="1" disabled="disabled">  
-								<span class="busket__button">+</span>
+								<div>
+									<span class="busket__button">-</span>
+									<input type="text" value="1" disabled="disabled">  
+									<span class="busket__button">+</span>
+								</div>
 							</div>
 							<div class="busket__listbox-summ">
 								<span>5 200 .-</span>
@@ -96,7 +100,7 @@
 							<div class="catalogpage__tovarlisttxtbox">
 								<span class="tovaritem__art">Артикул: 5478845</span>	
 								<div class="clear"></div>
-								<a href="#" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр 
+								<a href="#" target="_blank" class="tovaritem__nameproduct">Газовый клапан 820 NOVA mv. 0.820.303 цена, купить Днепр 
 								</a>
 							</div>
 							<div class="busket__listboxprice">
@@ -104,9 +108,11 @@
 								<span class="busket__listboxnewpr">5 200 .-</span>
 							</div>
 							<div class="busket__listbox-kolvo">
-								<span class="busket__button">-</span>
-								<input type="text" value="1" disabled="disabled">  
-								<span class="busket__button">+</span>
+								<div>
+									<span class="busket__button">-</span>
+									<input type="text" value="1" disabled="disabled">  
+									<span class="busket__button">+</span>
+								</div>
 							</div>
 							<div class="busket__listbox-summ">
 								<span>5 200 .-</span>
@@ -133,7 +139,7 @@
 								<span class="checkbox__label">Доставка с установкой  (рекомендуем)</span>
 							</label>
 							<p>Вы можете забрать самостоятельно товар по этому адресу:
-								г. Нижний Новгород, <span>ул. Коммунистическая д. 77</span>
+								г. Нижний Новгород, ул. Коммунистическая д. 77
 							</p>
 						</div>
 						<div class="busket__rightbox">
@@ -143,7 +149,7 @@
 								<span class="checkbox__label">Самовывоз по адресу</span>
 							</label>
 							<p>Вы можете забрать самостоятельно товар по этому адресу:
-								г. Нижний Новгород, <span>ул. Коммунистическая д. 77</span>
+								г. Нижний Новгород, ул. Коммунистическая д. 77
 							</p>
 						</div>	
 						<div class="clear"></div>	
@@ -153,9 +159,15 @@
 						<div class="burg-title">Оформление заказа</div>
 						<form action="#" method="post">
 							<div class="busket__messageleft">
-								<input type="text" placeholder="Ваше имя *">
-								<input type="text" placeholder="E-mail">
-								<input type="text" class="js-phone" placeholder="Телефон *">
+								<label class="placeinput">
+									<input required="1" type="text"/>
+									<div class="place_holder">Ваше Имя <span>*</span></div>
+								</label>
+								<input type="text" placeholder="E-mail">				
+								<label class="placeinput">
+									<input required="1" type="text" class="js-phone" />
+									<div class="place_holder">Телефон <span>*</span></div>
+								</label>
 							</div>
 							<div class="busket__messageright">
 								<input type="text" placeholder="Адрес">

@@ -179,7 +179,8 @@ $(".tech-doc__inside>li>span").on('click', function(e){
 		var newImage = $('<img src="' + imgPath +'">' );
 		$('.product__galerybox a').removeClass('product__galerybox-active');
 		$(this).addClass('product__galerybox-active');
-		$(this).parents('.product__leftbox').find('.product__imgbox').html(newImage);      
+		$(this).parents('.product__leftbox').find('.product__imgbox a').html(newImage);      
+		$(this).parents('.product__leftbox').find('.product__imgbox a').attr('href', imgPath);      
 	});
 	////////////
 

@@ -621,7 +621,7 @@ html, body {
   margin: 0 auto; }
   @media only screen and (min-width: 992px) {
     .product__imgbox {
-      max-width: 500px;
+      max-width: 430px;
       display: inline-block; } }
   @media only screen and (min-width: 1200px) {
     .product__imgbox {
@@ -638,7 +638,7 @@ html, body {
   @media only screen and (min-width: 770px) {
     .product__galerybox {
       margin: 30px 0 40px 0; } }
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 992px) {
     .product__galerybox {
       width: 107px;
       float: right;
@@ -752,7 +752,7 @@ html, body {
       content: "";
       position: absolute;
       top: 50%;
-      left: 45%;
+      left: 50%;
       transform: translate(-50%, -50%);
       height: 1px;
       width: 100px;
@@ -952,14 +952,16 @@ html, body {
     text-decoration: none; }
 
 .product__sliderblock {
-  padding: 0 20px; }
+  padding: 0 20px;
+  text-align: center; }
   @media only screen and (min-width: 770px) {
     .product__sliderblock {
       padding: 0 40px; } }
   .product__sliderblock .burg-title {
     margin: 10px 0 14px 0px;
     display: block;
-    width: 100%; }
+    width: 100%;
+    text-align: left; }
   .product__sliderblock .tovaritem {
     margin: 15px 0 15px 0; }
 
@@ -1002,6 +1004,7 @@ html, body {
 .tovaritem {
   max-width: 212px;
   width: 100%;
+  display: inline-block;
   background-color: #fff;
   padding: 18px 14px 18px 14px;
   margin-top: 10px;
@@ -1241,15 +1244,15 @@ html, body {
   right: 5px; }
 
 .catalogpage__filter-links {
-  display: block;
   text-align: center;
-  margin-top: 30px; }
+  display: none; }
   @media only screen and (min-width: 770px) {
     .catalogpage__filter-links {
       float: right;
-      margin-top: 0;
-      display: inline-block;
       margin-right: 10px; } }
+  @media only screen and (min-width: 992px) {
+    .catalogpage__filter-links {
+      display: inline-block; } }
   .catalogpage__filter-links a {
     color: #435266;
     font-size: 12px;
@@ -1271,6 +1274,12 @@ html, body {
     font-weight: 400;
     background-color: #1e73c6;
     border-color: transparent; }
+
+.catalogpage__tovarlist {
+  display: none; }
+  @media only screen and (min-width: 992px) {
+    .catalogpage__tovarlist {
+      display: block; } }
 
 .catalogpage__tovarlistbox {
   background-color: #fff;
@@ -1461,7 +1470,8 @@ html, body {
 .busket__topbox {
   background-color: #fff;
   padding: 0 15px 0 15px;
-  margin-bottom: 11px; }
+  margin-bottom: 11px;
+  display: none; }
   .busket__topbox span {
     color: #435266;
     font-size: 15px;
@@ -1472,17 +1482,19 @@ html, body {
   .busket__topbox .busket__prod, .busket__topbox .busket__price, .busket__topbox .busket__kol, .busket__topbox .busket__summ, .busket__topbox .busket__del {
     width: 100%; }
   @media only screen and (min-width: 770px) {
-    .busket__topbox .busket__prod {
-      width: 48%; }
-    .busket__topbox .busket__price {
-      max-width: 92px; }
-    .busket__topbox .busket__kol {
-      max-width: 120px; }
-    .busket__topbox .busket__summ {
-      width: auto; }
-    .busket__topbox .busket__del {
-      float: right;
-      width: auto; } }
+    .busket__topbox {
+      display: block; }
+      .busket__topbox .busket__prod {
+        width: 48%; }
+      .busket__topbox .busket__price {
+        max-width: 92px; }
+      .busket__topbox .busket__kol {
+        max-width: 120px; }
+      .busket__topbox .busket__summ {
+        width: auto; }
+      .busket__topbox .busket__del {
+        float: right;
+        width: auto; } }
   @media only screen and (min-width: 992px) {
     .busket__topbox {
       padding: 0 22px 0 35px; }

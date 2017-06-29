@@ -732,7 +732,7 @@ html,body{
 	width: 100%;
 	margin: 0 auto;	
 	@media only screen and (min-width : 992px) {
-		max-width: 500px;
+		max-width: 430px;
 		display: inline-block;
 	}
 	@media only screen and (min-width : 1200px) {
@@ -752,7 +752,7 @@ html,body{
 	@media only screen and (min-width : 770px) {
 		margin: 30px 0 40px 0;
 	}
-	@media only screen and (min-width : 1200px) {
+	@media only screen and (min-width : 992px) {
 		width: 107px;
 		float: right;
 		margin: 0;
@@ -876,7 +876,7 @@ html,body{
 			content: "";
 			position: absolute;
 			top:50%;
-			left:45%;
+			left:50%;
 			transform:translate(-50%,-50%);
 			height: 1px;
 			width: 100px;	
@@ -1111,6 +1111,7 @@ html,body{
 
 .product__sliderblock{
 	padding: 0 20px;
+	text-align: center;
 	@media only screen and (min-width : 770px) {
 		padding: 0 40px;
 	}
@@ -1118,6 +1119,7 @@ html,body{
 		margin: 10px 0 14px 0px;
 		display: block;
 		width: 100%;	
+		text-align: left;
 	}
 	.tovaritem{
 		margin: 15px 0 15px 0;
@@ -1164,6 +1166,7 @@ html,body{
 .tovaritem{
 	max-width: 212px;
 	width: 100%;
+	display: inline-block;
 	background-color: #fff;
 	padding: 18px 14px 18px 14px;
 	margin-top: 10px;
@@ -1444,14 +1447,14 @@ html,body{
 
 
 .catalogpage__filter-links{
-	display: block;
 	text-align: center;
-	margin-top: 30px;
+	display: none;
 	@media only screen and (min-width : 770px) {
-		float: right;
-		margin-top: 0;
-		display: inline-block;
+		float: right;				
 		margin-right: 10px;
+	}
+	@media only screen and (min-width : 992px) {
+		display: inline-block;
 	}
 	a{
 		color: #435266;
@@ -1484,7 +1487,10 @@ html,body{
 
 
 .catalogpage__tovarlist{
-
+	display: none;
+	@media only screen and (min-width : 992px) {
+		display: block;
+	}
 }
 .catalogpage__tovarlistbox{
 	background-color: #fff;
@@ -1736,6 +1742,7 @@ html,body{
 	background-color: #fff;
 	padding: 0 15px 0 15px;
 	margin-bottom: 11px;
+	display: none;
 	span{
 		color: #435266;
 		font-size: 15px;
@@ -1748,6 +1755,7 @@ html,body{
 		width: 100%;
 	}		
 	@media only screen and (min-width : 770px) {
+		display: block;
 		.busket__prod{
 			width: 48%;
 		}
@@ -1767,7 +1775,6 @@ html,body{
 	}
 	@media only screen and (min-width : 992px) {
 		padding: 0 22px 0 35px;
-
 		.busket__prod{
 			width: 48%;
 		}

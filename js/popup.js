@@ -35,4 +35,6 @@ $(document).ready(function(){
 	$('.mask').remove();
 		$('.modal-window').hide();
 	});
+
+	$('.mobile-window').find('.contact-box').parent('.col-sm-12').css({'border-top': '1px solid #1e73c6'});
 });

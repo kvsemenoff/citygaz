@@ -22,9 +22,12 @@
 			}
 		}
 		@media only screen and (min-width : 992px) {
-			max-width: 285px;
+			max-width: 240px;
 			width: 100%;
 		}	
+		@media only screen and (min-width : 1200px) {
+			max-width: 285px;
+		}
 	}
 	input[type="text"]{		
 		border:none;
@@ -38,8 +41,11 @@
 			border-right: 0;
 		}
 		@media only screen and (min-width : 992px) {
-			max-width: 451px;//445
+			max-width: 305px;
 			width: 100%;
+		}
+		@media only screen and (min-width : 1200px) {
+			max-width: 451px;
 		}
 		&::-ms-clear {
 			display:none;
@@ -69,6 +75,12 @@
 		}
 		@media only screen and (min-width : 570px) {
 			width: auto;	
+		}
+		@media only screen and (min-width : 770px) {
+			padding: 0 52px 0 30px;
+		}
+		@media only screen and (min-width : 992px) {
+			padding: 0 55px 0 30px;
 		}
 	}
 }

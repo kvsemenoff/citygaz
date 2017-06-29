@@ -19,8 +19,11 @@
             content: ""; } }
     @media only screen and (min-width: 992px) {
       .search-box .selectric-wrapper {
-        max-width: 285px;
+        max-width: 240px;
         width: 100%; } }
+    @media only screen and (min-width: 1200px) {
+      .search-box .selectric-wrapper {
+        max-width: 285px; } }
   .search-box input[type="text"] {
     border: none;
     height: 50px;
@@ -34,8 +37,11 @@
         border-right: 0; } }
     @media only screen and (min-width: 992px) {
       .search-box input[type="text"] {
-        max-width: 451px;
+        max-width: 305px;
         width: 100%; } }
+    @media only screen and (min-width: 1200px) {
+      .search-box input[type="text"] {
+        max-width: 451px; } }
     .search-box input[type="text"]::-ms-clear {
       display: none; }
   .search-box button {
@@ -62,5 +68,11 @@
     @media only screen and (min-width: 570px) {
       .search-box button {
         width: auto; } }
+    @media only screen and (min-width: 770px) {
+      .search-box button {
+        padding: 0 52px 0 30px; } }
+    @media only screen and (min-width: 992px) {
+      .search-box button {
+        padding: 0 55px 0 30px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -177,6 +177,20 @@ html,body{
 
 // sidebar -catalog page
 
+.filterblock_hiddenon-xs_sm{
+	display: none;
+	@media only screen and (min-width : 992px) {
+		display: block;
+	}
+}
+.filterblock_burger_for_xs_sm{
+	display: block;
+	width: 100%;
+	margin: 15px 0;
+	@media only screen and (min-width : 992px) {
+		display: none !important;
+	}
+}
 
 .sidebar-catalogpage{	
 	width: 100%;
@@ -689,6 +703,11 @@ html,body{
 	background-position: left 15px center;
 	padding: 0 27px 0 45px;
 	background-color: #1e73c6;
+	transition:0.4s;
+	&:hover{
+		transition:0.4s;
+		background-color: #ffc000;
+	}
 }
 
 
@@ -1343,6 +1362,10 @@ html,body{
 .catalogpage__parts{
 	padding-top: 35px;
 	padding-left: 15px;
+	display: none;
+	@media only screen and (min-width : 992px) {
+		display: block;
+	}
 	.catalog-list{
 		max-width: 200px;
 		width: 100%;

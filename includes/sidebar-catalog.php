@@ -197,7 +197,7 @@
 			</label>		
 		</div>
 
-		<div class="sidebar-buttons">
+		<div class="sidebar-buttons sidebar-buttons__hidden-on-xs">
 			<a href="#">Продажа газового оборудования </a>
 			<a href="#compl" data-modal="modal" >Жалобы и предложения клиентов</a>
 		</div>

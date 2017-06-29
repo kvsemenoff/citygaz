@@ -8,6 +8,7 @@ html,body{
 	width: 100%;
 	display: inline-block;
 	//float: left;
+	display: none;
 	font-family: 'Roboto', sans-serif;
 	.burg-title{
 		margin-bottom: 27px;
@@ -16,10 +17,45 @@ html,body{
 	.sidebar-catalog{
 		max-width: none;
 	}
+	@media only screen and (min-width : 992px) {
+		display: block;
+	}
 	@media only screen and (min-width : 1200px) {
 		max-width: 277px;
 	}
 }
+.catalog__onmobile{
+	display: block;
+	.burg-title{
+		margin: 30px 0;
+	}
+	.sidebar-catalog{
+		max-width: none;
+	}
+	.product__catalog{
+		margin: 15px 0;
+		width: 100%;
+	}
+	.brand{
+		display: none;
+	}
+	@media only screen and (min-width : 992px) {
+		display: none;
+	}
+}
+.catalog__buttons_mobilepage{
+	display: block;
+	@media only screen and (min-width : 992px) {
+		display: none;		
+	}
+}
+.catalog__ondesktop{
+	display: none;
+	@media only screen and (min-width : 992px) {
+		display: block;		
+	}
+}
+
 .brand{
 	margin-bottom: 15px;
 	background-color: #fff;
@@ -129,11 +165,13 @@ html,body{
 		background-position: 25px 50%;
 	}
 }
-
-
-.sidebar-ourjob{
-
+.sidebar-buttons__hidden-on-xs{
+	display: none;
+	@media only screen and (min-width : 992px) {
+		display: block;
+	}
 }
+
 .sidebar-ourjob__box{
 	position: relative;
 	background-color: #1056b5;
@@ -1737,7 +1775,12 @@ html,body{
 	}
 }
 
-
+.catalog_buttons-hidden-on-md{
+	margin-top: 25px;
+	@media only screen and (min-width : 992px) {
+		display: none;
+	}
+}
 
 
 

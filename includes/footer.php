@@ -41,6 +41,9 @@
 		</div>
 	</div>
 </div>
+<div class="toTop watch-more" >
+	 <span>Вверх</span>
+</div>
 
 <?php require_once('popup.php'); ?>
 

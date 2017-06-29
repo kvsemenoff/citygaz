@@ -1,4 +1,4 @@
-a.watch-more {
+.watch-more {
   border: 1px solid #d8d9db;
   color: #52637a;
   text-decoration: none;
@@ -7,7 +7,7 @@ a.watch-more {
   font-size: 13px;
   transition: 0.4s;
   font-family: inherit; }
-  a.watch-more:hover {
+  .watch-more:hover {
     background: #e6e8eb;
     color: #2f3e56;
     transition: 0.4s; }

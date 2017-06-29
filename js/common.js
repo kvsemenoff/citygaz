@@ -1,6 +1,7 @@
 
 
 $(document).ready(function(){	
+
 	// стилизованный селект
 	$('select').selectric();
 
@@ -209,4 +210,26 @@ $(".tech-doc__inside>li>span").on('click', function(e){
 		$(this).parent().next('.brand__hiddenbox').slideToggle();
 	});
 
+});
+
+$(window).scroll(function(){
+	
+  var sticky = $('.header-top'),
+      scroll = $(window).scrollTop();
+
+  if (scroll >= 100) $('.header-top-fixed').css('display', 'block');
+  else $('.header-top-fixed').css('display', 'none');
+});
+
+$(function() {
+    $(window).scroll(function() {
+        if($(this).scrollTop() != 0) {
+            $('.toTop').fadeIn();
+        } else {
+            $('.toTop').fadeOut();
+        }
+    });
+    $('.toTop').click(function() {
+        $('body,html').animate({scrollTop:0},800);
+    });
 });

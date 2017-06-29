@@ -131,6 +131,14 @@ a.watch-more{
 
 }
 
+@media screen and (max-width:800px){
+	.hidden-md{display:none;}
+}
+
+@media screen and (max-width:520px){
+	.hidden-md{display:none !important;}
+}
+
 .contact-address{
 	background: url("../img/marker.png")no-repeat top 8px left;
 	padding-left: 24px;
@@ -183,6 +191,11 @@ a.watch-more{
 	}
 
 }
+
+.mobile-window .contact-box{
+	color:#606d7e;
+}
+
 .contact-box{
 	margin: 0 auto;
 	@media only screen and (min-width : 320px) {

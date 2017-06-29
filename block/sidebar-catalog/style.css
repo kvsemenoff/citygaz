@@ -34,7 +34,7 @@
         font-weight: 400;
         line-height: 15px;
         transition: 0.4s; }
-    @media only screen and (min-width: 770px) {
+    @media only screen and (min-width: 992px) {
       .sidebar-catalog > li:hover .sidebar-catalog__showmenu {
         visibility: visible;
         opacity: 1;
@@ -50,7 +50,7 @@
       .sidebar-catalog > li:hover span:after {
         color: white; }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 992px) {
   .sidebar-catalog .sidebar-catalog__active {
     background-color: #1e73c6;
     color: white;
@@ -62,7 +62,7 @@
 .sidebar-catalog__showmenu {
   display: inline-block;
   display: none; }
-  @media only screen and (min-width: 770px) {
+  @media only screen and (min-width: 992px) {
     .sidebar-catalog__showmenu {
       display: block;
       position: absolute;

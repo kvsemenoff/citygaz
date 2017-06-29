@@ -8,6 +8,7 @@ html,body{
 	width: 100%;
 	display: inline-block;
 	//float: left;
+	display: none;
 	font-family: 'Roboto', sans-serif;
 	.burg-title{
 		margin-bottom: 27px;
@@ -16,10 +17,45 @@ html,body{
 	.sidebar-catalog{
 		max-width: none;
 	}
+	@media only screen and (min-width : 992px) {
+		display: block;
+	}
 	@media only screen and (min-width : 1200px) {
 		max-width: 277px;
 	}
 }
+.catalog__onmobile{
+	display: block;
+	.burg-title{
+		margin: 30px 0;
+	}
+	.sidebar-catalog{
+		max-width: none;
+	}
+	.product__catalog{
+		margin: 15px 0;
+		width: 100%;
+	}
+	.brand{
+		display: none;
+	}
+	@media only screen and (min-width : 992px) {
+		display: none;
+	}
+}
+.catalog__buttons_mobilepage{
+	display: block;
+	@media only screen and (min-width : 992px) {
+		display: none;		
+	}
+}
+.catalog__ondesktop{
+	display: none;
+	@media only screen and (min-width : 992px) {
+		display: block;		
+	}
+}
+
 .brand{
 	margin-bottom: 15px;
 	background-color: #fff;
@@ -129,11 +165,13 @@ html,body{
 		background-position: 25px 50%;
 	}
 }
-
-
-.sidebar-ourjob{
-
+.sidebar-buttons__hidden-on-xs{
+	display: none;
+	@media only screen and (min-width : 992px) {
+		display: block;
+	}
 }
+
 .sidebar-ourjob__box{
 	position: relative;
 	background-color: #1056b5;
@@ -177,6 +215,20 @@ html,body{
 
 // sidebar -catalog page
 
+.filterblock_hiddenon-xs_sm{
+	display: none;
+	@media only screen and (min-width : 992px) {
+		display: block;
+	}
+}
+.filterblock_burger_for_xs_sm{
+	display: block;
+	width: 100%;
+	margin: 15px 0;
+	@media only screen and (min-width : 992px) {
+		display: none !important;
+	}
+}
 
 .sidebar-catalogpage{	
 	width: 100%;
@@ -689,6 +741,11 @@ html,body{
 	background-position: left 15px center;
 	padding: 0 27px 0 45px;
 	background-color: #1e73c6;
+	transition:0.4s;
+	&:hover{
+		transition:0.4s;
+		background-color: #ffc000;
+	}
 }
 
 
@@ -732,7 +789,7 @@ html,body{
 	width: 100%;
 	margin: 0 auto;	
 	@media only screen and (min-width : 992px) {
-		max-width: 500px;
+		max-width: 430px;
 		display: inline-block;
 	}
 	@media only screen and (min-width : 1200px) {
@@ -752,7 +809,7 @@ html,body{
 	@media only screen and (min-width : 770px) {
 		margin: 30px 0 40px 0;
 	}
-	@media only screen and (min-width : 1200px) {
+	@media only screen and (min-width : 992px) {
 		width: 107px;
 		float: right;
 		margin: 0;
@@ -876,7 +933,7 @@ html,body{
 			content: "";
 			position: absolute;
 			top:50%;
-			left:45%;
+			left:50%;
 			transform:translate(-50%,-50%);
 			height: 1px;
 			width: 100px;	
@@ -1111,6 +1168,7 @@ html,body{
 
 .product__sliderblock{
 	padding: 0 20px;
+	text-align: center;
 	@media only screen and (min-width : 770px) {
 		padding: 0 40px;
 	}
@@ -1118,6 +1176,7 @@ html,body{
 		margin: 10px 0 14px 0px;
 		display: block;
 		width: 100%;	
+		text-align: left;
 	}
 	.tovaritem{
 		margin: 15px 0 15px 0;
@@ -1164,6 +1223,7 @@ html,body{
 .tovaritem{
 	max-width: 212px;
 	width: 100%;
+	display: inline-block;
 	background-color: #fff;
 	padding: 18px 14px 18px 14px;
 	margin-top: 10px;
@@ -1340,6 +1400,10 @@ html,body{
 .catalogpage__parts{
 	padding-top: 35px;
 	padding-left: 15px;
+	display: none;
+	@media only screen and (min-width : 992px) {
+		display: block;
+	}
 	.catalog-list{
 		max-width: 200px;
 		width: 100%;
@@ -1444,14 +1508,14 @@ html,body{
 
 
 .catalogpage__filter-links{
-	display: block;
 	text-align: center;
-	margin-top: 30px;
+	display: none;
 	@media only screen and (min-width : 770px) {
-		float: right;
-		margin-top: 0;
-		display: inline-block;
+		float: right;				
 		margin-right: 10px;
+	}
+	@media only screen and (min-width : 992px) {
+		display: inline-block;
 	}
 	a{
 		color: #435266;
@@ -1484,7 +1548,10 @@ html,body{
 
 
 .catalogpage__tovarlist{
-
+	display: none;
+	@media only screen and (min-width : 992px) {
+		display: block;
+	}
 }
 .catalogpage__tovarlistbox{
 	background-color: #fff;
@@ -1708,7 +1775,12 @@ html,body{
 	}
 }
 
-
+.catalog_buttons-hidden-on-md{
+	margin-top: 25px;
+	@media only screen and (min-width : 992px) {
+		display: none;
+	}
+}
 
 
 
@@ -1736,6 +1808,7 @@ html,body{
 	background-color: #fff;
 	padding: 0 15px 0 15px;
 	margin-bottom: 11px;
+	display: none;
 	span{
 		color: #435266;
 		font-size: 15px;
@@ -1748,6 +1821,7 @@ html,body{
 		width: 100%;
 	}		
 	@media only screen and (min-width : 770px) {
+		display: block;
 		.busket__prod{
 			width: 48%;
 		}
@@ -1767,7 +1841,6 @@ html,body{
 	}
 	@media only screen and (min-width : 992px) {
 		padding: 0 22px 0 35px;
-
 		.busket__prod{
 			width: 48%;
 		}

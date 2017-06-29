@@ -39,7 +39,7 @@
 		}
 		&:hover{ 
 			.sidebar-catalog__showmenu{
-				@media only screen and (min-width : 770px) {
+				@media only screen and (min-width : 992px) {
 					visibility: visible;
 					opacity: 1;
 					height: auto;
@@ -60,7 +60,7 @@
 }
 
 .sidebar-catalog .sidebar-catalog__active{
-	@media only screen and (max-width : 770px) {
+	@media only screen and (max-width : 992px) {
 		background-color: #1e73c6;
 		color: white;
 		font-weight: 400;
@@ -75,7 +75,7 @@
 .sidebar-catalog__showmenu{		
 	display: inline-block;
 	display: none;	
-	@media only screen and (min-width : 770px) {
+	@media only screen and (min-width : 992px) {
 		display: block;
 		position: absolute;
 		top: 0px;

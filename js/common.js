@@ -153,7 +153,7 @@ $(".tech-doc__inside>li>span").on('click', function(e){
 	// sidebar accordeon on mobile
 	
 	$(".sidebar-catalog>li>span").on('click', function(e){		
-		if(window.matchMedia('(max-width : 770px)').matches){
+		if(window.matchMedia('(max-width : 992px)').matches){
 			e.preventDefault();		
 			var answerId = $(this).next(".sidebar-catalog__showmenu");
 			if( !$(this).hasClass("sidebar-catalog__active")){

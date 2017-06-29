@@ -111,6 +111,15 @@ a.watch-more {
     .logo-box, .contact-box, .right-box {
       margin: 0px; } }
 
+<<<<<<< HEAD
+=======
+@media screen and (max-width: 800px) {
+  .hidden-md {
+    display: none; } }
+@media screen and (max-width: 520px) {
+  .hidden-md {
+    display: none !important; } }
+>>>>>>> 0389136b837d4be82b7f7f8741935c15693d5b53
 .contact-address {
   background: url("../img/marker.png") no-repeat top 8px left;
   padding-left: 24px;
@@ -151,6 +160,9 @@ a.watch-more {
       display: block; }
       .logo-box img {
         display: block; } }
+
+.mobile-window .contact-box {
+  color: #606d7e; }
 
 .contact-box {
   margin: 0 auto; }

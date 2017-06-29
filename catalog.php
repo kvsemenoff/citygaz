@@ -482,6 +482,12 @@
 									</div>
 								</div>
 							</div>
+							
+
+							<div class="sidebar-buttons catalog_buttons-hidden-on-md">
+								<a href="#">Продажа газового оборудования </a>
+								<a href="#compl" data-modal="modal" >Жалобы и предложения клиентов</a>
+							</div>
 
 							<div class="catalogpage__txtbottom">
 								<h4>Добро пожаловать на сайт компании CityGaz Service </h4>

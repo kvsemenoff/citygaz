@@ -92,7 +92,10 @@ body {
   padding: 50px 33px; }
   .content-part p {
     line-height: 26px;
-    margin-bottom: 26px; }
+    margin-bottom: 26px; 
+  }
+  .content-part h3{
+  font-weight:700;  }
 
 strong {
   font-weight: 700; }
@@ -147,6 +150,7 @@ a.watch-more {
   .hidden-md {
     display: none !important; } }
 .contact-address {
+  font-weight:400;
   background: url("../img/marker.png") no-repeat top 8px left;
   padding-left: 24px;
   line-height: 22px;
@@ -168,6 +172,7 @@ a.watch-more {
     font-size: 16px; }
 
 .logo-box {
+  font-weight:400;
   width: 220px;
   margin: 0 auto; }
   .logo-box img {
@@ -213,7 +218,8 @@ a.watch-more {
         margin-bottom: 20px; } }
 
 .contact-phones {
-  text-align: justify; }
+  text-align: justify; 
+  font-weight:400;}
   @media only screen and (min-width: 992px) {
     .contact-phones {
       margin-left: 6px; } }

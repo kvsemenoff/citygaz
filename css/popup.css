@@ -122,6 +122,7 @@ a[href="#thanks"]{
 #bucket_popup h3{
   float:none;
   text-align:center;
+  width:100%;
 }
 
 #bucket_popup a{

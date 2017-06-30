@@ -10,10 +10,10 @@
 			<?php require_once('includes/header_top.php'); ?>
 			<div class="clearfix"></div>
 			<div class="container-main">
-				<div class="left-side">
+				<div class="left-side-main">
 					<?php require_once('includes/sidebar-main.php'); ?>
 				</div>
-				<div class="right-side">
+				<div class="right-side-main">
 					<div class="search-box">		
 						<select>
 							<option value="1">поиск по названию</option>

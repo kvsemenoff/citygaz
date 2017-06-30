@@ -7,15 +7,21 @@ body, html{
 	width: 100%;
 	padding: 0px 15px;
 	margin: 0 auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: space-between;	
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
 	@media only screen and (min-width : 768px) {
 		max-width: 1167px;
 		padding: 0px;
 	}
 
 }
-.left-side{
+.left-side-main{
 	width: 100%;
-
 	float: left;
 	padding-top: 22px;
 	@media only screen and (min-width : 768px) {
@@ -25,18 +31,41 @@ body, html{
 		
 	}
 }
-.right-side{
-
+.right-side-main{
 	width: 100%;
 	float: right;
 	padding-top: 22px;
-	@media only screen and (min-width : 768px) {
+	@media only screen and (min-width : 992px) {
 		width: 70%;
 	}
 	@media only screen and (min-width : 1120px) {
+		width: 74%;
+	}
+	@media only screen and (min-width : 1200px) {
 		width: 872px;
 	}
 }
+.left-side{
+	width: 100%;
+	float: left;
+	padding-top: 22px;
+	@media only screen and (min-width : 992px) {
+		width: 277px;
+	}
+	
+}
+.right-side{
+	width: 100%;
+	float: right;
+	padding-top: 22px;
+	@media only screen and (min-width : 992px) {
+		width: 70%;
+	}
+	@media only screen and (min-width : 1200px) {
+		width: 900px;
+	}
+}
+
 
 .container{	
 	@media only screen and (min-width : 1200px) {
@@ -418,10 +447,12 @@ a.watch-more{
 .toTop {
 	padding:5px;
 	position:fixed;
+	background-color: #fff;
 	bottom:25px; 
 	right:35px;
 	cursor:pointer;
 	display:none;
+	z-index: 99;
 	padding:6px 24px !important;
 
 }

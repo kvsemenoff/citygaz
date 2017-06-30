@@ -4,17 +4,46 @@ body, html {
 .container-main {
   width: 100%;
   padding: 0px 15px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between; }
   @media only screen and (min-width: 768px) {
     .container-main {
       max-width: 1167px;
       padding: 0px; } }
 
-.left-side {
+.left-side-main {
   width: 100%;
   float: left;
   padding-top: 22px; }
   @media only screen and (min-width: 768px) {
+    .left-side-main {
+      width: 277px; } }
+
+.right-side-main {
+  width: 100%;
+  float: right;
+  padding-top: 22px; }
+  @media only screen and (min-width: 992px) {
+    .right-side-main {
+      width: 70%; } }
+  @media only screen and (min-width: 1120px) {
+    .right-side-main {
+      width: 74%; } }
+  @media only screen and (min-width: 1200px) {
+    .right-side-main {
+      width: 872px; } }
+
+.left-side {
+  width: 100%;
+  float: left;
+  padding-top: 22px; }
+  @media only screen and (min-width: 992px) {
     .left-side {
       width: 277px; } }
 
@@ -22,12 +51,12 @@ body, html {
   width: 100%;
   float: right;
   padding-top: 22px; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 992px) {
     .right-side {
       width: 70%; } }
-  @media only screen and (min-width: 1120px) {
+  @media only screen and (min-width: 1200px) {
     .right-side {
-      width: 872px; } }
+      width: 900px; } }
 
 @media only screen and (min-width: 1200px) {
   .container {
@@ -111,15 +140,12 @@ a.watch-more {
     .logo-box, .contact-box, .right-box {
       margin: 0px; } }
 
-<<<<<<< HEAD
-=======
 @media screen and (max-width: 800px) {
   .hidden-md {
     display: none; } }
 @media screen and (max-width: 520px) {
   .hidden-md {
     display: none !important; } }
->>>>>>> 0389136b837d4be82b7f7f8741935c15693d5b53
 .contact-address {
   background: url("../img/marker.png") no-repeat top 8px left;
   padding-left: 24px;
@@ -331,10 +357,12 @@ a.watch-more {
 .toTop {
   padding: 5px;
   position: fixed;
+  background-color: #fff;
   bottom: 25px;
   right: 35px;
   cursor: pointer;
   display: none;
+  z-index: 99;
   padding: 6px 24px !important; }
 
 /*# sourceMappingURL=style.css.map */

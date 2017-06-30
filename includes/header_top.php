@@ -18,8 +18,8 @@
 						ул. Коммунистическая д. 77
 					</div>
 					<div class="contact-phones">
-						диспетчер: <span>(831) <strong>4 - 139 - 169</strong></span><br>
-						тел/факс &nbsp;&nbsp;&nbsp;<span>(831) <strong>202 - 90 - 33</strong></span>
+						диспетчер: <span>(831) 4 - 139 - 169</span><br>
+						тел/факс &nbsp;&nbsp;&nbsp;<span>(831) 202 - 90 - 33</span>
 					</div>
 				</div>
 			</div>

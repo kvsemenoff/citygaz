@@ -306,7 +306,7 @@ gulp.task('watch', ['browser-sync','sass', 'fileinclude'], function() {
 });
 
 gulp.task('zip', () =>
-    gulp.src(['product/*/**.*', 'product/*'])
+    gulp.src(['product/**/**.*', 'product/*'])
         .pipe(zip('archive.zip'))
         .pipe(gulp.dest('product/'))
 );

@@ -111,15 +111,12 @@ a.watch-more {
     .logo-box, .contact-box, .right-box {
       margin: 0px; } }
 
-<<<<<<< HEAD
-=======
 @media screen and (max-width: 800px) {
   .hidden-md {
     display: none; } }
 @media screen and (max-width: 520px) {
   .hidden-md {
     display: none !important; } }
->>>>>>> 0389136b837d4be82b7f7f8741935c15693d5b53
 .contact-address {
   background: url("../img/marker.png") no-repeat top 8px left;
   padding-left: 24px;
@@ -245,6 +242,7 @@ a.watch-more {
       display: none; } }
 
 .menu-box {
+  width: 100%;
   background: #fff; }
 
 .mobile-logo {
@@ -282,59 +280,5 @@ a.watch-more {
 
 .search-box {
   margin-bottom: 23px !important; }
-
-.header-top-fixed {
-  display: none;
-  position: fixed;
-  width: 100%;
-  height: 61px;
-  background: #fff;
-  top: 0;
-  left: 0;
-  z-index: 99999;
-  transition: 0.7s;
-  webkit-box-shadow: 0px 0px 25px -4px rgba(0, 0, 0, 0.51);
-  -moz-box-shadow: 0px 0px 25px -4px rgba(0, 0, 0, 0.51);
-  box-shadow: 0px 0px 25px -4px rgba(0, 0, 0, 0.5); }
-  @media screen and (max-width: 1169px) {
-    .header-top-fixed {
-      display: none !important; } }
-  .header-top-fixed .container {
-    width: 1158px !important;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px;
-    display: -webkit-box;
-    /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-    display: -ms-flexbox;
-    /* TWEENER - IE 10 */
-    display: -webkit-flex;
-    /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-    display: flex;
-    /* NEW, Spec - Firefox, Chrome, Opera */
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    flex: none; }
-    .header-top-fixed .container .container:before, .header-top-fixed .container .container:after {
-      content: none; }
-  .header-top-fixed .menu-box {
-    display: block; }
-  .header-top-fixed .main-menu li {
-    border-right: none !important; }
-    .header-top-fixed .main-menu li a {
-      padding: 0 10px !important; }
-
-.toTop {
-  padding: 5px;
-  position: fixed;
-  bottom: 25px;
-  right: 35px;
-  cursor: pointer;
-  display: none;
-  padding: 6px 24px !important; }
 
 /*# sourceMappingURL=style.css.map */

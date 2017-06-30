@@ -164,4 +164,14 @@ a[href="#thanks"]{
   .modal-window{overflow-y:scroll;}
 }
 
+@media screen and (max-width:1000px){
+  .mobile-window{width:50%;left:0 !important;}
+  .mobile-window .contact-box {display:block;}
+  .contact-box .contact-address{padding-bottom:20px;}
+}
+
+@media screen and (max-width:500px){
+  .mobile-window{width:100%;}
+}
+
 /*# sourceMappingURL=popup.css.map */

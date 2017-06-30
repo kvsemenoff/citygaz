@@ -132,7 +132,7 @@
   border: 2px solid #e8bd40; }
 
 @media all and (max-width:600px){
-  .tovar-item a,p{font-size:10px;}
+  .tovar-item a,p{font-size:14px;}
   .old-price{width:80%}
   .tovar-item p{margin:20px 0 0 0;}
   .tovar-item .price span{padding:5px 10px;}

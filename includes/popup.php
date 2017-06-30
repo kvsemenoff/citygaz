@@ -75,11 +75,11 @@
 </div>
 
 <div class="mobile-window" id="mobile">
-	<span class="modal-close"></span>
+	<span class="modal-close"><i class="fa fa-times" aria-hidden="true"></i></span>
 	<div class="mobile-line"></div>
 		<div class="mobile-logo">
 			<a href="/">
-				<img src="../img/header.png" alt="CityGaz">	
+				<img src="img/header.png" alt="CityGaz">	
 			</a>		
 		</div>
 	<ul class="mobile-main-menu">

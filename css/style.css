@@ -271,6 +271,7 @@ a.watch-more {
       display: none; } }
 
 .menu-box {
+  width: 100%;
   background: #fff; }
 
 .mobile-logo {
@@ -309,6 +310,8 @@ a.watch-more {
 .search-box {
   margin-bottom: 23px !important; }
 
+<<<<<<< HEAD
+=======
 .header-top-fixed {
   display: none;
   position: fixed;
@@ -365,4 +368,5 @@ a.watch-more {
   z-index: 99;
   padding: 6px 24px !important; }
 
+>>>>>>> fe10772b1111aa25f7687c2926cd6729c7120878
 /*# sourceMappingURL=style.css.map */

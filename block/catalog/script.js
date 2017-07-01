@@ -2,7 +2,8 @@ $(document).ready(function() {
 
 	$('.watch-more').click(function(e) {
 		e.preventDefault();	
-		$(this).parents('.cat-item').find('.cat-item-inner').find('.catalog-list').html($(this).parents('.catid').find('.catalog-list'));
+		$cataloglist = $(this).parents('.cat-item').find('.catid').find('.catalog-list').html();
+		$(this).parents('.cat-item').find('.cat-item-inner').find('.catalog-list').html($cataloglist);
 		$(this).parents('.cat-item').find('.cat-item-inner').fadeIn();
 		//$(this).parents('.cat-item_one').find('.catalog-list').html($(this).parents('.cat-item_one').find('.catalog-list-absolute').html());
 		//$(this).parents('.cat-item_one').find('.catalog-list').css('position','absolute');
@@ -10,6 +11,7 @@ $(document).ready(function() {
 		//$(this).parents('.cat-item_one').find('.catalog-list').css('left','0px');
 		//alert($(this).parents('.cat-item_one').find('.catalog-list-absolute').height());
 		var height = $(this).parents('.cat-item_one').find('.catalog-list-absolute').height()+150;
+		$('.catalog .modal-close').show();
 
 		//$(this).parents('.cat-item_one').css('height',height);
 		//$(this).parents('.cat-item_one').find('.catalog-list').css('height',height);
@@ -39,4 +41,12 @@ $(document).ready(function() {
 	// 	$(this).css({'display':'none'});
 	// 	return false;
 	// });
+	$('body').on("click", ".modal-close", function(e){
+		e.preventDefault();
+		$('.cat-item-inner').fadeOut();
+	});
+	$('body').on("click" ,function(e){
+		e.preventDefault();
+		$('.cat-item-inners').fadeOut();
+	});
 });

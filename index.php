@@ -267,6 +267,7 @@
 									<a href='#' class='watch-more watch-more_small'>Смотреть ещё</a>
 								</div>
 								<div class="cat-item-inner">
+									<span class="modal-close"></span>
 									<p class='catalog_title catalog_title_cooker'>Запчасти <br> к плитам</p>
 									<ul class="catalog-list"></ul> 
 								</div>
@@ -304,6 +305,7 @@
 									<a href='#' class='watch-more watch-more_small'>Смотреть ещё</a>
 								</div>
 								<div class="cat-item-inner">
+									<span class="modal-close"></span>
 									<p class='catalog_title catalog_title_htautomation'>Запчасти <br> к котлам</p>
 									<ul class="catalog-list"></ul> 
 								</div>
@@ -343,7 +345,8 @@
 									<a href='#' class='watch-more watch-more_small'>Смотреть ещё</a>
 								</div>
 								<div class="cat-item-inner">
-									<p class='catalog_title catalog_title_pulse'>Запчасти к <br>электрооборудованию</p>
+									<span class="modal-close"></span>
+									<p class='catalog_title catalog_title_gas-blue'>Запчасти к <br>электрооборудованию</p>
 									<ul class="catalog-list"></ul> 
 								</div>
 							</div>

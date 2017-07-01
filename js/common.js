@@ -67,10 +67,13 @@ $(document).ready(function(){
 		}
 	});
 
+	var count_slides = $('.slider-owl-carousel .item').length;
+	$('.slider__allcount').html(count_slides);
+	
 	// slider main &  counter
 	var owlcart = $(".slider-owl-carousel");
 	owlcart.owlCarousel({
-		loop:false,
+		loop:true,
 		nav:true,
 		autoplay:true,
 		smartSpeed:1000,
@@ -94,43 +97,40 @@ $(document).ready(function(){
 			}
 		}
 	});
-	owlcart.on('changed.owl.carousel', function (e) {		
-		$('.slider__allcount').text(e.item.count);
-		$('.slider__changecount').text(e.relatedTarget.current() + 1);
+	owlcart.on('changed.owl.carousel', function (e) {
+		var current = (e.item.index + 1) - e.relatedTarget._clones.length / 2;
+	    var allItems = e.item.count;
+	    if (current > allItems || current == 0) {
+	        current = allItems - (current % allItems);
+	    }	
+		$('.slider__changecount').text(current);
 	});
-	$('.slider-owl-carousel').each(function(index) {
-		var thisitem = $(this).find('.item');
-		$(this).next('.slidermain__counter')
-		.find('.slider__allcount').html($(thisitem).length);			
-	});		
-//////////////////////////////
 
+	$('.js-phone').mask("+7(999)999-99-99?");
 
-$('.js-phone').mask("+7(999)999-99-99?");
+	// accorderon 3 ul
 
-// accorderon 3 ul
-
-$(".tech-doc>li>span").on('click', function(e){
-	e.preventDefault();		
-	var answerId = $(this).next(".tech-doc__inside");
-	if( !$(this).hasClass("tech-doc__active")){
-		$(".tech-doc__inside").slideUp();
-		$(".tech-doc>li>span").removeClass("tech-doc__active");
-	}
-	$(this).toggleClass("tech-doc__active"); 
-	$(answerId).slideToggle();
-});
-$(".tech-doc__inside>li>span").on('click', function(e){
-	e.preventDefault();		
-	var answerId = $(this).next(".tech-doc__inside-links");
-	if( !$(this).hasClass("tech-doc__active_inside")){
-		$(".tech-doc__inside-links").slideUp();
-		$(".tech-doc__inside>li>span").removeClass("tech-doc__active_inside");
-	}
-	$(this).toggleClass("tech-doc__active_inside"); 
-	$(answerId).slideToggle();
-});
-/////////////////////////
+	$(".tech-doc>li>span").on('click', function(e){
+		e.preventDefault();		
+		var answerId = $(this).next(".tech-doc__inside");
+		if( !$(this).hasClass("tech-doc__active")){
+			$(".tech-doc__inside").slideUp();
+			$(".tech-doc>li>span").removeClass("tech-doc__active");
+		}
+		$(this).toggleClass("tech-doc__active"); 
+		$(answerId).slideToggle();
+	});
+	$(".tech-doc__inside>li>span").on('click', function(e){
+		e.preventDefault();		
+		var answerId = $(this).next(".tech-doc__inside-links");
+		if( !$(this).hasClass("tech-doc__active_inside")){
+			$(".tech-doc__inside-links").slideUp();
+			$(".tech-doc__inside>li>span").removeClass("tech-doc__active_inside");
+		}
+		$(this).toggleClass("tech-doc__active_inside"); 
+		$(answerId).slideToggle();
+	});
+	/////////////////////////
 
 	// sidebar accordeon on mobile
 	

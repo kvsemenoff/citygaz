@@ -735,7 +735,7 @@ html,body{
 	line-height: 41px;
 	background-image: url("../img/burgerwhtie.png");
 	background-repeat: no-repeat;
-	background-position: left 15px center;
+	background-position: 15px 50%;
 	padding: 0 27px 0 45px;
 	background-color: #1e73c6;
 	transition:0.4s;
@@ -756,7 +756,7 @@ html,body{
 	transition:0.4s;
 	padding-bottom: 17px;	
 	@media only screen and (min-width : 992px) {
-		max-width: 190px;
+		max-width: 197px;
 		&:hover{
 			transition:0.4s;		
 			.product__onclickandhover{

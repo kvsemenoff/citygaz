@@ -388,6 +388,7 @@ a.watch-more{
 	li{
 		display: block;
 		//padding: 5px 0px;
+
 		a{
 			padding: 10px 15px;
 			display: inline-block;
@@ -402,6 +403,7 @@ a.watch-more{
 			}
 		}
 	}
+	
 }
 .search-box{
 	margin-bottom: 23px !important;
@@ -437,6 +439,13 @@ a.watch-more{
 				padding: 0 10px !important;
 			}
 			
+		}
+		.has-child{
+			
+			& > a{
+				background: url(../img/selectimg.png) no-repeat top 27px right 15px !important;
+				
+			}
 		}
 	}
 

@@ -354,6 +354,8 @@ a.watch-more {
     border-right: none !important; }
     .header-top-fixed .main-menu li a {
       padding: 0 10px !important; }
+  .header-top-fixed .main-menu .has-child > a {
+    background: url(../img/selectimg.png) no-repeat top 27px right 15px !important; }
 
 .toTop {
   padding: 5px;

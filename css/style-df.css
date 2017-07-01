@@ -748,7 +748,7 @@ html, body {
     color: #435266;
     font-size: 14px;
     line-height: 17px;
-    font-weight: 300; }
+    font-weight: 400; }
     .product__articul span:last-child b {
       font-weight: 400; }
 
@@ -756,7 +756,7 @@ html, body {
   color: #435266;
   font-size: 14px;
   line-height: 17px;
-  font-weight: 300;
+  font-weight: 400;
   display: block; }
   .product__brend b {
     font-weight: 400; }
@@ -960,7 +960,7 @@ html, body {
   .product__documents span {
     color: #5d656f;
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 400;
     line-height: 17px;
     display: block;
     margin-bottom: 17px; }
@@ -1631,7 +1631,7 @@ html, body {
     display: inline-block;
     color: #4c5b6f;
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 400;
     line-height: 21px;
     height: 21px;
     margin-bottom: 9px;
@@ -1682,7 +1682,7 @@ html, body {
   .busket__listbox-kolvo .busket__button {
     color: #4c5b6f;
     font-size: 27px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 30px;
     user-select: none;
     cursor: pointer;
@@ -1891,7 +1891,7 @@ html, body {
   .busket__txtbottom p {
     color: #343c48;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 26px;
     padding-bottom: 11px; }
 

@@ -15,7 +15,7 @@
     transition: 0.4s;
     background-color: #ffce29; }
   .button-question:after {
-    content: "?";
+    content: '?';
     position: absolute;
     width: 40px;
     height: 38px;
@@ -26,5 +26,9 @@
     font-weight: 900;
     line-height: 38px;
     background-color: #ffc000; }
+  .get_repair:after{
+    content:url(../../img/link-img-white.png);
+    padding-top:5px;
+  }
 
 /*# sourceMappingURL=style.css.map */

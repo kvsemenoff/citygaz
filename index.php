@@ -346,7 +346,7 @@
 								</div>
 								<div class="cat-item-inner">
 									<span class="modal-close"></span>
-									<p class='catalog_title catalog_title_gas-blue'>Запчасти к <br>электрооборудованию</p>
+									<p class='catalog_title catalog_title_gas-blue'>Запчасти к <br> водонагревателям</p>
 									<ul class="catalog-list"></ul> 
 								</div>
 							</div>

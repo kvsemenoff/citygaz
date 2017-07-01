@@ -444,21 +444,46 @@ a.watch-more{
 		li{
 			border-right: none !important;
 			a{
-				padding: 0 10px !important;
+				padding: 0 10px;
 			}
-			
 		}
 		.has-child{
-			
 			& > a{
-				background: url(../img/selectimg.png) no-repeat top 27px right 15px !important;
+				position: relative;
+				background: none !important;
+				&::before{
+					display: block;
+					position: absolute;
+					content: "";
+					width: 25px;
+					height: 25px;
+					top: 26px;
+					right: -12px;
+					background: url(../img/selectimg.png) no-repeat top center;
+				}
+			}
+			&:hover{
+				background-color: #1e73c6;
 				
+				& > a{
+					color: #fff !important;
+					position: relative;
+					background: none !important;
+					&::before{
+						display: block;
+						position: absolute;
+						content: "";
+						width: 25px;
+						height: 25px;
+						top: 26px;
+						right: -12px;
+						background: url(../img/menu-check.png) no-repeat top center;
+					}
+				}
 			}
 		}
 	}
-
 }
-
 
 .toTop {
 	padding:5px;
@@ -470,6 +495,5 @@ a.watch-more{
 	display:none;
 	z-index: 99;
 	padding:6px 24px !important;
-
 }
 

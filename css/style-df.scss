@@ -59,23 +59,39 @@ html,body{
 .brand{
 	margin-bottom: 15px;
 	background-color: #fff;
-	padding: 7px 20px 20px 25px;
+	padding: 20px 20px 20px 25px;
 }
 .brand__box{	
-	.brand__img{
-		display: inline-block;
-		width: 120px;
-		img{
-			max-width: 100%;
-			height: auto;
+	.brand__row{
+		display: table;
+		width: 100%;
+		.brand__img{
+			width: 53%;
+			height: 50px;
+			display: table-cell;
+			vertical-align: middle;
+		}
+		.brand__link{
+			width: 47%;
+			height: 24px;
+			text-align: left;
+			display: table-cell;
+			vertical-align: middle;	
+			text-align: left;
 		}
 	}
+	img{
+		display: inline-block;
+		max-width: 100px;
+		height: auto;
+	}
+	
 	a{
 		display: inline-block;
 		color: #1358b6;
 		font-size: 15px;
 		font-weight: 400;
-		line-height: 55px;
+		//line-height: 55px;
 		text-decoration: underline;
 		transition:0.4s;
 		vertical-align: sub;

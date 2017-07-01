@@ -1,6 +1,9 @@
 body, html {
   min-height: 100vh; }
 
+a {
+  transition: 0.3s; }
+
 .container-main {
   width: 100%;
   padding: 0px 15px;

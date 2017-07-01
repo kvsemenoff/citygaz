@@ -25,7 +25,7 @@
 			</div>
 			<div class="col-md-5 col-sm-12 col-lg-4">
 				<div class="right-box">
-					<a href="#order" data-modal="modal" class="button-question get_repair">Заказать ремонт</a>
+					<a href="#ask-question" data-modal="modal" class="button-question">Задать вопрос</a>
 					<a href='#thanks' data-modal="modal"></a>
 					<div class="cart">
 						<div class="cart-count-box">

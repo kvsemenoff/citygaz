@@ -1624,7 +1624,7 @@ html, body {
     display: inline-block;
     color: #4c5b6f;
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 400;
     line-height: 21px;
     height: 21px;
     margin-bottom: 9px;
@@ -1675,7 +1675,7 @@ html, body {
   .busket__listbox-kolvo .busket__button {
     color: #4c5b6f;
     font-size: 27px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 30px;
     user-select: none;
     cursor: pointer;
@@ -1884,7 +1884,7 @@ html, body {
   .busket__txtbottom p {
     color: #343c48;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 26px;
     padding-bottom: 11px; }
 

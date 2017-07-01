@@ -73,7 +73,7 @@
 			<li><a href="#">МОНТАЖ</a></li>
 			<li><a href="#">РЕМОНТ И ОБСЛУЖИВАНИЕ</a></li>
 			<li><a href="#">КАК ЗАКАЗАТЬ</a></li>
-			<li class="active">
+			<li class="has-child">
 				<a href="#">ДОСТАВКА И ОПЛАТА</a>
 				<ul class="main-manu2">
 					<li><a href="#">Доставка курьером</a></li>

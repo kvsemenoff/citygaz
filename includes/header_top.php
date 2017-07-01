@@ -48,7 +48,7 @@
 		<ul class="main-menu">
 			<li><a href="#">О КОМПАНИИ</a></li>
 			<li><a href="#">МОНТАЖ</a></li>
-			<li><a href="#">РЕМОНТ И ОБСЛУЖИВАНИЕ</a></li>
+			<li><a href="#">РЕМОНТ</a></li>
 			<li><a href="#">КАК ЗАКАЗАТЬ</a></li>
 			<li class="has-child">
 				<a href="#">ДОСТАВКА И ОПЛАТА</a>
@@ -66,12 +66,12 @@
 </div>
 
 <div class="header-top-fixed">
-	<div class="container">
+	<div class="header-top-fixed_container">
 		
 		<ul class="main-menu">
 			<li><a href="#">О КОМПАНИИ</a></li>
 			<li><a href="#">МОНТАЖ</a></li>
-			<li><a href="#">РЕМОНТ И ОБСЛУЖИВАНИЕ</a></li>
+			<li><a href="#">РЕМОНТ</a></li>
 			<li><a href="#">КАК ЗАКАЗАТЬ</a></li>
 			<li class="has-child">
 				<a href="#">ДОСТАВКА И ОПЛАТА</a>
@@ -87,6 +87,15 @@
 		<div class="clear"></div>
 		
 		<a href="#order" data-modal="modal" class="button-question get_repair">Заказать ремонт</a>
+		<div class="cart">
+			<div class="cart-count-box">
+				<span class="count">0</span>
+			</div>
+			<div class="cart-text">
+				Нет <br>товаров
+			</div>
+			<div class="clearfix"></div>
+		</div>
 	</div>
 </div>
 

@@ -20,6 +20,23 @@ body, html{
 	}
 
 }
+.header-top-fixed_container{
+	margin: 0 auto;
+	width: 1158px !important;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px;
+	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+	display: -ms-flexbox;  /* TWEENER - IE 10 */
+	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+	display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
 .left-side-main{
 	width: 100%;
 	float: left;
@@ -409,27 +426,7 @@ a.watch-more{
 	webkit-box-shadow: 0px 0px 25px -4px rgba(0, 0, 0, 0.51);
 		-moz-box-shadow: 0px 0px 25px -4px rgba(0, 0, 0, 0.51);
 		box-shadow: 0px 0px 25px -4px rgba(0, 0, 0, 0.5);
-	.container{
-		width: 1158px !important;
-		display: flex;
-		align-content: center;
-		align-items: center;
-		justify-content: space-between;
-		padding: 0px;
- 		display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-  		display: -ms-flexbox;  /* TWEENER - IE 10 */
-  		display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  		display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
-  		-webkit-box-pack: justify;
-  		-webkit-justify-content: space-between;
-  		-ms-flex-pack: justify;
-  		justify-content: space-between;
-  		flex: none;
-
-	.container:before, .container:after{
-	    content: none;
-	}
-	}
+	
 	.menu-box{
 		display: block;
 	}
@@ -458,3 +455,4 @@ a.watch-more{
 	padding:6px 24px !important;
 
 }
+

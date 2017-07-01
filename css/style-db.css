@@ -65,10 +65,8 @@
 .cart {
   position: relative;
   width: 110px;
-  margin: 0 auto; }
-  @media only screen and (min-width: 535px) {
-    .cart {
-      margin: auto 0; } }
+  height: 37px;
+  overflow: hidden; }
   .cart .cart-count-box {
     background: url("../img/korzina.png") no-repeat top center;
     float: left;

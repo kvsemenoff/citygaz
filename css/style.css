@@ -1,10 +1,6 @@
 body, html {
   min-height: 100vh; }
 
-a{
-  transition:0.3s;
-}
-
 .container-main {
   width: 100%;
   padding: 0px 15px;
@@ -20,6 +16,27 @@ a{
     .container-main {
       max-width: 1167px;
       padding: 0px; } }
+
+.header-top-fixed_container {
+  margin: 0 auto;
+  width: 1158px !important;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;
+  /* NEW, Spec - Firefox, Chrome, Opera */
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
 
 .left-side-main {
   width: 100%;
@@ -98,10 +115,6 @@ body {
     line-height: 26px;
     margin-bottom: 26px; }
 
-  .content-part h3{
-    font-weight:700;
-  }
-
 strong {
   font-weight: 700; }
 
@@ -158,8 +171,7 @@ a.watch-more {
   background: url("../img/marker.png") no-repeat top 8px left;
   padding-left: 24px;
   line-height: 22px;
-  word-spacing: nowrap; 
-  font-weight:400;}
+  word-spacing: nowrap; }
   .contact-address strong {
     font-weight: 400; }
   .contact-address span {
@@ -336,28 +348,6 @@ a.watch-more {
   @media screen and (max-width: 1169px) {
     .header-top-fixed {
       display: none !important; } }
-  .header-top-fixed .container {
-    width: 1158px !important;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px;
-    display: -webkit-box;
-    /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-    display: -ms-flexbox;
-    /* TWEENER - IE 10 */
-    display: -webkit-flex;
-    /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-    display: flex;
-    /* NEW, Spec - Firefox, Chrome, Opera */
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    flex: none; }
-    .header-top-fixed .container .container:before, .header-top-fixed .container .container:after {
-      content: none; }
   .header-top-fixed .menu-box {
     display: block; }
   .header-top-fixed .main-menu li {

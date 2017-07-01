@@ -86,8 +86,8 @@
       padding: 10px; }
   .cart .cart-text {
     padding-left: 20px;
-    float: left; 
-    font-weight:400;}
+    float: left;
+    font-size: 400; }
 
 .main-menu {
   background: #fff !important;
@@ -126,23 +126,27 @@
       .main-menu li a:hover {
         background-color: #1e73c6;
         color: #fff !important;
-        transition: 0.7s; }
-  .main-menu .active {
+        transition: 0.3s; }
+  .main-menu .has-child {
     z-index: 500;
+    padding-right: 15px;
     position: relative; }
-    .main-menu .active:hover {
+    .main-menu .has-child:hover {
       background-color: #1e73c6; }
-      .main-menu .active:hover .active-bg {
-        color: #fff !important; }
-    .main-menu .active .active-bg {
+      .main-menu .has-child:hover > a {
+        color: #fff !important;
+        background: url(../img/menu-check.png) no-repeat top 27px right 10px; }
+    .main-menu .has-child > a {
+      background: url(../img/selectimg.png) no-repeat top 27px right 10px; }
+    .main-menu .has-child > a:hover {
       background: url(../img/menu-check.png) no-repeat top 27px right 10px; }
       @media only screen and (min-width: 992px) {
-        .main-menu .active .active-bg {
+        .main-menu .has-child > a:hover {
           background: url(../img/menu-check.png) no-repeat top 27px right 2px; } }
       @media only screen and (min-width: 1240px) {
-        .main-menu .active .active-bg {
-          background: url(../img/menu-check.png) no-repeat top 27px right 13px; } }
-    .main-menu .active .main-manu2 {
+        .main-menu .has-child > a:hover {
+          background: url(../img/menu-check.png) no-repeat top 27px right 10px; } }
+    .main-menu .has-child .main-manu2 {
       background-color: #1064b6;
       position: absolute;
       display: none;
@@ -152,9 +156,9 @@
       padding-left: 0;
       padding: 5px 0; }
       @media only screen and (min-width: 992px) {
-        .main-menu .active .main-manu2 {
+        .main-menu .has-child .main-manu2 {
           width: 240px; } }
-      .main-menu .active .main-manu2 li {
+      .main-menu .has-child .main-manu2 li {
         border: none !important;
         list-style-type: square;
         color: #ffc000;
@@ -162,10 +166,10 @@
         width: 150px;
         margin: 0 auto; }
         @media only screen and (min-width: 992px) {
-          .main-menu .active .main-manu2 li {
+          .main-menu .has-child .main-manu2 li {
             margin-left: 40px;
             width: auto; } }
-        .main-menu .active .main-manu2 li a {
+        .main-menu .has-child .main-manu2 li a {
           color: #f5f6f8 !important;
           font-size: 15px;
           font-weight: 400;
@@ -174,10 +178,10 @@
           line-height: 40px;
           height: 40px;
           text-align: left; }
-          .main-menu .active .main-manu2 li a:hover {
+          .main-menu .has-child .main-manu2 li a:hover {
             background: none;
             color: #ffc000 !important; }
-    .main-menu .active:hover .main-manu2 {
+    .main-menu .has-child:hover .main-manu2 {
       display: block; }
 
 .footer-bottom {

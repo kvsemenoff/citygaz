@@ -155,27 +155,38 @@
 			&:hover{
 				background-color: #1e73c6;
 				color: #fff !important;
-				transition: 0.7s;
+				transition: 0.3s;
 			}
 		}
 	}
 
-	.active{
+	.has-child{
 		z-index: 500;
+		padding-right: 15px;
 		&:hover{
 			background-color: #1e73c6;
-			.active-bg{
+			& > a{
 				color: #fff !important;
+				background: url(../img/menu-check.png) no-repeat top 27px right 10px; 
 			}
 		}
 		position: relative;
-		.active-bg{
+		& > a{
+			background: url(../img/selectimg.png) no-repeat top 27px right 10px; 
+			// @media only screen and (min-width : 992px) {
+			// 	background: url(../img/menu-check.png) no-repeat top 27px right 2px;
+			// }
+			// @media only screen and (min-width : 1240px) {
+			// 	background: url(../img/menu-check.png) no-repeat top 27px right 10px;
+			// }
+		}
+		& > a:hover{
 			background: url(../img/menu-check.png) no-repeat top 27px right 10px; 
 			@media only screen and (min-width : 992px) {
 				background: url(../img/menu-check.png) no-repeat top 27px right 2px;
 			}
 			@media only screen and (min-width : 1240px) {
-				background: url(../img/menu-check.png) no-repeat top 27px right 13px;
+				background: url(../img/menu-check.png) no-repeat top 27px right 10px;
 			}
 		}
 		.main-manu2{

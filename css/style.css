@@ -114,6 +114,8 @@ body {
   .content-part p {
     line-height: 26px;
     margin-bottom: 26px; }
+  .content-part h3 {
+    font-weight: 700; }
 
 strong {
   font-weight: 700; }
@@ -171,7 +173,8 @@ a.watch-more {
   background: url("../img/marker.png") no-repeat top 8px left;
   padding-left: 24px;
   line-height: 22px;
-  word-spacing: nowrap; }
+  word-spacing: nowrap;
+  font-weight: 400; }
   .contact-address strong {
     font-weight: 400; }
   .contact-address span {

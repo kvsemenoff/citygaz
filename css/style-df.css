@@ -55,14 +55,15 @@ html, body {
 
 .brand__box .brand__row {
   display: table;
-  width: 100%;
-  margin-bottom: 24px; }
+  width: 100%; }
   .brand__box .brand__row .brand__img {
     width: 53%;
+    height: 50px;
     display: table-cell;
     vertical-align: middle; }
   .brand__box .brand__row .brand__link {
     width: 47%;
+    height: 24px;
     text-align: left;
     display: table-cell;
     vertical-align: middle;

@@ -65,14 +65,15 @@ html,body{
 	.brand__row{
 		display: table;
 		width: 100%;
-		margin-bottom: 24px;
 		.brand__img{
 			width: 53%;
+			height: 50px;
 			display: table-cell;
 			vertical-align: middle;
 		}
 		.brand__link{
 			width: 47%;
+			height: 24px;
 			text-align: left;
 			display: table-cell;
 			vertical-align: middle;	

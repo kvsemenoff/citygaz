@@ -85,7 +85,8 @@
   .cart .cart-text {
     padding-left: 20px;
     float: left;
-    font-size: 400; }
+    font-weight: 400;
+    color: #435266; }
 
 .main-menu {
   background: #fff !important;

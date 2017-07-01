@@ -238,4 +238,10 @@ $(function() {
 	$('.toTop').click(function() {
 		$('body,html').animate({scrollTop:0},800);
 	});
+
+	$count = $('.count').text();
+	if($count > 1){
+		$('.count').parent().parent().wrap("<a href='#'></a>");
+	}
+
 });

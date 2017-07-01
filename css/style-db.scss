@@ -172,12 +172,6 @@
 		position: relative;
 		& > a{
 			background: url(../img/selectimg.png) no-repeat top 27px right 10px; 
-			// @media only screen and (min-width : 992px) {
-			// 	background: url(../img/menu-check.png) no-repeat top 27px right 2px;
-			// }
-			// @media only screen and (min-width : 1240px) {
-			// 	background: url(../img/menu-check.png) no-repeat top 27px right 10px;
-			// }
 		}
 		& > a:hover{
 			background: url(../img/menu-check.png) no-repeat top 27px right 10px; 

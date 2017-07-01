@@ -45,8 +45,11 @@ $(document).ready(function() {
 		e.preventDefault();
 		$('.cat-item-inner').fadeOut();
 	});
-	$('body').on("click" ,function(e){
-		e.preventDefault();
-		$('.cat-item-inners').fadeOut();
-	});
+
+	$(document).mouseup(function (e) {
+    var container = $(".cat-item-inner");
+    if (container.has(e.target).length === 0){
+        container.fadeOut(500);
+    }
+});
 });

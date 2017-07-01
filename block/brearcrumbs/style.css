@@ -32,6 +32,7 @@
         text-decoration: none; }
     .brearcrumbs li span {
       color: #6a7a8f;
-      display: inline-block; }
+      display: inline-block;
+      max-width: 730px; }
 
 /*# sourceMappingURL=style.css.map */

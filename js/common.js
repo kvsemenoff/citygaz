@@ -167,6 +167,21 @@ $(".tech-doc__inside>li>span").on('click', function(e){
 	});
 	////////////
 
+	// catalog tablet or list tabs
+
+	$('.catalogpage__filter-links a').on('click', function(e) {
+		if(window.matchMedia('(min-width : 992px)').matches){
+			e.preventDefault();
+			$('.catalogpage__filter-links a').removeClass('catalogpage__filter-linkactive');
+			$(this).addClass('catalogpage__filter-linkactive');
+			var tab = $(this).attr('href');
+			tab = '.' + tab;
+			$('.catalogpage__tabjs').not(tab).css({'display':'none'});
+			$(tab).css({'display':'block'});
+		}
+	});
+
+	////////////////
 
 
 	$(".busket__listbox-kolvo .busket__button").on("click", function() {

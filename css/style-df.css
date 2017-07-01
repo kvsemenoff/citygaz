@@ -66,7 +66,8 @@ html, body {
   font-weight: 400;
   line-height: 55px;
   text-decoration: underline;
-  transition: 0.4s; }
+  transition: 0.4s;
+  vertical-align: sub; }
   .brand__box a:hover {
     color: #de9302;
     text-decoration: none;
@@ -1163,7 +1164,7 @@ html, body {
 .tovaritem__oldprice {
   color: #4c5b6f;
   font-size: 15px;
-  font-weight: 100;
+  font-weight: 400;
   line-height: 19px;
   padding-bottom: 5px;
   display: inline-block;
@@ -1235,7 +1236,9 @@ html, body {
         line-height: 17px; }
     @media only screen and (min-width: 1200px) {
       .catalogpage__parts .catalog-list {
-        margin-right: 11px; } }
+        margin-right: 11px; }
+        .catalogpage__parts .catalog-list:last-child {
+          margin-right: 0; } }
 
 .catalogpage__parts-cap {
   color: #435266;
@@ -1336,9 +1339,13 @@ html, body {
 
 .catalogpage__tovarlist {
   display: none; }
-  @media only screen and (min-width: 992px) {
+  @media only screen and (max-width: 992px) {
     .catalogpage__tovarlist {
-      display: block; } }
+      display: none !important; } }
+
+@media only screen and (max-width: 992px) {
+  .catalogpage__tovartablet {
+    display: block !important; } }
 
 .catalogpage__tovarlistbox {
   background-color: #fff;
@@ -1514,7 +1521,7 @@ html, body {
   .catalogpage__txtbottom p {
     color: #435266;
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 400;
     line-height: 26px;
     padding-bottom: 30px; }
 

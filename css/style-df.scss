@@ -732,7 +732,7 @@ html,body{
 
 .product__catalog{
 	display: inline-block;
-	float: left;
+	
 	color: white;
 	font-size: 15px;
 	font-weight: 400;
@@ -747,6 +747,18 @@ html,body{
 		transition:0.4s;
 		background-color: #ffc000;
 	}
+}
+.product__topbox_buttonskatalog{
+	position: relative;
+	max-width: 277px;
+	display: block;
+	float: left;
+}
+.product__onclickandhover{
+	// display: none;
+	position: absolute;
+	top:15px;
+	left:0;
 }
 
 

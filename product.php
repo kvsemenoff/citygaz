@@ -12,7 +12,98 @@
 			<div class="container">
 				<div class="product">
 					<div class="product__topbox">
-						<a href="#" class="product__catalog">Каталог товаров</a>
+						<div class="product__topbox_buttonskatalog">
+							<a href="#" class="product__catalog">Каталог товаров</a>		
+							<ul class="sidebar-catalog product__onclickandhover">
+								<li><span>Запчасти к плитам</span>
+									<div class="sidebar-catalog__showmenu" style="left: 93px;">
+										<div class="padding">
+											<ul class="catalog-list catalog-list__big">
+												<li><a href="#">Программаторы</a></li>
+												<li><a href="#">Расширительные баки</a></li>
+												<li><a href="#">Реле протока, группы ГВС</a></li>
+												<li><a href="#">Теплообменники</a></li>
+												<li><a href="#">Термостаты безопасности</a></li>
+											</ul> 
+											<ul class="catalog-list catalog-list__big">
+												<li><a href="#">Циркуляционные насосы</a></li>
+												<li><a href="#">Электроды розжига </a></li>
+												<li><a href="#">3-х ходовые клапана</a></li>
+												<li><a href="#">Аксессуары</a></li>				
+											</ul>
+											<div class="clearfix"></div>
+										</div>
+
+									</div> 
+								</li>
+								<li><span>Запчасти к котлам</span>
+									<div class="sidebar-catalog__showmenu" style="left: 93px;">
+										<div class="padding">
+											<ul class="catalog-list catalog-list__big">
+												<li><a href="#">Программаторы2</a></li>
+												<li><a href="#">Расширительные баки</a></li>
+												<li><a href="#">Реле протока, группы ГВС</a></li>
+												<li><a href="#">Теплообменники</a></li>
+												<li><a href="#">Термостаты безопасности</a></li>
+											</ul> 
+											<ul class="catalog-list catalog-list__big">
+												<li><a href="#">Циркуляционные насосы</a></li>
+												<li><a href="#">Электроды розжига </a></li>
+												<li><a href="#">3-х ходовые клапана</a></li>
+												<li><a href="#">Аксессуары</a></li>				
+											</ul>
+											<div class="clearfix"></div>
+										</div>
+
+									</div> 
+								</li>
+								<li><span>Запчасти к водонагревателям</span>
+									<div class="sidebar-catalog__showmenu" style="left: 93px;">
+										<div class="padding">
+											<ul class="catalog-list catalog-list__big">
+												<li><a href="#">Программаторы3</a></li>
+												<li><a href="#">Расширительные баки</a></li>
+												<li><a href="#">Реле протока, группы ГВС</a></li>
+												<li><a href="#">Теплообменники</a></li>
+												<li><a href="#">Термостаты безопасности</a></li>
+											</ul> 
+											<ul class="catalog-list catalog-list__big">
+												<li><a href="#">Циркуляционные насосы</a></li>
+												<li><a href="#">Электроды розжига </a></li>
+												<li><a href="#">3-х ходовые клапана</a></li>
+												<li><a href="#">Аксессуары</a></li>				
+											</ul>
+											<div class="clearfix"></div>
+										</div>
+
+									</div> 
+								</li>
+								<li><span>Запчасти к электрооборудованию.</span>
+									<div class="sidebar-catalog__showmenu" style="left: 93px;">
+										<div class="padding">
+											<ul class="catalog-list catalog-list__big">
+												<li><a href="#">Программаторы4</a></li>
+												<li><a href="#">Расширительные баки</a></li>
+												<li><a href="#">Реле протока, группы ГВС</a></li>
+												<li><a href="#">Теплообменники</a></li>
+												<li><a href="#">Термостаты безопасности</a></li>
+											</ul> 
+											<ul class="catalog-list catalog-list__big">
+												<li><a href="#">Циркуляционные насосы</a></li>
+												<li><a href="#">Электроды розжига </a></li>
+												<li><a href="#">3-х ходовые клапана</a></li>
+												<li><a href="#">Аксессуары</a></li>				
+											</ul>
+											<div class="clearfix"></div>
+										</div>
+
+									</div> 
+								</li>
+							</ul>	
+						</div>
+
+
+
 						<ul class="brearcrumbs">
 							<li><a href="#">Главная</a></li>
 							<li><span>Запчасти к водонагревателям</span></li>

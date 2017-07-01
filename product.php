@@ -102,15 +102,12 @@
 							</ul>	
 						</div>
 
-
-
 						<ul class="brearcrumbs">
 							<li><a href="#">Главная</a></li>
 							<li><span>Запчасти к водонагревателям</span></li>
 						</ul>
 						<div class="clear"></div>
 					</div>
-
 
 					<div class="product__block">
 						<div class="product__leftbox">
@@ -159,7 +156,6 @@
 						</div>
 						<div class="clear"></div>
 					</div>
-
 					
 					<div class="product__promotion">
 						<a href="#" target="_blank" class="product__promotion-box">
@@ -217,7 +213,6 @@
 						<a href="#description" data-modal="modal" class="product__error">Сообщить о неточности описания</a>
 						<a href='#thanks' data-modal="modal">Спасибо</a>
 					</div>
-
 					
 					<div class="product__sliderblock">
 						<div class="burg-title">Похожие товары</div>
@@ -441,10 +436,7 @@
 
 							</div>							
 						</div>
-					</div>
-
-
-					
+					</div>			
 
 				</div>
 			</div>

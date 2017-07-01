@@ -184,6 +184,15 @@ $(document).ready(function(){
 	////////////////
 
 
+	// catalog page catalog-button on mobile
+	$(".product__topbox_buttonskatalog .product__catalog").on('click', function(e){
+		e.preventDefault();			
+		if(window.matchMedia('(max-width : 992px)').matches){
+			$('.product__onclickandhover').slideToggle(250);		
+		}
+	});
+	////////
+
 	$(".busket__listbox-kolvo .busket__button").on("click", function() {
 		var button = $(this);
 		var oldValue = button.parent().find("input").val();

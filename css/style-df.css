@@ -550,7 +550,7 @@ html, body {
       -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column;
-      max-width: 289px;
+      max-width: 291px;
       height: 307px;
       overflow: hidden; }
       .slidermain-links a {
@@ -605,19 +605,16 @@ html, body {
   font-family: 'Roboto', sans-serif; }
 
 .product__topbox {
-  margin: 17px 0; }
+  margin-top: 17px; }
   .product__topbox .brearcrumbs {
     max-width: none;
     float: right;
     width: 100%;
-    margin-top: 15px; }
-    @media only screen and (min-width: 770px) {
-      .product__topbox .brearcrumbs {
-        width: 72%;
-        margin-top: 0; } }
+    margin-bottom: 15px; }
     @media only screen and (min-width: 992px) {
       .product__topbox .brearcrumbs {
-        width: 79%; } }
+        width: 79%;
+        margin-bottom: 0px; } }
     @media only screen and (min-width: 1200px) {
       .product__topbox .brearcrumbs {
         width: 82.5%; } }
@@ -633,21 +630,41 @@ html, body {
   background-position: left 15px center;
   padding: 0 27px 0 45px;
   background-color: #1e73c6;
-  transition: 0.4s; }
+  transition: 0.4s;
+  width: 100%; }
   .product__catalog:hover {
     transition: 0.4s;
     background-color: #ffc000; }
+  @media only screen and (min-width: 992px) {
+    .product__catalog {
+      width: auto; } }
 
 .product__topbox_buttonskatalog {
   position: relative;
-  max-width: 277px;
+  width: 100%;
   display: block;
-  float: left; }
+  float: left;
+  transition: 0.4s;
+  padding-bottom: 17px; }
+  @media only screen and (min-width: 992px) {
+    .product__topbox_buttonskatalog {
+      max-width: 190px; }
+      .product__topbox_buttonskatalog:hover {
+        transition: 0.4s; }
+        .product__topbox_buttonskatalog:hover .product__onclickandhover {
+          display: block; } }
 
-.product__onclickandhover {
+.product__topbox_buttonskatalog .product__onclickandhover {
+  display: none;
+  z-index: 99;
   position: absolute;
-  top: 15px;
-  left: 0; }
+  max-width: none;
+  top: 45px;
+  left: 0;
+  width: 100%; }
+  @media only screen and (min-width: 992px) {
+    .product__topbox_buttonskatalog .product__onclickandhover {
+      width: 277px; } }
 
 @media only screen and (min-width: 992px) {
   .product__block {
@@ -1641,7 +1658,7 @@ html, body {
     display: inline-block;
     color: #4c5b6f;
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 400;
     line-height: 21px;
     height: 21px;
     margin-bottom: 9px;

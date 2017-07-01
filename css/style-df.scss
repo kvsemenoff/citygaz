@@ -635,7 +635,7 @@ html,body{
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
 		flex-direction: column;
-		max-width: 289px;
+		max-width: 291px;
 		height: 307px;	
 		overflow: hidden;
 		a{
@@ -711,18 +711,15 @@ html,body{
 	font-family: 'Roboto', sans-serif;
 }
 .product__topbox{
-	margin: 17px 0;
+	margin-top: 17px;
 	.brearcrumbs{
 		max-width: none;
 		float: right;
 		width: 100%;
-		margin-top: 15px;
-		@media only screen and (min-width : 770px) {
-			width: 72%;
-			margin-top: 0;
-		}
+		margin-bottom: 15px ;		
 		@media only screen and (min-width : 992px) {
 			width: 79%;
+			margin-bottom: 0px;
 		}
 		@media only screen and (min-width : 1200px) {
 			width: 82.5%;
@@ -731,8 +728,7 @@ html,body{
 }
 
 .product__catalog{
-	display: inline-block;
-	
+	display: inline-block;	
 	color: white;
 	font-size: 15px;
 	font-weight: 400;
@@ -743,22 +739,43 @@ html,body{
 	padding: 0 27px 0 45px;
 	background-color: #1e73c6;
 	transition:0.4s;
+	width: 100%;
 	&:hover{
 		transition:0.4s;
 		background-color: #ffc000;
 	}
+	@media only screen and (min-width : 992px) {
+		width: auto;
+	}
 }
 .product__topbox_buttonskatalog{
 	position: relative;
-	max-width: 277px;
+	width: 100%;
 	display: block;
 	float: left;
+	transition:0.4s;
+	padding-bottom: 17px;	
+	@media only screen and (min-width : 992px) {
+		max-width: 190px;
+		&:hover{
+			transition:0.4s;		
+			.product__onclickandhover{
+				display: block;
+			}
+		}
+	}	
 }
-.product__onclickandhover{
-	// display: none;
+.product__topbox_buttonskatalog .product__onclickandhover{
+	display: none;	
+	z-index: 99;
 	position: absolute;
-	top:15px;
+	max-width: none;
+	top:45px;
 	left:0;
+	width: 100%;
+	@media only screen and (min-width : 992px) {
+		width: 277px;
+	}
 }
 
 
@@ -1923,8 +1940,7 @@ html,body{
 			}
 		}
 	}
-	@media only screen and (min-width : 992px) {
-		
+	@media only screen and (min-width : 992px) {		
 		.catalogpage__tovarlisttxtbox{
 			max-width: 260px;			
 		}
@@ -1945,7 +1961,7 @@ html,body{
 		display: inline-block;
 		color: #4c5b6f;
 		font-size: 15px;
-		font-weight: 100;
+		font-weight: 400;
 		line-height: 21px;
 		height: 21px;
 		margin-bottom: 9px;

@@ -95,70 +95,114 @@
 	
 	<div class="brand">
 		<div class="brand__box">
-			<div class="brand__img">
-				<img src="img/brend1.png" alt="">
+			<div class="brand__row">
+				<div class="brand__img">
+					<img src="img/brend1.png" alt="">
+				</div>	
+				<div class="brand__link">
+					<a href="#">Ariston</a>
+				</div>		
 			</div>
-			<a href="#">Ariston</a>
 		</div>
 		<div class="brand__box">
-			<div class="brand__img">
-				<img src="img/brend2.png" alt="">
+			<div class="brand__row">
+				<div class="brand__img">
+					<img src="img/brend2.png" alt="">
+				</div>	
+				<div class="brand__link">
+					<a href="#">Baxi</a>
+				</div>		
 			</div>
-			<a href="#">Baxi</a>
 		</div>
 		<div class="brand__box">
-			<div class="brand__img">
-				<img src="img/brend3.png" alt="">
+			<div class="brand__row">
+				<div class="brand__img">
+					<img src="img/brend3.png" alt="">
+				</div>	
+				<div class="brand__link">
+					<a href="#">Bosch-Junkers</a>
+				</div>		
 			</div>
-			<a href="#">Bosch-Junkers</a>
 		</div>
 		<div class="brand__box">
-			<div class="brand__img">
-				<img src="img/brend4.png" alt="">
+			<div class="brand__row">
+				<div class="brand__img">
+					<img src="img/brend4.png" alt="">
+				</div>	
+				<div class="brand__link">
+					<a href="#">Buderus</a>
+				</div>		
 			</div>
-			<a href="#">Buderus</a>
 		</div>
 		<div class="brand__box">
-			<div class="brand__img">
-				<img src="img/brend5.png" alt="">
+			<div class="brand__row">
+				<div class="brand__img">
+					<img src="img/brend5.png" alt="">
+				</div>	
+				<div class="brand__link">
+					<a href="#">Attack</a>
+				</div>		
 			</div>
-			<a href="#">Attack</a>
 		</div>
 		<div class="brand__box">
-			<div class="brand__img">
-				<img src="img/brend6.png" alt="">
+			<div class="brand__row">
+				<div class="brand__img">
+					<img src="img/brend6.png" alt="">
+				</div>	
+				<div class="brand__link">
+					<a href="#">Electrolux</a>
+				</div>		
 			</div>
-			<a href="#">Electrolux</a>
 		</div>
 		<div class="brand__box">
-			<div class="brand__img">
-				<img src="img/brend7.png" alt="">
+			<div class="brand__row">
+				<div class="brand__img">
+					<img src="img/brend7.png" alt="">
+				</div>	
+				<div class="brand__link">
+					<a href="#">Elsotherm</a>
+				</div>		
 			</div>
-			<a href="#">Elsotherm</a>
 		</div>
 		<div class="brand__box">
-			<div class="brand__img">
-				<img src="img/brend8.png" alt="">
+			<div class="brand__row">
+				<div class="brand__img">
+					<img src="img/brend8.png" alt="">
+				</div>	
+				<div class="brand__link">
+					<a href="#">Ferroli</a>
+				</div>		
 			</div>
-			<a href="#">Ferroli</a>
 		</div>
 		<div class="brand__box">
-			<div class="brand__img">
-				<img src="img/brend9.png" alt="">
+			<div class="brand__row">
+				<div class="brand__img">
+					<img src="img/brend9.png" alt="">
+				</div>	
+				<div class="brand__link">
+					<a href="#">Fondital</a>
+				</div>		
 			</div>
-			<a href="#">Fondital</a>
 		</div>
 		<div class="brand__box">
-			<div class="brand__img">
-				<img src="img/brend10.png" alt="">
+			<div class="brand__row">
+				<div class="brand__img">
+					<img src="img/brend10.png" alt="">
+				</div>	
+				<div class="brand__link">
+					<a href="#">Gazlux</a>
+				</div>		
 			</div>
-			<a href="#">Gazlux</a>
 		</div>
 		<div class="brand__box">
-			<div class="brand__img">
-				<img src="img/brend11.png" alt="">
+			<div class="brand__row">
+				<div class="brand__img">
+					<img src="img/brend11.png" alt="">
+				</div>	
+				<div class="brand__link">
+					<a href="#">Immergas</a>
+				</div>		
 			</div>
-			<a href="#">Immergas</a>
 		</div>
 		<div class="brand__allbrends">			
 			<a href="#">Все бренды</a>

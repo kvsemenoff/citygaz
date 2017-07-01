@@ -51,20 +51,31 @@ html, body {
 .brand {
   margin-bottom: 15px;
   background-color: #fff;
-  padding: 7px 20px 20px 25px; }
+  padding: 20px 20px 20px 25px; }
 
-.brand__box .brand__img {
+.brand__box .brand__row {
+  display: table;
+  width: 100%;
+  margin-bottom: 24px; }
+  .brand__box .brand__row .brand__img {
+    width: 53%;
+    display: table-cell;
+    vertical-align: middle; }
+  .brand__box .brand__row .brand__link {
+    width: 47%;
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left; }
+.brand__box img {
   display: inline-block;
-  width: 120px; }
-  .brand__box .brand__img img {
-    max-width: 100%;
-    height: auto; }
+  max-width: 100px;
+  height: auto; }
 .brand__box a {
   display: inline-block;
   color: #1358b6;
   font-size: 15px;
   font-weight: 400;
-  line-height: 55px;
   text-decoration: underline;
   transition: 0.4s;
   vertical-align: sub; }

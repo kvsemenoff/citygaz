@@ -1377,14 +1377,16 @@ html, body {
     border-color: transparent; }
 
 .catalogpage__tovarlist {
-  display: none; }
+  display: block; }
   @media only screen and (max-width: 992px) {
     .catalogpage__tovarlist {
       display: none !important; } }
 
-@media only screen and (max-width: 992px) {
-  .catalogpage__tovartablet {
-    display: block !important; } }
+.catalogpage__tovartablet {
+  display: none; }
+  @media only screen and (max-width: 992px) {
+    .catalogpage__tovartablet {
+      display: block !important; } }
 
 .catalogpage__tovarlistbox {
   background-color: #fff;

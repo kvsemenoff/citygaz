@@ -74,8 +74,8 @@
 								</select>
 							</div>
 							<div class="catalogpage__filter-links">
-								<a href="js-tovarlist">Список</a>
-								<a href="js-tovartablet" class="catalogpage__filter-linkactive">Плитка</a>
+								<a href="js-tovarlist" class="catalogpage__filter-linkactive">Список</a>
+								<a href="js-tovartablet">Плитка</a>
 							</div>
 							<div class="clear"></div>
 						</div>

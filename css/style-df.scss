@@ -1597,12 +1597,13 @@ html,body{
 
 
 .catalogpage__tovarlist{
-	display: none;
+	display: block;
 	@media only screen and (max-width : 992px) {
 		display: none !important;
 	}
 }
 .catalogpage__tovartablet{	
+	display: none;
 	@media only screen and (max-width : 992px) {
 		display: block !important;
 	}

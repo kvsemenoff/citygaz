@@ -8,10 +8,6 @@ a {
   width: 100%;
   padding: 0px 15px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   justify-content: space-between;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between; }

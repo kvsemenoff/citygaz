@@ -47,6 +47,7 @@ $(document).ready(function(){
 		mouseDrag:false,
 		touchDrag: false,
 		center:false,
+		lazyLoad : true,
 		navText:['<span class="prev-left"></span>','<span class="next-right"></span>'],
 		responsive:{
 			0:{
@@ -81,6 +82,7 @@ $(document).ready(function(){
 		mouseDrag:true,
 		touchDrag: true,
 		center:false,
+		lazyLoad : true,
 		navText:['<span class="prev-left"></span>','<span class="next-right"></span>'],
 		responsive:{
 			0:{

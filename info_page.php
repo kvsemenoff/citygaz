@@ -370,7 +370,7 @@
 								</tr>
 								<tr>
 									<td>Бензиновый двигатель, непосредственный впрыск</td>
-									<td>20 800 .-</td>
+									<td>20800 .-</td>
 									<td>45%</td>
 								</tr>
 								<tr>
@@ -382,6 +382,120 @@
 						</table>
 
 						<h2>Технические документы</h2>
+						<ul class="tech-doc">
+							<li><span>Технические паспорта для чайников</span>
+								<ul class="tech-doc__inside">
+								<li> <span>Тех. Паспорта для котлов фирмы Liberty</span>
+										<ul class="tech-doc__inside-links">
+											<li><a href="#">Паспорт для котла Baxi модель 45235345</a></li>
+											<li><a href="#">Паспорт для котла Baxi модель 87854658</a></li>
+										</ul>
+									</li>
+									<li> <span>Тех. Паспорта для котлов фирмы Bax</span>
+										<ul class="tech-doc__inside-links">
+											<li><a href="#">Паспорт для котла Baxi модель 45235345</a></li>
+											<li><a href="#">Паспорт для котла Baxi модель 87854658</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>	
+							<li><span>Технические паспорта для бойлеров</span>
+								<ul class="tech-doc__inside">
+								<li> <span>Тех. Паспорта для котлов фирмы Liberty</span>
+										<ul class="tech-doc__inside-links">
+											<li><a href="#">Паспорт для котла Baxi модель 45235345</a></li>
+											<li><a href="#">Паспорт для котла Baxi модель 87854658</a></li>
+										</ul>
+									</li>
+									<li> <span>Тех. Паспорта для котлов фирмы Bax</span>
+										<ul class="tech-doc__inside-links">
+											<li><a href="#">Паспорт для котла Baxi модель 45235345</a></li>
+											<li><a href="#">Паспорт для котла Baxi модель 87854658</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>	
+							<li><span>Технические паспорта для котлов</span>
+								<ul class="tech-doc__inside">
+								<li> <span>Тех. Паспорта для котлов фирмы Liberty</span>
+										<ul class="tech-doc__inside-links">
+											<li><a href="#">Паспорт для котла Baxi модель 45235345</a></li>
+											<li><a href="#">Паспорт для котла Baxi модель 87854658</a></li>
+										</ul>
+									</li>
+									<li> <span>Тех. Паспорта для котлов фирмы Bax</span>
+										<ul class="tech-doc__inside-links">
+											<li><a href="#">Паспорт для котла Baxi модель 45235345</a></li>
+											<li><a href="#">Паспорт для котла Baxi модель 87854658</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>	
+							<li> <span>Технические паспорта для бойлеров</span>
+								<ul class="tech-doc__inside">
+								<li> <span>Тех. Паспорта для котлов фирмы Liberty</span>
+										<ul class="tech-doc__inside-links">
+											<li><a href="#">Паспорт для котла Baxi модель 45235345</a></li>
+											<li><a href="#">Паспорт для котла Baxi модель 87854658</a></li>
+										</ul>
+									</li>
+									<li> <span>Тех. Паспорта для котлов фирмы Bax</span>
+										<ul class="tech-doc__inside-links">
+											<li><a href="#">Паспорт для котла Baxi модель 45235345</a></li>
+											<li><a href="#">Паспорт для котла Baxi модель 87854658</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li> <span>Технические паспорта для бойлеров</span>
+								<ul class="tech-doc__inside">
+								<li> <span>Тех. Паспорта для котлов фирмы Liberty</span>
+										<ul class="tech-doc__inside-links">
+											<li><a href="#">Паспорт для котла Baxi модель 45235345</a></li>
+											<li><a href="#">Паспорт для котла Baxi модель 87854658</a></li>
+										</ul>
+									</li>
+									<li> <span>Тех. Паспорта для котлов фирмы Bax</span>
+										<ul class="tech-doc__inside-links">
+											<li><a href="#">Паспорт для котла Baxi модель 45235345</a></li>
+											<li><a href="#">Паспорт для котла Baxi модель 87854658</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>		
+							<li> <span>Технические паспорта для чайников</span>
+								<ul class="tech-doc__inside">
+								<li> <span>Тех. Паспорта для котлов фирмы Liberty</span>
+										<ul class="tech-doc__inside-links">
+											<li><a href="#">Паспорт для котла Baxi модель 45235345</a></li>
+											<li><a href="#">Паспорт для котла Baxi модель 87854658</a></li>
+										</ul>
+									</li>
+									<li> <span>Тех. Паспорта для котлов фирмы Bax</span>
+										<ul class="tech-doc__inside-links">
+											<li><a href="#">Паспорт для котла Baxi модель 45235345</a></li>
+											<li><a href="#">Паспорт для котла Baxi модель 87854658</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li> <span>Технические паспорта для бойлеров</span>
+								<ul class="tech-doc__inside">
+								<li> <span>Тех. Паспорта для котлов фирмы Liberty</span>
+										<ul class="tech-doc__inside-links">
+											<li><a href="#">Паспорт для котла Baxi модель 45235345</a></li>
+											<li><a href="#">Паспорт для котла Baxi модель 87854658</a></li>
+										</ul>
+									</li>
+									<li> <span>Тех. Паспорта для котлов фирмы Bax</span>
+										<ul class="tech-doc__inside-links">
+											<li><a href="#">Паспорт для котла Baxi модель 45235345</a></li>
+											<li><a href="#">Паспорт для котла Baxi модель 87854658</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div> 

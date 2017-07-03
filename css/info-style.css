@@ -10,7 +10,6 @@
   margin: 24px 0; }
 
 .content-part ul {
-  padding-left: 20px;
   margin-bottom: 20px; }
 
 .content-part ul:first-of-type {
@@ -18,9 +17,10 @@
   list-style-type: disc; }
 
 .content-part ul:nth-of-type(2) {
-  list-style-type: decimal; }
+  list-style-type: decimal;
+  padding-left: 20px; }
 
-.content-part ul li {
+.content-part ul:first-of-type li, .content-part ul:nth-of-type(2) li {
   padding-left: 20px; }
 
 .content-part h2 {
@@ -41,5 +41,18 @@
 .content-part tbody tr {
   background-color: white !important;
   border-bottom: 1px dashed #ccc !important; }
+
+@media screen and (max-width: 350px) {
+  .content-part table td {
+    padding: 15px 0 !important; } }
+@media screen and (max-width: 500px) {
+  .content-part ul:first-of-type li {
+    padding: 0; }
+
+  .content-part ul:nth-of-type(2) li {
+    padding: 0; }
+
+  .content-part img {
+    padding: 5px; } }
 
 /*# sourceMappingURL=info-style.css.map */

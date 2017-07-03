@@ -209,22 +209,34 @@
 		</div>
 		<div class="brand__hiddenbox">
 			<div class="brand__box">
-				<div class="brand__img">
-					<img src="img/brend9.png" alt="">
+				<div class="brand__row">
+					<div class="brand__img">
+						<img src="img/brend9.png" alt="">
+					</div>	
+					<div class="brand__link">
+						<a href="#">Fondital</a>
+					</div>		
 				</div>
-				<a href="#">Fondital</a>
 			</div>
 			<div class="brand__box">
-				<div class="brand__img">
-					<img src="img/brend10.png" alt="">
+				<div class="brand__row">
+					<div class="brand__img">
+						<img src="img/brend10.png" alt="">
+					</div>	
+					<div class="brand__link">
+						<a href="#">Gazlux</a>
+					</div>		
 				</div>
-				<a href="#">Gazlux</a>
 			</div>
 			<div class="brand__box">
-				<div class="brand__img">
-					<img src="img/brend11.png" alt="">
+				<div class="brand__row">
+					<div class="brand__img">
+						<img src="img/brend11.png" alt="">
+					</div>	
+					<div class="brand__link">
+						<a href="#">Immergas</a>
+					</div>		
 				</div>
-				<a href="#">Immergas</a>
 			</div>
 		</div>
 	</div>

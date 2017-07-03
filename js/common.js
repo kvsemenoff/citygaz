@@ -98,11 +98,7 @@ $(document).ready(function(){
 		}
 	});
 	owlcart.on('changed.owl.carousel', function (e) {
-		var current = (e.item.index + 1) - e.relatedTarget._clones.length / 2;
-	    var allItems = e.item.count;
-	    if (current > allItems || current == 0) {
-	        current = allItems - (current % allItems);
-	    }	
+	    var current = e.page.index+1;
 		$('.slider__changecount').text(current);
 	});
 

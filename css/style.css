@@ -358,7 +358,7 @@ a.watch-more {
   .header-top-fixed .main-menu li {
     border-right: none !important; }
     .header-top-fixed .main-menu li a {
-      padding: 0 10px; }
+      padding: 0 10px !important; }
   .header-top-fixed .main-menu .has-child > a {
     position: relative;
     background: none !important; }

@@ -21,20 +21,16 @@
         .sidebar-catalog > li span {
           padding: 14px 20px 14px 37px; } }
       .sidebar-catalog > li span:after {
-        content: "\f054";
+        content: "";
         position: absolute;
         top: 17px;
         left: 15px;
         width: 10px;
         height: 14px;
-        display: inline-block;
-        color: #1056b5;
-        font-family: FontAwesome;
-        font-size: 11px;
-        font-weight: 400;
-        line-height: 15px;
-        transition: 0.4s;
-        transform: rotate(90deg); }
+        background-image: url("../../img/menuimg1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: 0.4s; }
     @media only screen and (min-width: 992px) {
       .sidebar-catalog > li:hover .sidebar-catalog__showmenu {
         visibility: visible;
@@ -49,8 +45,9 @@
       color: white;
       font-weight: 400; }
       .sidebar-catalog > li:hover span:after {
-        color: white;
-        transform: rotate(0deg); }
+        background-image: url("../../img/menuimg2.png");
+        text-decoration: none;
+        color: white; }
 
 @media only screen and (max-width: 992px) {
   .sidebar-catalog .sidebar-catalog__active {
@@ -58,7 +55,11 @@
     color: white;
     font-weight: 400; }
     .sidebar-catalog .sidebar-catalog__active:after {
-      color: white;
+      background-image: url("../../img/menuimg2.png");
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
       transform: rotate(90deg); } }
 
 .sidebar-catalog__showmenu {

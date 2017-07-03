@@ -20,7 +20,7 @@ body {
   padding: 10px; }
 
 .modal-window {
-  z-index: 99999999;
+  z-index: 1000;
   position: fixed;
   top: 0;
   left: 0px;

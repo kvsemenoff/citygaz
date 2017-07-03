@@ -87,15 +87,17 @@
 		<div class="clear"></div>
 		
 		<a href="#order" data-modal="modal" class="button-question get_repair">Заказать ремонт</a>
-		<div class="cart">
-			<div class="cart-count-box">
-				<span class="count">5</span>
+		<a href='#'>
+			<div class="cart">
+				<div class="cart-count-box">
+					<span class="count">5</span>
+				</div>
+				<div class="cart-text">
+					5120.-
+				</div>
+				<div class="clearfix"></div>
 			</div>
-			<div class="cart-text">
-				5120.-
-			</div>
-			<div class="clearfix"></div>
-		</div>
+		</a>
 	</div>
 </div>
 

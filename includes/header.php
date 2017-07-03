@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="css/style-de.css">
 	<link rel="stylesheet" href="css/style-df.css">
 	<link rel="stylesheet" href="css/style-dg.css">
+	<link rel="stylesheet" href="css/info-style.css">
 	<link rel="stylesheet" href="block/a/style.css">
 	<link rel="stylesheet" href="block/brearcrumbs/style.css">
 	<link rel="stylesheet" href="block/burg-title/style.css">

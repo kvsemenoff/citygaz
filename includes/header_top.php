@@ -48,7 +48,7 @@
 		<ul class="main-menu">
 			<li><a href="#">О КОМПАНИИ</a></li>
 			<li><a href="#">МОНТАЖ</a></li>
-			<li><a href="#">РЕМОНТ</a></li>
+			<li><a href="#">РЕМОНТ И ОБСЛУЖИВАНИЕ</a></li>
 			<li><a href="#">КАК ЗАКАЗАТЬ</a></li>
 			<li class="has-child">
 				<a href="#">ДОСТАВКА И ОПЛАТА</a>
@@ -89,10 +89,10 @@
 		<a href="#order" data-modal="modal" class="button-question get_repair">Заказать ремонт</a>
 		<div class="cart">
 			<div class="cart-count-box">
-				<span class="count">0</span>
+				<span class="count">5</span>
 			</div>
 			<div class="cart-text">
-				Нет <br>товаров
+				5120.-
 			</div>
 			<div class="clearfix"></div>
 		</div>

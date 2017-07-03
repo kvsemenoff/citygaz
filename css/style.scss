@@ -296,6 +296,9 @@ a.watch-more{
 			margin-left: 14px;
 		}
 	}
+	@media only screen and (max-width : 991px){
+		margin-top:15px;
+	}
 	@media only screen and (max-width : 520px) {
 		display: block;
 		margin-top: 25px;

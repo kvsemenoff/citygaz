@@ -110,11 +110,14 @@
 .old-price:before {
   position: absolute;
   content: "";
-  width: 50px;
+  width: 120%;
   top: 8px;
-  margin-left:-5px;
+  left: -20%;
   height: 1px;
   background: #ffc000; }
+
+.price {
+  margin-top: 20px; }
 
 .price span {
   padding: 4px 32px;
@@ -128,17 +131,6 @@
 
 /*╨Ю╤А╨░╨╜╨╢╨╡╨▓╨░╤П ╤А╨░╨╝╨║╨░ ╨▓╨╛╨║╤А╤Г╨│ ╤Ж╨╡╨╜╤Л*/
 .orange span {
-  border: 2px solid #e8bd40; }
-
-@media all and (max-width:600px){
-  .tovar-item a,p{font-size:14px;}
-  .old-price{width:80%}
-  .tovar-item p{margin:20px 0 0 0;}
-  .tovar-item .price span{padding:5px 10px;}
-  .article, .in_stock{font-size:8px;}
-  .hit, .actia{font-size:10px;min-width:30px;}
-}
-=======
   border: 2px solid #ffc000; }
 
 /*# sourceMappingURL=style.css.map */

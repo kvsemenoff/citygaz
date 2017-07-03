@@ -1,18 +1,14 @@
 
 var css_our = new Array(
-	'css/reset.css',
 	'css/fonts.css',
 	'css/style.css',
 	'css/popup.css',
-	'css/style-db.css',
-	'css/style-dc.css',
+	'css/style-db.css',	
 	'css/style-dd.css',
 	'css/style-de.css',
 	'css/style-df.css',
 	'css/style-dg.css',
-	'css/style-dh.css',
-	'css/style-di.css',
-	'css/style-dj.css',
+	'css/info-style.css',
 	'block/a/style.css',
 	'block/brearcrumbs/style.css',
 	'block/burg-title/style.css',
@@ -35,19 +31,15 @@ var css_our = new Array(
 );
 
 var scss_our = new Array(
-	'css/reset.scss',
 	'css/fonts.scss',
 	'css/style.scss',
 	'css/popup.scss',
-	'css/style-db.scss',
-	'css/style-dc.scss',
+	'css/style-db.scss',	
 	'css/style-dd.scss',
 	'css/style-de.scss',
 	'css/style-df.scss',
 	'css/style-dg.scss',
-	'css/style-dh.scss',
-	'css/style-di.scss',
-	'css/style-dj.scss',
+	'css/info-style.scss',
 	'block/a/style.scss',
 	'block/brearcrumbs/style.scss',
 	'block/burg-title/style.scss',
@@ -69,6 +61,7 @@ var scss_our = new Array(
 	'block/sidebar-catalog/style.scss'
 );
 var css_libs = new Array(
+	'css/reset.css',
 	'libs/bootstrap/bootstrap-grid-3.3.1.min.css',
 	'libs/fancybox/jquery.fancybox.css',
 	'libs/owl.carousel/assets/owl.carousel.css',

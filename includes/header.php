@@ -1,5 +1,5 @@
 	<link rel="shortcut icon" href="favicon.png" />
-	
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300i,400,500,500i,700,700i,900" rel="stylesheet">
 	<!-- styles start -->
 	<link rel="stylesheet" href="css/reset.css" />
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
@@ -25,7 +25,6 @@
 	<link rel="stylesheet" href="block/button-question/style.css">
 	<link rel="stylesheet" href="block/catalog-list/style.css">
 	<link rel="stylesheet" href="block/catalog/style.css">
-
 	<link rel="stylesheet" href="block/inputsubmit/style.css">
 	<link rel="stylesheet" href="block/inputtext/style.css">
 	<link rel="stylesheet" href="block/item-row/style.css">

@@ -488,8 +488,8 @@
 							<a href="#compl" data-modal="modal" >Жалобы и предложения клиентов</a>
 						</div>
 
-						<div class="catalogpage__txtbottom">
-							<div class="content-part">
+						<div class="content-part">	
+							<div class="catalogpage__txtbottom">								
 								<h4>Добро пожаловать на сайт компании CityGaz Service </h4>
 								<p>CityGaz Service – организация созданная в 2004 году при участии зарубежных производителей газового оборудования и их генеральных дистрибьюторов в России. Компании-производители обеспокоены невысоким ростом темпа продаж своего оборудования на нашем рынке.
 								</p>

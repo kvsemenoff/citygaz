@@ -2,7 +2,7 @@ body, html {
   min-height: 100vh; }
 
 a {
-  transition: 0.3s; }
+  transition: 0.5s; }
 
 .container-main {
   width: 100%;
@@ -188,7 +188,8 @@ a.watch-more {
   background: url("../img/phone.png") no-repeat top 7px left;
   font-size: 13px;
   line-height: 22px;
-  word-spacing: nowrap; }
+  word-spacing: nowrap;
+  font-weight: 400; }
   .contact-phones strong {
     font-weight: 400; }
   .contact-phones span {

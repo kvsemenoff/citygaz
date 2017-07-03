@@ -18,17 +18,21 @@
 			position: relative;
 			padding-right: 31px;
 			&:after{
-				content: "\f054";
+				content: "";
+				// content: "\f054";
 				position: absolute;
-				right:4px;
-				top:12px;
+				right:6px;
+				top:14px;
 				width: 12px;
 				height: 12px;
-				color: #1056b5;
-				font-family: "FontAwesome";
-				font-size: 11px;
-				font-weight: 400;
-				line-height: 15px;
+				background-image: url("../../img/menuimg1.png");
+				background-repeat: no-repeat;
+				background-position: center center;
+				// color: #1056b5;
+				// font-family: "FontAwesome";
+				// font-size: 11px;
+				// font-weight: 400;
+				// line-height: 15px;
 			}
 			&:hover{
 				text-decoration: none;

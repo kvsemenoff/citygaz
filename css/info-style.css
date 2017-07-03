@@ -1,3 +1,10 @@
+.content-part h1, h2, h3, h4, h5 {
+  font-weight: 700;
+  margin: 1em 0; }
+
+.content-part h1 {
+  margin: 0 0 1em 0; }
+
 .content-part a {
   text-decoration: underline; }
 
@@ -5,27 +12,33 @@
   border: 0 !important;
   margin-bottom: 15px !important; }
 
-.content-part h4 {
+.content-part h4 + ul li:before {
+  content: url(../img/square.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  margin-right: 20px;
+  height: 5px;
+  width: 5px; }
+
+.content-part h5 + ul li:before {
   font-weight: 700;
-  margin: 24px 0; }
+  color: #1475c4;
+  margin-right: 20px; }
 
-.content-part ul {
-  margin-bottom: 20px; }
+.content-part h5 + ul li:first-of-type:before {
+  content: '1.'; }
 
-.content-part ul:first-of-type {
-  padding-left: 20px;
-  list-style-type: disc; }
+.content-part h5 + ul li:nth-of-type(2):before {
+  content: '2.'; }
 
-.content-part ul:nth-of-type(2) {
-  list-style-type: decimal;
-  padding-left: 20px; }
+.content-part h5 + ul li:nth-of-type(3):before {
+  content: '3.'; }
 
-.content-part ul:first-of-type li, .content-part ul:nth-of-type(2) li {
-  padding-left: 20px; }
+.content-part h5 + ul li:nth-of-type(4):before {
+  content: '4.'; }
 
 .content-part h2 {
-  font-weight: 700;
-  margin: 24px 0; }
+  font-weight: 700; }
 
 .content-part img {
   max-width: 50%;

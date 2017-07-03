@@ -1115,7 +1115,7 @@ html,body{
 
 .product__txtblock{
 	background-color: #fff;
-	padding: 30px 15px 30px 15px;
+	// padding: 30px 15px 30px 15px;
 	h2, h3, h4{
 		color: #435266;
 		font-size: 24px;
@@ -1139,7 +1139,12 @@ html,body{
 		margin-bottom: 25px;
 	}
 	@media only screen and (min-width : 770px) {
-		padding: 31px 25px 30px 38px;
+		// padding: 31px 25px 30px 38px;
+		
+	}
+}
+.product .content-part{
+	@media only screen and (min-width : 992px) {
 		margin-bottom: 30px;	
 	}
 }
@@ -1818,7 +1823,7 @@ html,body{
 
 .catalogpage__txtbottom{
 	background-color: #fff;
-	padding: 35px 30px 15px 30px;
+	// padding: 35px 30px 15px 30px;
 	margin-top: 21px;
 	h4{
 		color: #313843;

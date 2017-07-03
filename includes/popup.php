@@ -6,7 +6,6 @@
 	<form name='popup_form'>
 	<input type="text" placeholder="Ваше имя *" name="uname" required>
 	<input type="text" placeholder="Телефон *" name="phone" required>
-	<input type="text" placeholder="Ваш Email" name='email'>
 	<input type="text" placeholder="Адрес" name='address'>
 	<textarea placeholder="Сообщение" name='text'></textarea>
 	<input type="submit" value='Заказать ремонт'></input>

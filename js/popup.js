@@ -5,7 +5,7 @@ $(document).ready(function(){
 		winW = $(window).width(),
 		winH = $(window).height();
 		$(id).css("left", winW/2-$(id).innerWidth()/2);
-		$(id).css("top", winH/2-$(id).innerHeight()/2+30);
+		$(id).css("top", winH/2-$(id).innerHeight()/2);
 		$('body').append('<div class="mask"></div>');
 		$(id).fadeIn();
 	});

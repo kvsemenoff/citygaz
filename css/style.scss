@@ -189,6 +189,7 @@ a.watch-more{
 
 @media screen and (max-width:520px){
 	.hidden-md{display:none !important;}
+	.cart{margin:auto;}
 }
 
 .contact-address{
@@ -483,6 +484,11 @@ a.watch-more{
 			}
 		}
 	}
+}
+
+@media screen and (max-width:1100px){
+	.main-menu li a{font-size:13.5px !important;}
+	.main-menu .has-child>a{background-position:right !important;}
 }
 
 .toTop {

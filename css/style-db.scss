@@ -144,8 +144,16 @@
 		}
 		a{
 			color: #435266 !important;
+			
+			
+			@media only screen and (min-width : 992px) {
+			padding: 0 14px;
+			}
+			@media only screen and (min-width : 1100px) {
+			padding: 0 12px !important;
+			}
 			@media only screen and (min-width : 1200px) {
-				padding: 0 27.4px;
+				padding: 0 27.4px !important;
 			}
 			padding: 0 12px;
 			line-height: 60px;

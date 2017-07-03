@@ -48,7 +48,7 @@
 		<ul class="main-menu">
 			<li><a href="#">О КОМПАНИИ</a></li>
 			<li><a href="#">МОНТАЖ</a></li>
-			<li><a href="#">РЕМОНТ</a></li>
+			<li><a href="#">РЕМОНТ И ОБСЛУЖИВАНИЕ</a></li>
 			<li><a href="#">КАК ЗАКАЗАТЬ</a></li>
 			<li class="has-child">
 				<a href="#">ДОСТАВКА И ОПЛАТА</a>

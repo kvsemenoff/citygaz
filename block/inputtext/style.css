@@ -1,2 +1,23 @@
-input[type="text"]{background:#fff;font-size:15px;font-weight:100;font-family:'Roboto', sans-serif;padding:0 20px;line-height:45px;height:45px;width:100%;color:#343c48;outline:none;border:1px solid #d8d9db}input[type="text"]::-webkit-input-placeholder{color:#343c48}input[type="text"]::-moz-placeholder{color:#343c48}.border-none{border:none !important}
+input[type="text"] {
+  background: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 20px;
+  line-height: 45px;
+  height: 45px;
+  width: 100%;
+  color: #343c48;
+  outline: none;
+  border: 1px solid #d8d9db; }
+
+input[type="text"]::-webkit-input-placeholder {
+  color: #343c48; }
+
+input[type="text"]::-moz-placeholder {
+  color: #343c48; }
+
+.border-none {
+  border: none !important; }
+
 /*# sourceMappingURL=style.css.map */

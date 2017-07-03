@@ -190,6 +190,22 @@ $(document).ready(function(){
 		}
 	});
 	////////
+	// catalog page filter burger on mobile
+	$(".filterblock_burger_for_xs_sm").on('click', function(e){
+		e.preventDefault();			
+		if(window.matchMedia('(max-width : 992px)').matches){
+			$('.filterblock_hiddenon-xs_sm').slideToggle(300);		
+		}
+	});
+	// main page brend burger on mobile
+	$(".brand_button_xs_sm").on('click', function(e){
+		e.preventDefault();			
+		if(window.matchMedia('(max-width : 992px)').matches){
+			$('.brand_hidden_xs_sm').slideToggle(300);		
+		}
+	});
+	///////////
+
 
 	$(".busket__listbox-kolvo .busket__button").on("click", function() {
 		var button = $(this);

@@ -254,7 +254,7 @@ html, body {
     display: block;
     margin-bottom: 22px; }
   .sidebar__priceinput input[type="text"] {
-    width: 90px;
+    width: 45%;
     float: left;
     background-color: #f7f5f5;
     color: #747373;
@@ -263,7 +263,11 @@ html, body {
     line-height: 34px;
     text-transform: uppercase;
     border: none;
-    height: 34px; }
+    height: 34px;
+    text-align: center; }
+    @media only screen and (min-width: 992px) {
+      .sidebar__priceinput input[type="text"] {
+        width: 90px; } }
   .sidebar__priceinput b {
     float: left;
     display: inline-block;
@@ -299,8 +303,10 @@ html, body {
 
 .rangeslidr {
   position: relative;
-  max-width: 250px;
   width: 100%; }
+  @media only screen and (min-width: 992px) {
+    .rangeslidr {
+      max-width: 250px; } }
 
 .irs-line, .irs-line-left, .irs-line-mid, .irs-line-right, .irs-bar {
   height: 6px; }

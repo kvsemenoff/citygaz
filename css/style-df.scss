@@ -304,7 +304,7 @@ html,body{
 		margin-bottom: 22px;
 	}
 	input[type="text"]{
-		width: 90px;
+		width: 45%;
 		float: left;
 		background-color: #f7f5f5;
 		color: #747373;
@@ -314,6 +314,10 @@ html,body{
 		text-transform: uppercase;
 		border:none;
 		height: 34px;
+		text-align: center;
+		@media only screen and (min-width : 992px) {
+			width: 90px;
+		}
 	}
 	b{
 		float: left;
@@ -354,9 +358,11 @@ html,body{
 // styles rangeslider
 
 .rangeslidr{
-	position: relative;
-	max-width: 250px;
+	position: relative;	
 	width: 100%;
+	@media only screen and (min-width : 992px) {
+		max-width: 250px;
+	}
 }
 .irs-line, .irs-line-left, .irs-line-mid, .irs-line-right, .irs-bar{
 	height: 6px;

@@ -19,8 +19,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="clear"></div>
-		<div class="col-md-3 col-sm-6 col-xs-12">
+		<div class="col-md-3 col-sm-6 col-xs-12 clear">
 			<div class="pd-t box">
 				<a href="#" class="citchen a">Запчасти<br>к плитам</a><br>
 				<a href="#" class="cotl a">Запчасти<br>к котлам</a>

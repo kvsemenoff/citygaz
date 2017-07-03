@@ -391,6 +391,12 @@ a.watch-more {
         right: -12px;
         background: url(../img/menu-check.png) no-repeat top center; }
 
+@media screen and (max-width: 1100px) {
+  .main-menu li a {
+    font-size: 13.5px !important; }
+
+  .main-menu .has-child > a {
+    background-position: right !important; } }
 .toTop {
   padding: 5px;
   position: fixed;

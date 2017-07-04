@@ -1,10 +1,24 @@
 .content-part h1,h2,h3,h4,h5{
 	font-weight:700 !important;
-	margin:1em 0;
 }
 
 .content-part h1{
 	margin:0 0 1em 0;
+}
+
+.content-part p{
+	font-size:14.5px;
+	margin-bottom:18px;
+}
+
+.content-part h4{
+	font-size:17px;
+	margin-bottom:1em;
+}
+
+.content-part h5{
+	font-size:16.5px;
+	margin-bottom:1em;
 }
 
 .content-part a{
@@ -16,19 +30,37 @@
 	margin-bottom:15px !important;
 }
 
+.content-part h4 + ul{
+	padding-left:25px;
+	margin-bottom:25px;
+}
+
+.content-part h4 + ul li{
+	padding:5px 0;
+}
+
 .content-part h4 + ul li:before{
 	content:url(../img/square.png);
     background-repeat: no-repeat;
     background-position: 0 50%;
-    margin-right: 20px;
-    height:5px;
-    width:5px;
+    margin-right: 25px;
+    height:2px;
+    width:100%;
+    float:right;
+}
+
+.content-part h5 + ul{
+	margin-bottom:25px;
+}
+
+.content-part h5 + ul li{
+	padding:5px 0;
 }
 
 .content-part h5 + ul li:before{
 	font-weight:700;
 	color:#1475c4;
-	margin-right:20px;
+	margin-right:18px;
 }
 
 .content-part h5 + ul li:first-of-type:before{
@@ -54,11 +86,19 @@
 .content-part img{
 	max-width:50%;
 	float:left;
-	padding:20px;
+	padding:5px 20px 20px 0;
 }
 
 .content-part a:hover{
 	color:#fca703;
+}
+
+.content-part table td:first-child{
+	width:60%;
+}
+
+.content-part table{
+	margin-bottom:25px;
 }
 
 .content-part thead tr{

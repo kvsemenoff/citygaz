@@ -354,7 +354,7 @@
 						<div class="clearfix"></div>
 
 						<h3>Таблица комплектующих изделий  </h3>
-						<table>
+						<table class="info_page_table">
 							<thead>
 								<tr>
 									<th>Описание</th>

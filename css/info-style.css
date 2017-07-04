@@ -20,8 +20,10 @@
   text-decoration: underline; }
 
 .info_pg {
-  border: 0 !important;
   margin-bottom: 15px !important; }
+
+.info_page_table th {
+  font-weight: bold; }
 
 .content-part h4 + ul {
   padding-left: 25px;

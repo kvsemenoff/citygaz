@@ -7,8 +7,8 @@
 				</div>
 				<div class="slidermain__txtbox">
 					<div class="slidermain__txttop">
-						<span>Продажа и поставка на <b>заказ</b></span>
-						<h2>оригинальных <br>запчастей </h2>
+						<span class="sl-title">Продажа и поставка на <b>заказ</b></span>
+						<span class="h2">оригинальных <br>запчастей </span>
 						<a href="#">подробнее</a>
 					</div>				
 					<span class="slidermain__txtbottom">Авторизирован европейскими производителями</span>
@@ -22,8 +22,8 @@
 				</div>
 				<div class="slidermain__txtbox">
 					<div class="slidermain__txttop">
-						<span>Продажа и поставка на <b>заказ</b></span>
-						<h2>оригинальных <br>запчастей </h2>
+						<span class="sl-title">Продажа и поставка на <b>заказ</b></span>
+						<span class="h2">оригинальных <br>запчастей </span>
 						<a href="#">подробнее</a>
 					</div>				
 					<span class="slidermain__txtbottom">Авторизирован европейскими производителями</span>
@@ -37,8 +37,8 @@
 				</div>
 				<div class="slidermain__txtbox">
 					<div class="slidermain__txttop">
-						<span>Продажа и поставка на <b>заказ</b></span>
-						<h2>оригинальных <br>запчастей </h2>
+						<span class="sl-title">Продажа и поставка на <b>заказ</b></span>
+						<span class="h2">оригинальных <br>запчастей </span>
 						<a href="#">подробнее</a>
 					</div>				
 					<span class="slidermain__txtbottom">Авторизирован европейскими производителями</span>

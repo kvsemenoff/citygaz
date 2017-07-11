@@ -307,9 +307,9 @@ gulp.task('zip', () =>
 gulp.task('ftp', function () {
     return gulp.src('product/archive.zip')
         .pipe(ftp({
-            host: '77.222.57.253',
-            user: 'kvsemen165',
-            pass: 'QdZt6VlIA',
+            host: '77.222.57.177',
+            user: 'kvsemen170',
+            pass: 'aWapm3lYA',
             remotePath: '/public_html/'
         }))
         // you need to have some kind of stream after gulp-ftp to make sure it's flushed 

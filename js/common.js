@@ -1,7 +1,66 @@
 
 
 $(document).ready(function(){	
+	$("head").append('<link href="https://fonts.googleapis.com/css?family=Roboto:100,300i,400,500,500i,700,700i,900" rel="stylesheet">');
+	$("head").append("<link href='//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css' rel='stylesheet'>");
+		$('a[data-modal="modal"]').on("click", function(e){
+		e.preventDefault();
+		var  id = $(this).attr('href'),
+		winW = $(window).width(),
+		winH = $(window).height();
+		$(id).css("left", winW/2-$(id).innerWidth()/2);
+		$(id).css("top", winH/2-$(id).innerHeight()/2);
+		$('body').append('<div class="mask"></div>');
+		$(id).fadeIn();
+	});
 
+	$('a[data-modal="mobile"]').on("click", function(e){
+		e.preventDefault();
+		var  id = $(this).attr('href'),
+		winW = $(window).width(),
+		winH = $(window).height();
+		$(id).css("left", winW/2-$(id).innerWidth()/2);
+		$(id).css("top", 0);
+		$('body').append('<div class="mask"></div>');
+		$('body').css('overflow','hidden');
+		$('body').css('overflow','hidden');
+		$(id).css('display', 'block');
+	});
+	 
+	$('body').on("click", ".modal-close", function(e){
+		e.preventDefault();
+		$('.mask').remove();
+		$('.modal-window').hide();
+		$('.mobile-window').hide();
+		$('body').css('overflow','scroll');
+	});
+	$('body').on("click", ".mask", function(e){
+		e.preventDefault();
+	$('.mask').remove();
+		$('.modal-window').hide();
+	});
+
+	$('.mobile-window').find('.contact-box').parent('.col-sm-12').css({'border-top': '1px solid #1e73c6'});
+	$("form[name='popup_form']").submit(function() {
+		$data = $(this).serialize();
+		$.ajax({
+			    type: "POST", 
+			    url: "sendmessage.php", 
+			    data: $data,
+			    success: function() {
+			     cleanTnanks(this);
+			    }
+		});
+		return false;
+	});
+	function cleanTnanks(form){
+		$('form').parent().hide();
+	  	$("input[type=text]").val("");
+	  	$("input[type=tel]").val("");
+	  	$("textarea").val("");
+	  	$('a[href="#thanks"]').trigger('click');
+	    // location = "thanks.php";
+	};
 	// стилизованный селект
 	$('select').selectric();
 
@@ -253,4 +312,29 @@ $(function() {
 		$('body,html').animate({scrollTop:0},800);
 	});
 
+});
+
+
+$(document).ready(function() {
+
+	$('.watch-more').click(function(e) {
+		e.preventDefault();	
+		$cataloglist = $(this).parents('.cat-item').find('.catid').find('.catalog-list').html();
+		$(this).parents('.cat-item').find('.cat-item-inner').find('.catalog-list').html($cataloglist);
+		$(this).parents('.cat-item').find('.cat-item-inner').fadeIn();
+		var height = $(this).parents('.cat-item_one').find('.catalog-list-absolute').height()+150;
+		$('.catalog .modal-close').show();
+
+	});
+	$('body').on("click", ".modal-close", function(e){
+		e.preventDefault();
+		$('.cat-item-inner').fadeOut();
+	});
+
+	$(document).mouseup(function (e) {
+    	var container = $(".cat-item-inner");
+    	if (container.has(e.target).length === 0){
+       	 	container.fadeOut(500);
+    	}
+	});
 });

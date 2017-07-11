@@ -1,43 +1,6 @@
 	<link rel="shortcut icon" href="favicon.png" />
-	
-	<!-- styles start -->
-	<link rel="stylesheet" href="css/reset.css" />
-	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
-	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
-	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
-	<link rel="stylesheet" href="libs/select/selectric.css">
-	<link rel="stylesheet" href="libs/rangeslider/ion.rangeSlider.css" />
-    <link rel="stylesheet" href="libs/rangeslider/ion.rangeSlider.skinFlat.css" />	
-    <link rel="stylesheet" href="libs/select/selectric.css">
-	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/libs.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/popup.css">
-	<link rel="stylesheet" href="css/style-db.css">	
-	<link rel="stylesheet" href="css/style-dd.css">
-	<link rel="stylesheet" href="css/style-de.css">
-	<link rel="stylesheet" href="css/style-df.css">
-	<link rel="stylesheet" href="css/style-dg.css">
-	<link rel="stylesheet" href="css/info-style.css">
-	<link rel="stylesheet" href="block/a/style.css">
-	<link rel="stylesheet" href="block/brearcrumbs/style.css">
-	<link rel="stylesheet" href="block/burg-title/style.css">
-	<link rel="stylesheet" href="block/button/style.css">
-	<link rel="stylesheet" href="block/button-question/style.css">
-	<link rel="stylesheet" href="block/catalog-list/style.css">
-	<link rel="stylesheet" href="block/catalog/style.css">
-	<link rel="stylesheet" href="block/inputsubmit/style.css">
-	<link rel="stylesheet" href="block/inputtext/style.css">
-	<link rel="stylesheet" href="block/item-row/style.css">
-	<link rel="stylesheet" href="block/tovar-item/style.css">
-	<link rel="stylesheet" href="block/tovar-row/style.css">
-	<link rel="stylesheet" href="block/search-box/style.css">
-	<link rel="stylesheet" href="block/select/style.css">
-	<link rel="stylesheet" href="block/table/style.css">
-	<link rel="stylesheet" href="block/tech-doc/style.css">
-	<link rel="stylesheet" href="block/textarea/style.css">
-	<link rel="stylesheet" href="block/watch-more/style.css">
-	<link rel="stylesheet" href="block/sidebar-catalog/style.css">
-	<!-- styles end -->	
 </head>
 <body>
 	

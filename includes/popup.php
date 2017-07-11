@@ -2,7 +2,7 @@
 
 <div class="modal-window" id="order">
 	<span class="modal-close"></span>
-	<h3>Заказать ремонт</h3>
+	<span class="h3">Заказать ремонт</span>
 	<form name='popup_form'>
 	<input type="text" placeholder="Ваше имя *" name="uname" required>
 	<input type="text" placeholder="Телефон *" name="phone" required>
@@ -15,7 +15,7 @@
 
 <div class="modal-window" id="compl">
 	<span class="modal-close"></span>
-	<h3>Жалобы клиентов</h3>
+	<span class="h3">Жалобы клиентов</span>
 	<form name='popup_form'>
 	<input type="text" placeholder="Ваше имя *" name="uname" required>
 	<input type="text" placeholder="Телефон *" name="phone" required>
@@ -28,7 +28,7 @@
 
 <div class="modal-window" id="ask-question">
 	<span class="modal-close"></span>
-	<h3>Задать вопрос</h3>
+	<span class="h3">Задать вопрос</span>
 	<form name='popup_form'>
 	<input type="text" placeholder="Ваше имя *" name="uname" required>
 	<input type="text" placeholder="Телефон " name="phone">
@@ -41,7 +41,7 @@
 
 <div class="modal-window" id="description">
 	<span class="modal-close"></span>
-	<h3>Неточность описания</h3>
+	<span class="h3">Неточность описания</span>
 	<form name='popup_form'>
 	<input type="text" placeholder="Ваше имя" name="uname">
 	<input type="text" placeholder="Ваш Email" name='email'>
@@ -52,7 +52,7 @@
 </div>
 
 <div class="modal-window" id="bucket_popup">
-	<h3>Вы добавили в корзину</h3>
+	<span class="h3">Вы добавили в корзину</span>
 	<div>
 		<div>
 		<p>Артикул 24687965</p>
